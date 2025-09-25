@@ -1,0 +1,24 @@
+name: genomic-data-rep
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - ipykernel
+  - scipy==1.11.4
+  - scikit-learn
+  - matplotlib
+  - numpy
+  - pandas==1.5.3
+  - jupyter
+  - openpyxl
+  - plotly
+  - altair-all
+  - mmseqs2
+  - libsqlite
+  - pyqt=5
+  - pycirclize
+  - umap-learn
+  - altair
+prefix: /opt/anaconda3/envs/genomic-data-rep
