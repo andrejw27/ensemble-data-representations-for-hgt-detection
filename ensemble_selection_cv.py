@@ -44,7 +44,7 @@ setup_logging(log_filename=log_path)
 
 # required files: 
 # dataset/{dataname}_stratified_group_folds.json, 
-# predictions/repeatedfold, 
+# predictions/predictions_train_val_test, 
 # multi_objective_solutions/{dataname}_multi_objective_solutions/{dataname}_multi_objective_solutions_{fold}.xlsx
 
 if __name__ == "__main__":

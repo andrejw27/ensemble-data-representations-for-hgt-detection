@@ -41,7 +41,7 @@ if __name__ == "__main__":
     print(f"Processing file: {filename}")
 
     # Read raw data 
-    file_path = f"dataset/train_data/{filename}_data.fasta"
+    file_path = f"dataset/train_data/{filename}.fasta"
     X = []
     y = []
     groups = []
