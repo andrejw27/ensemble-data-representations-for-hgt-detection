@@ -136,10 +136,10 @@ def main():
     if save_model:
         model_path = args.model_path
         #save ensemble model
-        with open(os.path.join(model_path,f'ensemble_{ensemble_type}_{dataname}_testing.pkl'),'wb') as f:
+        with open(os.path.join(model_path,f'ensemble_{ensemble_type}_{dataname}.pkl'),'wb') as f:
             pickle.dump(ensemble,f)
         #save single model
-        with open(os.path.join(model_path,f'single_{dataname}_testing.pkl'),'wb') as f:
+        with open(os.path.join(model_path,f'single_{dataname}.pkl'),'wb') as f:
             pickle.dump(best_single_model,f)
 
 if __name__=="__main__":
