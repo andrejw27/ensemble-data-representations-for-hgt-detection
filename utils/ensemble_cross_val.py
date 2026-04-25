@@ -128,10 +128,12 @@ def get_pipeline(model, representation, scaler_type=None):
         scaler = None
 
     if model == 'SVC' or model == 'SVM':
-        clf = SVC(probability=True, kernel='rbf', C=2, gamma='scale')
+        #clf = SVC(probability=True, kernel='rbf', C=2, gamma='scale')
+        clf = SVC(probability=True, random_state=42)
     elif model == 'RandomForest':
-        clf = RandomForestClassifier(n_estimators=500, oob_score=True,
-                                     criterion='gini', max_depth=10, max_features='sqrt',)
+        # clf = RandomForestClassifier(n_estimators=500, oob_score=True,
+        #                              criterion='gini', max_depth=10, max_features='sqrt',)
+        clf = RandomForestClassifier(random_state=42)
     elif model == 'NaiveBayes':
         clf = GaussianNB()
     elif model == 'LogisticRegression':

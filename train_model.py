@@ -6,7 +6,7 @@ import os
 from utils.ensemble_cross_val import get_ensemble_model, compute_eval_score
 import time
 
-import os, sys
+import os, sys, re
 pPath = os.path.split(os.path.realpath(__file__))[0]
 sys.path.append(pPath)
 
@@ -17,7 +17,7 @@ def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--candidates", type=str, default="RCKmer-7/SVM,Subsequence/RandomForest", 
                         help="a list of candidates for the ensemble classifier split by ',' e.g. RCKmer-7/SVM,Subsequence/RandomForest,...")  # one or more values
-    parser.add_argument("--ensemble-type", type=str, default="stacking",
+    parser.add_argument("--ensemble-type", type=str, default="voting_soft",
                         help="type of ensemble classifier: stacking, voting_soft, or voting_hard")
     parser.add_argument("--save-model", type=bool, default=False)
     parser.add_argument("--model-path", type=str, default="utils/models")
@@ -29,15 +29,18 @@ def get_args():
 logger = logging.getLogger('train_model')
 logger.info('--- Start ---')
 args = get_args()
-train_filename = args.train_path
-dataname = train_filename.split('/')[-1].split('.')[0]
+#train_filename = args.train_path
+candidates = args.candidates
+candidates_name = re.sub(r'[/,]', '_', candidates)
+ensemble_type = args.ensemble_type
+#dataname = train_filename.split('/')[-1].split('.')[0]
 log_dir = os.path.join(pPath,'logs/train_model')
 
 if not os.path.exists(log_dir):
     logger.info('Creating Logging Folder')
     os.makedirs(log_dir, exist_ok=True)
 
-log_path = os.path.join(log_dir,f'{dataname}.log')
+log_path = os.path.join(log_dir,f'{candidates_name}_{ensemble_type}.log')
 setup_logging(log_filename=log_path)
 
 def main():
@@ -62,7 +65,7 @@ def main():
 
     #read test data
     test_filename = args.test_path
-    logger.info(f"Read train data from {test_filename}")
+    logger.info(f"Read test data from {test_filename}")
     X_test = []
     y_test = []
     groups_test = []
@@ -100,8 +103,8 @@ def main():
     reduced_y_train = y_train[selected_ids]
     reduced_group_train = groups_train[selected_ids]
 
-    logger.info('X_train: ', reduced_X_train.shape[0])
-    logger.info('X_test: ', X_test.shape[0])
+    logger.info(f'X_train: {len(reduced_X_train)}')
+    logger.info(f'X_test: {len(X_test)}')
 
     #ensure species in train and test data sets are mutually exclusive
     assert len(set(groups_test)-set(reduced_group_train)) == len(set(groups_test))
@@ -124,7 +127,7 @@ def main():
         single_model = ensemble.named_estimators_[candidate]
         y_pred = single_model.predict(X_test)
         eval_score = compute_eval_score(y_test, y_pred)
-        single_best_scores.append(eval_score['F_1'])
+        single_best_scores.append(eval_score['MCC'])
         logger.info(f"Candidate: {candidate}, F1: {eval_score['F_1']:.3f}, Precision: {eval_score['Precision']:.3f}, Recall: {eval_score['Recall']:.3f}, MCC: {eval_score['MCC']:.3f}")
 
     best_single_score = np.argmax(single_best_scores)
@@ -135,11 +138,13 @@ def main():
 
     if save_model:
         model_path = args.model_path
+
+        logger.info(f"Saving model to: {model_path}")
         #save ensemble model
-        with open(os.path.join(model_path,f'ensemble_{ensemble_type}_{dataname}.pkl'),'wb') as f:
+        with open(os.path.join(model_path,f'ensemble_{ensemble_type}_{dataname}_default.pkl'),'wb') as f:
             pickle.dump(ensemble,f)
         #save single model
-        with open(os.path.join(model_path,f'single_{dataname}.pkl'),'wb') as f:
+        with open(os.path.join(model_path,f'single_{dataname}_default.pkl'),'wb') as f:
             pickle.dump(best_single_model,f)
 
 if __name__=="__main__":

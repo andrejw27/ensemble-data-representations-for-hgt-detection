@@ -1,0 +1,16 @@
+2026-04-25 23:47:37,669 - train_model - INFO - --- Start training---
+2026-04-25 23:47:37,669 - train_model - INFO - Read train data from dataset/train_data/benbow.fasta
+2026-04-25 23:47:38,786 - train_model - INFO - Read test data from dataset/test_data/benbow_test_data.fasta
+2026-04-25 23:47:41,573 - train_model - INFO - X_train: 2569
+2026-04-25 23:47:41,574 - train_model - INFO - X_test: 566
+2026-04-25 23:47:41,574 - cross_val - INFO - get ensemble model with candidates: ['RCKmer-7/SVM', 'Subsequence/RandomForest'] and ensemble type: voting_soft
+2026-04-25 23:47:41,576 - train_model - INFO - Start training ensemble model...
+2026-04-25 23:50:02,903 - train_model - INFO - Training is done
+2026-04-25 23:50:02,904 - train_model - INFO - Select the best single model
+2026-04-25 23:50:14,258 - cross_val - INFO - compute evaluation scores
+2026-04-25 23:50:14,266 - train_model - INFO - Candidate: RCKmer-7/SVM, F1: 0.953, Precision: 0.947, Recall: 0.959, MCC: 0.824
+2026-04-25 23:50:16,689 - cross_val - INFO - compute evaluation scores
+2026-04-25 23:50:16,694 - train_model - INFO - Candidate: Subsequence/RandomForest, F1: 0.915, Precision: 0.941, Recall: 0.891, MCC: 0.712
+2026-04-25 23:50:16,694 - train_model - INFO - Best single model: RCKmer-7/SVM
+2026-04-25 23:50:16,759 - train_model - INFO - --- Finish ---
+2026-04-25 23:50:16,759 - train_model - INFO -  --- Process took 159.090 seconds ---

@@ -1,0 +1,349 @@
+2026-04-25 23:30:33,925 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/5000/0.6
+2026-04-25 23:30:33,925 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:33,966 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:33,966 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:33,967 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:33,967 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:33,967 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:33,968 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:34,012 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/5000/0.7
+2026-04-25 23:30:34,012 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:34,040 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/5000/0.8
+2026-04-25 23:30:34,040 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:34,049 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:34,049 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:34,049 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:34,049 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:34,049 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:34,049 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:34,069 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:34,069 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:34,069 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:34,069 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:34,069 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:34,069 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:34,123 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:34,230 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:34,392 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,654 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/6000/0.8
+2026-04-25 23:30:35,654 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,666 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/6000/0.7
+2026-04-25 23:30:35,666 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,668 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/6000/0.6
+2026-04-25 23:30:35,668 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,669 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:35,670 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:35,670 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:35,670 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:35,670 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:35,670 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:35,684 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:35,684 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:35,684 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:35,684 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:35,684 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:35,684 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:35,706 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:35,708 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:35,708 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:35,708 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:35,708 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:35,708 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:35,729 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/7000/0.6
+2026-04-25 23:30:35,729 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,734 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/7000/0.8
+2026-04-25 23:30:35,735 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,742 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:35,742 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:35,743 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:35,743 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:35,743 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:35,743 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:35,747 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/7000/0.7
+2026-04-25 23:30:35,747 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,755 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:35,755 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:35,755 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:35,755 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:35,755 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:35,755 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:35,763 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/8000/0.7
+2026-04-25 23:30:35,763 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,772 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:35,773 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:35,773 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:35,773 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:35,773 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:35,773 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:35,788 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:35,788 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:35,788 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:35,788 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:35,788 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:35,788 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:35,801 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/8000/0.6
+2026-04-25 23:30:35,801 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,802 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,811 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/8000/0.8
+2026-04-25 23:30:35,811 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,819 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:35,819 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:35,819 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:35,819 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:35,819 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:35,819 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:35,832 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:35,832 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:35,832 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:35,833 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:35,833 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:35,833 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:35,834 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,844 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/9000/0.6
+2026-04-25 23:30:35,844 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,848 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,868 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:35,868 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:35,868 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:35,868 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:35,868 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:35,868 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:35,895 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/9000/0.7
+2026-04-25 23:30:35,895 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,922 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,926 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:35,927 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:35,927 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:35,927 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:35,927 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:35,927 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:35,946 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/9000/0.8
+2026-04-25 23:30:35,946 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,967 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,971 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:35,978 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:35,978 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:35,978 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:35,978 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:35,978 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:35,978 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:35,980 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:36,072 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:36,082 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:36,168 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:36,222 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:36,222 - predict_GI - INFO -  --- Process took 0.381 seconds ---
+2026-04-25 23:30:36,291 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:36,292 - predict_GI - INFO -  --- Process took 0.530 seconds ---
+2026-04-25 23:30:36,338 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:36,338 - predict_GI - INFO -  --- Process took 0.606 seconds ---
+2026-04-25 23:30:36,345 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:36,345 - predict_GI - INFO -  --- Process took 0.537 seconds ---
+2026-04-25 23:30:36,359 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:36,359 - predict_GI - INFO -  --- Process took 0.560 seconds ---
+2026-04-25 23:30:36,361 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:36,365 - predict_GI - INFO -  --- Process took 0.634 seconds ---
+2026-04-25 23:30:36,381 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:36,381 - predict_GI - INFO -  --- Process took 0.637 seconds ---
+2026-04-25 23:30:36,393 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:36,428 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:36,442 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:36,442 - predict_GI - INFO -  --- Process took 0.550 seconds ---
+2026-04-25 23:30:36,474 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:36,474 - predict_GI - INFO -  --- Process took 0.530 seconds ---
+2026-04-25 23:30:37,508 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/10000/0.6
+2026-04-25 23:30:37,508 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:37,526 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:37,526 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:37,526 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:37,527 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:37,527 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:37,527 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:37,616 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/10000/0.8
+2026-04-25 23:30:37,616 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:37,620 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/10000/0.7
+2026-04-25 23:30:37,620 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:37,637 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:37,637 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:37,637 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:37,637 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:37,637 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:37,637 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:37,638 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:37,638 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:37,638 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:37,638 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:37,638 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:37,638 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:37,689 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:37,721 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:37,721 - predict_GI - INFO -  --- Process took 0.215 seconds ---
+2026-04-25 23:30:37,755 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/11000/0.6
+2026-04-25 23:30:37,755 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:37,774 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:37,780 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:37,780 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:37,780 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:37,780 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:37,780 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:37,780 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:37,785 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:37,803 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/12000/0.7
+2026-04-25 23:30:37,803 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:37,807 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/11000/0.7
+2026-04-25 23:30:37,807 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:37,809 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/11000/0.8
+2026-04-25 23:30:37,809 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:37,810 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/12000/0.6
+2026-04-25 23:30:37,810 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:37,822 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:37,822 - predict_GI - INFO -  --- Process took 0.206 seconds ---
+2026-04-25 23:30:37,825 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/12000/0.8
+2026-04-25 23:30:37,825 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:37,826 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:37,826 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:37,826 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:37,826 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:37,826 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:37,826 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:37,831 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:37,831 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:37,831 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:37,832 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:37,832 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:37,832 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:37,832 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:37,832 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:37,832 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:37,832 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:37,832 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:37,832 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:37,835 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:37,835 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:37,835 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:37,835 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:37,835 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:37,835 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:37,867 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:37,868 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:37,868 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:37,868 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:37,868 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:37,868 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:37,892 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/13000/0.7
+2026-04-25 23:30:37,892 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:37,900 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/13000/0.8
+2026-04-25 23:30:37,900 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:37,906 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:37,906 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:37,906 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:37,906 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:37,906 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:37,906 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:37,909 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/13000/0.6
+2026-04-25 23:30:37,909 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:37,945 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:37,945 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:37,945 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:37,945 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:37,945 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:37,945 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:37,979 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:37,979 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:37,979 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:37,980 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:37,980 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:37,980 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:37,992 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:38,107 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:38,107 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:38,186 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:38,186 - predict_GI - INFO -  --- Process took 0.434 seconds ---
+2026-04-25 23:30:38,205 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:38,211 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:38,211 - predict_GI - INFO -  --- Process took 0.410 seconds ---
+2026-04-25 23:30:38,238 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:38,302 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:38,302 - predict_GI - INFO -  --- Process took 0.496 seconds ---
+2026-04-25 23:30:38,317 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:38,344 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:38,344 - predict_GI - INFO -  --- Process took 0.536 seconds ---
+2026-04-25 23:30:38,355 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:38,359 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:38,359 - predict_GI - INFO -  --- Process took 0.554 seconds ---
+2026-04-25 23:30:38,360 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:38,385 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:38,422 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:38,422 - predict_GI - INFO -  --- Process took 0.600 seconds ---
+2026-04-25 23:30:38,459 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:38,459 - predict_GI - INFO -  --- Process took 0.561 seconds ---
+2026-04-25 23:30:38,459 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:38,459 - predict_GI - INFO -  --- Process took 0.570 seconds ---
+2026-04-25 23:30:38,461 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:38,461 - predict_GI - INFO -  --- Process took 0.562 seconds ---
+2026-04-25 23:30:39,541 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/14000/0.7
+2026-04-25 23:30:39,541 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:39,591 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/14000/0.6
+2026-04-25 23:30:39,599 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:39,599 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:39,599 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:39,600 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:39,600 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:39,600 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:39,591 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:39,636 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:39,637 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:39,637 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:39,637 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:39,637 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:39,637 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:39,696 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/14000/0.8
+2026-04-25 23:30:39,696 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:39,712 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:39,716 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:39,716 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:39,716 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:39,716 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:39,716 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:39,754 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/15000/0.7
+2026-04-25 23:30:39,754 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:39,758 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:39,768 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:39,770 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:39,770 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:39,770 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:39,770 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:39,771 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:39,771 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:39,787 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:39,787 - predict_GI - INFO -  --- Process took 0.248 seconds ---
+2026-04-25 23:30:39,798 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:39,798 - predict_GI - INFO -  --- Process took 0.209 seconds ---
+2026-04-25 23:30:39,811 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/15000/0.6
+2026-04-25 23:30:39,811 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:39,833 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:39,833 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:39,833 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:39,833 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:39,834 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:39,834 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:39,845 - predict_GI - INFO - outputs/boundaries_predictions/literature_set/ensemble_voting_soft_benbow_default/15000/0.8
+2026-04-25 23:30:39,845 - predict_GI - INFO - outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:39,857 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:39,866 - predict_GI - INFO - Predictions for NC_003198.1.fasta already exist
+2026-04-25 23:30:39,866 - predict_GI - INFO - Predictions for NC_002695.1.fasta already exist
+2026-04-25 23:30:39,866 - predict_GI - INFO - Predictions for NC_003923.1.fasta already exist
+2026-04-25 23:30:39,866 - predict_GI - INFO - Predictions for NC_004431.1.fasta already exist
+2026-04-25 23:30:39,867 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-25 23:30:39,867 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-25 23:30:39,896 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:39,896 - predict_GI - INFO -  --- Process took 0.202 seconds ---
+2026-04-25 23:30:39,908 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:39,951 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:39,951 - predict_GI - INFO -  --- Process took 0.199 seconds ---
+2026-04-25 23:30:39,992 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:40,075 - predict_GI - INFO - saving results to outputs/boundaries_predictions/literature_set
+2026-04-25 23:30:40,123 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:40,123 - predict_GI - INFO -  --- Process took 0.284 seconds ---
+2026-04-25 23:30:40,265 - predict_GI - INFO - --- Finish ---
+2026-04-25 23:30:40,266 - predict_GI - INFO -  --- Process took 0.459 seconds ---
