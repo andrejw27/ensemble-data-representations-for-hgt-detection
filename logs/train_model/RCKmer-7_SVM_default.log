@@ -1,0 +1,12 @@
+2026-04-26 18:39:33,350 - train_model - INFO - --- Start training---
+2026-04-26 18:39:33,350 - train_model - INFO - Read train data from dataset/train_data/benbow.fasta
+2026-04-26 18:39:34,061 - train_model - INFO - Read test data from dataset/test_data/benbow_test_data.fasta
+2026-04-26 18:39:36,965 - train_model - INFO - X_train: 2569
+2026-04-26 18:39:36,966 - train_model - INFO - X_test: 566
+2026-04-26 18:39:36,967 - train_model - INFO - Start training single model... ['RCKmer-7/SVM']
+2026-04-26 18:39:36,967 - cross_val - INFO - get single model with candidates: ['RCKmer-7/SVM']
+2026-04-26 18:41:41,034 - train_model - INFO - Training is done
+2026-04-26 18:41:41,036 - train_model - INFO - Evaluate the single model
+2026-04-26 18:41:52,170 - cross_val - INFO - compute evaluation scores
+2026-04-26 18:41:52,222 - train_model - INFO - --- Finish ---
+2026-04-26 18:41:52,222 - train_model - INFO -  --- Process took 138.872 seconds ---

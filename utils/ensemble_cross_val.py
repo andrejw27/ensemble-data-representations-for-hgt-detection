@@ -110,7 +110,7 @@ def get_custom_transformer(representation):
 
     return custom_transformer
 
-def get_pipeline(model, representation, scaler_type=None):
+def get_pipeline(model, representation, scaler_type=None, default=True):
     """
     Create a pipeline for the specified model with the given transformer.
     :param model: The model type (e.g., 'SVC', 'RandomForest').
@@ -128,18 +128,26 @@ def get_pipeline(model, representation, scaler_type=None):
         scaler = None
 
     if model == 'SVC' or model == 'SVM':
-        #clf = SVC(probability=True, kernel='rbf', C=2, gamma='scale')
-        clf = SVC(probability=True, random_state=42)
+        if default:
+            clf = SVC(probability=True, random_state=42)
+        else:
+            clf = SVC(probability=True, kernel='rbf', C=2, gamma='scale', random_state=42)
     elif model == 'RandomForest':
         # clf = RandomForestClassifier(n_estimators=500, oob_score=True,
-        #                              criterion='gini', max_depth=10, max_features='sqrt',)
+        #                              criterion='gini', max_depth=10, max_features='sqrt',
+        #                              random_state=42)
+        # clf = RandomForestClassifier(criterion= 'entropy',
+        #                             max_depth= None,
+        #                             max_features= 'sqrt',
+        #                             min_samples_split= 5,
+        #                             n_estimators= 500, random_state=42)
         clf = RandomForestClassifier(random_state=42)
     elif model == 'NaiveBayes':
         clf = GaussianNB()
     elif model == 'LogisticRegression':
-        clf = LogisticRegression()
+        clf = LogisticRegression(random_state=42)
     elif model == 'DecisionTree':
-        clf = DecisionTreeClassifier()
+        clf = DecisionTreeClassifier(random_state=42)
     elif model == 'AdaBoost':
         clf = AdaBoostClassifier(algorithm='SAMME')
     elif model == 'GradientBoosting':
@@ -260,21 +268,43 @@ def run_cross_validation(train_params):
 
     return output
 
-def get_classifiers(pairs, scaler_type=None):
+def get_classifiers(pairs, scaler_type=None, default=True):
     classifiers = []
 
     if len(pairs) == 1:
-        representation, model = pair.split('/')
-        pipeline = get_pipeline(model, representation, scaler_type)
-        return [pipeline]
+        representation, model = pairs[0].split('/')
+        pipeline = get_pipeline(model, representation, scaler_type, default)
+        return pipeline
 
     for pair in pairs:
         representation, model = pair.split('/')
-        pipeline = get_pipeline(model, representation, scaler_type)
+        pipeline = get_pipeline(model, representation, scaler_type, default)
         classifiers.append((pair,pipeline))
     return classifiers
 
-def get_ensemble_model(candidates, ensemble_type='stacking'):
+def get_single_model(candidates, scaler_type=None, default=True):
+    """
+    returns a single model given the candidate model
+
+    Parameters: 
+    ----------
+    candidates : list, a list of candidates for the single model e.g. ['RCKmer-7/SVM']
+
+    Returns: 
+    -------
+    model : classifier, a single classifier
+    """
+    logger.info(f"get single model with candidates: {candidates}")
+
+    # get list of candidate models
+    model = get_classifiers(candidates, scaler_type)
+
+    if len(candidates) != 1:
+        raise ValueError("Expected exactly one candidate for single model, got {}".format(len(candidates)))
+    
+    return model
+
+def get_ensemble_model(candidates, ensemble_type='stacking', default=True):
     """
     returns an ensemble model given the candidate models and ensemble type
 
@@ -287,11 +317,10 @@ def get_ensemble_model(candidates, ensemble_type='stacking'):
     ensemble : classifier, an ensemble classifier
     """
 
-    logger.info(f"get ensemble model with candidates: {candidates} and ensemble type: {ensemble_type}")
-
     # get list of candidate models
-    models = get_classifiers(candidates)
+    models = get_classifiers(candidates, default=default)
 
+    logger.info(f"get ensemble model with candidates: {candidates} and ensemble type: {ensemble_type}")
     meta_models = {
             "stacking": StackingClassifier(estimators=None, final_estimator=LogisticRegression()),
             "voting_soft": VotingClassifier(estimators=None, voting="soft"),

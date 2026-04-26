@@ -1,0 +1,25 @@
+2026-04-26 18:38:55,238 - train_model - INFO - --- Start training---
+2026-04-26 18:38:55,239 - train_model - INFO - Read train data from dataset/train_data/benbow.fasta
+2026-04-26 18:38:56,055 - train_model - INFO - Read test data from dataset/test_data/benbow_test_data.fasta
+2026-04-26 18:38:58,761 - train_model - INFO - X_train: 2569
+2026-04-26 18:38:58,761 - train_model - INFO - X_test: 566
+2026-04-26 18:38:58,762 - train_model - INFO - Start training single model... ['Subsequence/RandomForest']
+2026-04-26 18:38:58,762 - cross_val - INFO - get single model with candidates: ['Subsequence/RandomForest']
+2026-04-26 18:39:17,808 - train_model - INFO - Training is done
+2026-04-26 18:39:17,809 - train_model - INFO - Evaluate the single model
+2026-04-26 18:39:20,196 - cross_val - INFO - compute evaluation scores
+2026-04-26 18:39:20,268 - train_model - INFO - --- Finish ---
+2026-04-26 18:39:20,268 - train_model - INFO -  --- Process took 25.029 seconds ---
+2026-04-26 18:48:11,957 - train_model - INFO - --- Start training---
+2026-04-26 18:48:11,957 - train_model - INFO - Read train data from dataset/train_data/benbow.fasta
+2026-04-26 18:48:13,022 - train_model - INFO - Read test data from dataset/test_data/benbow_test_data.fasta
+2026-04-26 18:48:15,786 - train_model - INFO - X_train: 2569
+2026-04-26 18:48:15,786 - train_model - INFO - X_test: 566
+2026-04-26 18:48:15,853 - train_model - INFO - Start training single model... ['Subsequence/RandomForest']
+2026-04-26 18:48:15,853 - cross_val - INFO - get single model with candidates: ['Subsequence/RandomForest']
+2026-04-26 18:48:34,264 - train_model - INFO - Training is done
+2026-04-26 18:48:34,264 - train_model - INFO - Evaluate the single model
+2026-04-26 18:48:36,632 - cross_val - INFO - compute evaluation scores
+2026-04-26 18:48:36,637 - train_model - INFO - Candidate: ['Subsequence/RandomForest'], F1: 0.915, Precision: 0.941, Recall: 0.891, MCC: 0.712
+2026-04-26 18:48:36,677 - train_model - INFO - --- Finish ---
+2026-04-26 18:48:36,677 - train_model - INFO -  --- Process took 24.720 seconds ---
