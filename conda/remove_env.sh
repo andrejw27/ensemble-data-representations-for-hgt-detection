@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-read -p "Delete environment 'genomic-data-rep'? (y/n)" -n 1 -r
+read -p "Delete environment 'ensemble_rep_hgt'? (y/n)" -n 1 -r
 echo
 
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-  conda remove --name genomic-data-rep --all
+  conda remove --name ensemble_rep_hgt --all
 fi

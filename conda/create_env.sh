@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set environment name (change if needed)
-ENV_NAME="genomic-data-rep"
+ENV_NAME="ensemble_rep_hgt"
 
 # Create the environment from the YAML file
 echo "Creating conda environment: $ENV_NAME"
