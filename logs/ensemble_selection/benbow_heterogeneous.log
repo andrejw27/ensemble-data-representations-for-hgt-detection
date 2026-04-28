@@ -1,0 +1,48 @@
+2026-04-28 10:51:01,303 - ensemble_selection - INFO - --- Start ---
+2026-04-28 10:51:01,303 - ensemble_selection - INFO - Using same_clf: False
+2026-04-28 10:51:01,303 - ensemble_selection - INFO - 1. Read Data benbow
+2026-04-28 10:51:05,376 - ensemble_selection - INFO - 2. Read Pre-defined Folds
+2026-04-28 10:51:05,381 - ensemble_selection - INFO - 3. Read predictions of the cross validation
+2026-04-28 10:52:13,056 - ensemble_selection - INFO - 4. Compute kappa error
+2026-04-28 10:53:23,350 - ensemble_selection - INFO - Using the best classifier for each representation
+2026-04-28 10:53:25,631 - ensemble_selection - INFO - 5. Select top 20 base classifiers for ensemble classifier
+2026-04-28 10:53:25,660 - ensemble_selection - INFO - 6. Cross validate ensemble classifiers
+2026-04-28 10:55:46,356 - ensemble_selection - INFO - 7. Saving ensemble selection results to outputs/multi_objective_validation/ensemble_selection_benbow_heterogeneous_mcc.xlsx
+2026-04-28 10:55:46,378 - ensemble_selection - INFO - --- Finish ---
+2026-04-28 10:55:46,378 - ensemble_selection - INFO -  --- Process took 285.075 seconds ---
+2026-04-28 11:35:40,941 - ensemble_selection - INFO - --- Start ---
+2026-04-28 11:35:40,941 - ensemble_selection - INFO - Using same_clf: False
+2026-04-28 11:35:40,941 - ensemble_selection - INFO - 1. Read Data benbow
+2026-04-28 11:35:44,896 - ensemble_selection - INFO - 2. Read Pre-defined Folds
+2026-04-28 11:35:44,901 - ensemble_selection - INFO - 3. Read predictions of the cross validation
+2026-04-28 11:35:44,907 - ensemble_selection - INFO - Reading predictions from outputs/cross_val_predictions/benbow_predictions_5.xlsx
+2026-04-28 11:35:55,903 - ensemble_selection - INFO - Reading predictions from outputs/cross_val_predictions/benbow_predictions_4.xlsx
+2026-04-28 11:36:06,628 - ensemble_selection - INFO - Reading predictions from outputs/cross_val_predictions/benbow_predictions_3.xlsx
+2026-04-28 11:36:25,821 - ensemble_selection - INFO - Reading predictions from outputs/cross_val_predictions/benbow_predictions_2.xlsx
+2026-04-28 11:36:33,498 - ensemble_selection - INFO - Reading predictions from outputs/cross_val_predictions/benbow_predictions_1.xlsx
+2026-04-28 11:36:42,559 - ensemble_selection - INFO - Reading predictions from outputs/cross_val_predictions/benbow_predictions_6.xlsx
+2026-04-28 11:36:53,280 - ensemble_selection - INFO - 4. Compute kappa error
+2026-04-28 11:38:03,595 - ensemble_selection - INFO - Using the best classifier for each representation
+2026-04-28 11:38:05,965 - ensemble_selection - INFO - 5. Select top 20 base classifiers for ensemble classifier
+2026-04-28 11:38:06,000 - ensemble_selection - INFO - 6. Cross validate ensemble classifiers
+2026-04-28 11:40:29,648 - ensemble_selection - INFO - 7. Saving ensemble selection results to outputs/multi_objective_validation/ensemble_selection_benbow_heterogeneous_mcc.xlsx
+2026-04-28 11:40:29,671 - ensemble_selection - INFO - --- Finish ---
+2026-04-28 11:40:29,671 - ensemble_selection - INFO -  --- Process took 288.730 seconds ---
+2026-04-28 12:31:16,654 - ensemble_selection - INFO - --- Start ---
+2026-04-28 12:31:16,655 - ensemble_selection - INFO - Using same_clf: False
+2026-04-28 12:31:16,655 - ensemble_selection - INFO - 1. Read Data benbow
+2026-04-28 12:31:20,934 - ensemble_selection - INFO - 2. Read Pre-defined Folds
+2026-04-28 12:31:20,939 - ensemble_selection - INFO - 3. Read predictions of the cross validation
+2026-04-28 12:31:20,943 - ensemble_selection - INFO - Reading predictions from outputs/cross_val/predictions/benbow_predictions_5.xlsx
+2026-04-28 12:31:31,484 - ensemble_selection - INFO - Reading predictions from outputs/cross_val/predictions/benbow_predictions_4.xlsx
+2026-04-28 12:31:42,302 - ensemble_selection - INFO - Reading predictions from outputs/cross_val/predictions/benbow_predictions_3.xlsx
+2026-04-28 12:32:01,911 - ensemble_selection - INFO - Reading predictions from outputs/cross_val/predictions/benbow_predictions_2.xlsx
+2026-04-28 12:32:09,795 - ensemble_selection - INFO - Reading predictions from outputs/cross_val/predictions/benbow_predictions_1.xlsx
+2026-04-28 12:32:19,661 - ensemble_selection - INFO - Reading predictions from outputs/cross_val/predictions/benbow_predictions_6.xlsx
+2026-04-28 12:32:31,106 - ensemble_selection - INFO - 4. Compute kappa error
+2026-04-28 12:33:43,312 - ensemble_selection - INFO - Using the best classifier for each representation
+2026-04-28 12:33:45,666 - ensemble_selection - INFO - 5. Select top 20 base classifiers for ensemble classifier
+2026-04-28 12:33:45,698 - ensemble_selection - INFO - 6. Cross validate ensemble classifiers
+2026-04-28 12:36:11,031 - ensemble_selection - INFO - 7. Saving ensemble selection results to outputs/multi_objective_validation/ensemble_selection_benbow_heterogeneous_mcc.xlsx
+2026-04-28 12:36:11,055 - ensemble_selection - INFO - --- Finish ---
+2026-04-28 12:36:11,055 - ensemble_selection - INFO -  --- Process took 294.401 seconds ---

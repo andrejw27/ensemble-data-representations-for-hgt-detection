@@ -1,0 +1,1420 @@
+2026-04-28 11:20:05,045 - __main__ - INFO - Working Path: /Users/WijayaA-Dev/Documents/ensemble_representation/ensemble-data-representations-for-hgt-detection
+2026-04-28 11:20:05,046 - __main__ - INFO - Representations: ['NAC', 'GC']
+2026-04-28 11:20:05,046 - cross_val - INFO - representation Train Data with NAC
+2026-04-28 11:20:06,458 - cross_val - INFO - Fold 0
+2026-04-28 11:20:06,460 - cross_val - INFO - Fold 0: Training DecisionTree in progress - NAC
+2026-04-28 11:20:06,465 - cross_val - INFO - Fold 0: Training DecisionTree is done - NAC
+2026-04-28 11:20:06,465 - cross_val - INFO - Fold 0: Testing DecisionTree - NAC
+2026-04-28 11:20:06,465 - cross_val - INFO - Fold 0: Training RandomForest in progress - NAC
+2026-04-28 11:20:06,656 - cross_val - INFO - Fold 0: Training RandomForest is done - NAC
+2026-04-28 11:20:06,656 - cross_val - INFO - Fold 0: Testing RandomForest - NAC
+2026-04-28 11:20:06,665 - cross_val - INFO - Fold 0: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:06,668 - cross_val - INFO - Fold 0: Training LogisticRegression is done - NAC
+2026-04-28 11:20:06,668 - cross_val - INFO - Fold 0: Testing LogisticRegression - NAC
+2026-04-28 11:20:06,668 - cross_val - INFO - Fold 0: Training SVM in progress - NAC
+2026-04-28 11:20:06,834 - cross_val - INFO - Fold 0: Training SVM is done - NAC
+2026-04-28 11:20:06,834 - cross_val - INFO - Fold 0: Testing SVM - NAC
+2026-04-28 11:20:06,876 - cross_val - INFO - Fold 0: Training AdaBoost in progress - NAC
+2026-04-28 11:20:06,928 - cross_val - INFO - Fold 0: Training AdaBoost is done - NAC
+2026-04-28 11:20:06,928 - cross_val - INFO - Fold 0: Testing AdaBoost - NAC
+2026-04-28 11:20:06,931 - cross_val - INFO - Fold 0: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:06,932 - cross_val - INFO - Fold 0: Training NaiveBayes is done - NAC
+2026-04-28 11:20:06,932 - cross_val - INFO - Fold 0: Testing NaiveBayes - NAC
+2026-04-28 11:20:06,932 - cross_val - INFO - Fold 0: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:07,092 - cross_val - INFO - Fold 0: Training GradientBoosting is done - NAC
+2026-04-28 11:20:07,092 - cross_val - INFO - Fold 0: Testing GradientBoosting - NAC
+2026-04-28 11:20:07,093 - cross_val - INFO - Fold 0: Training Bagging in progress - NAC
+2026-04-28 11:20:07,128 - cross_val - INFO - Fold 0: Training Bagging is done - NAC
+2026-04-28 11:20:07,128 - cross_val - INFO - Fold 0: Testing Bagging - NAC
+2026-04-28 11:20:07,129 - cross_val - INFO - Fold 0: Training XGBoost in progress - NAC
+2026-04-28 11:20:07,180 - cross_val - INFO - Fold 0: Training XGBoost is done - NAC
+2026-04-28 11:20:07,180 - cross_val - INFO - Fold 0: Testing XGBoost - NAC
+2026-04-28 11:20:07,181 - cross_val - INFO - Fold 1
+2026-04-28 11:20:07,183 - cross_val - INFO - Fold 1: Training DecisionTree in progress - NAC
+2026-04-28 11:20:07,189 - cross_val - INFO - Fold 1: Training DecisionTree is done - NAC
+2026-04-28 11:20:07,190 - cross_val - INFO - Fold 1: Testing DecisionTree - NAC
+2026-04-28 11:20:07,190 - cross_val - INFO - Fold 1: Training RandomForest in progress - NAC
+2026-04-28 11:20:07,433 - cross_val - INFO - Fold 1: Training RandomForest is done - NAC
+2026-04-28 11:20:07,433 - cross_val - INFO - Fold 1: Testing RandomForest - NAC
+2026-04-28 11:20:07,440 - cross_val - INFO - Fold 1: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:07,442 - cross_val - INFO - Fold 1: Training LogisticRegression is done - NAC
+2026-04-28 11:20:07,442 - cross_val - INFO - Fold 1: Testing LogisticRegression - NAC
+2026-04-28 11:20:07,442 - cross_val - INFO - Fold 1: Training SVM in progress - NAC
+2026-04-28 11:20:07,685 - cross_val - INFO - Fold 1: Training SVM is done - NAC
+2026-04-28 11:20:07,685 - cross_val - INFO - Fold 1: Testing SVM - NAC
+2026-04-28 11:20:07,719 - cross_val - INFO - Fold 1: Training AdaBoost in progress - NAC
+2026-04-28 11:20:07,777 - cross_val - INFO - Fold 1: Training AdaBoost is done - NAC
+2026-04-28 11:20:07,777 - cross_val - INFO - Fold 1: Testing AdaBoost - NAC
+2026-04-28 11:20:07,780 - cross_val - INFO - Fold 1: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:07,781 - cross_val - INFO - Fold 1: Training NaiveBayes is done - NAC
+2026-04-28 11:20:07,781 - cross_val - INFO - Fold 1: Testing NaiveBayes - NAC
+2026-04-28 11:20:07,781 - cross_val - INFO - Fold 1: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:07,973 - cross_val - INFO - Fold 1: Training GradientBoosting is done - NAC
+2026-04-28 11:20:07,973 - cross_val - INFO - Fold 1: Testing GradientBoosting - NAC
+2026-04-28 11:20:07,973 - cross_val - INFO - Fold 1: Training Bagging in progress - NAC
+2026-04-28 11:20:08,015 - cross_val - INFO - Fold 1: Training Bagging is done - NAC
+2026-04-28 11:20:08,015 - cross_val - INFO - Fold 1: Testing Bagging - NAC
+2026-04-28 11:20:08,016 - cross_val - INFO - Fold 1: Training XGBoost in progress - NAC
+2026-04-28 11:20:08,060 - cross_val - INFO - Fold 1: Training XGBoost is done - NAC
+2026-04-28 11:20:08,060 - cross_val - INFO - Fold 1: Testing XGBoost - NAC
+2026-04-28 11:20:08,061 - cross_val - INFO - Fold 2
+2026-04-28 11:20:08,063 - cross_val - INFO - Fold 2: Training DecisionTree in progress - NAC
+2026-04-28 11:20:08,069 - cross_val - INFO - Fold 2: Training DecisionTree is done - NAC
+2026-04-28 11:20:08,069 - cross_val - INFO - Fold 2: Testing DecisionTree - NAC
+2026-04-28 11:20:08,069 - cross_val - INFO - Fold 2: Training RandomForest in progress - NAC
+2026-04-28 11:20:08,271 - cross_val - INFO - Fold 2: Training RandomForest is done - NAC
+2026-04-28 11:20:08,271 - cross_val - INFO - Fold 2: Testing RandomForest - NAC
+2026-04-28 11:20:08,279 - cross_val - INFO - Fold 2: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:08,281 - cross_val - INFO - Fold 2: Training LogisticRegression is done - NAC
+2026-04-28 11:20:08,281 - cross_val - INFO - Fold 2: Testing LogisticRegression - NAC
+2026-04-28 11:20:08,281 - cross_val - INFO - Fold 2: Training SVM in progress - NAC
+2026-04-28 11:20:08,457 - cross_val - INFO - Fold 2: Training SVM is done - NAC
+2026-04-28 11:20:08,458 - cross_val - INFO - Fold 2: Testing SVM - NAC
+2026-04-28 11:20:08,495 - cross_val - INFO - Fold 2: Training AdaBoost in progress - NAC
+2026-04-28 11:20:08,548 - cross_val - INFO - Fold 2: Training AdaBoost is done - NAC
+2026-04-28 11:20:08,548 - cross_val - INFO - Fold 2: Testing AdaBoost - NAC
+2026-04-28 11:20:08,551 - cross_val - INFO - Fold 2: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:08,552 - cross_val - INFO - Fold 2: Training NaiveBayes is done - NAC
+2026-04-28 11:20:08,552 - cross_val - INFO - Fold 2: Testing NaiveBayes - NAC
+2026-04-28 11:20:08,552 - cross_val - INFO - Fold 2: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:08,721 - cross_val - INFO - Fold 2: Training GradientBoosting is done - NAC
+2026-04-28 11:20:08,721 - cross_val - INFO - Fold 2: Testing GradientBoosting - NAC
+2026-04-28 11:20:08,721 - cross_val - INFO - Fold 2: Training Bagging in progress - NAC
+2026-04-28 11:20:08,756 - cross_val - INFO - Fold 2: Training Bagging is done - NAC
+2026-04-28 11:20:08,756 - cross_val - INFO - Fold 2: Testing Bagging - NAC
+2026-04-28 11:20:08,757 - cross_val - INFO - Fold 2: Training XGBoost in progress - NAC
+2026-04-28 11:20:08,804 - cross_val - INFO - Fold 2: Training XGBoost is done - NAC
+2026-04-28 11:20:08,804 - cross_val - INFO - Fold 2: Testing XGBoost - NAC
+2026-04-28 11:20:08,805 - cross_val - INFO - Fold 3
+2026-04-28 11:20:08,808 - cross_val - INFO - Fold 3: Training DecisionTree in progress - NAC
+2026-04-28 11:20:08,814 - cross_val - INFO - Fold 3: Training DecisionTree is done - NAC
+2026-04-28 11:20:08,814 - cross_val - INFO - Fold 3: Testing DecisionTree - NAC
+2026-04-28 11:20:08,814 - cross_val - INFO - Fold 3: Training RandomForest in progress - NAC
+2026-04-28 11:20:09,033 - cross_val - INFO - Fold 3: Training RandomForest is done - NAC
+2026-04-28 11:20:09,033 - cross_val - INFO - Fold 3: Testing RandomForest - NAC
+2026-04-28 11:20:09,041 - cross_val - INFO - Fold 3: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:09,043 - cross_val - INFO - Fold 3: Training LogisticRegression is done - NAC
+2026-04-28 11:20:09,043 - cross_val - INFO - Fold 3: Testing LogisticRegression - NAC
+2026-04-28 11:20:09,043 - cross_val - INFO - Fold 3: Training SVM in progress - NAC
+2026-04-28 11:20:09,230 - cross_val - INFO - Fold 3: Training SVM is done - NAC
+2026-04-28 11:20:09,230 - cross_val - INFO - Fold 3: Testing SVM - NAC
+2026-04-28 11:20:09,270 - cross_val - INFO - Fold 3: Training AdaBoost in progress - NAC
+2026-04-28 11:20:09,323 - cross_val - INFO - Fold 3: Training AdaBoost is done - NAC
+2026-04-28 11:20:09,323 - cross_val - INFO - Fold 3: Testing AdaBoost - NAC
+2026-04-28 11:20:09,326 - cross_val - INFO - Fold 3: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:09,326 - cross_val - INFO - Fold 3: Training NaiveBayes is done - NAC
+2026-04-28 11:20:09,327 - cross_val - INFO - Fold 3: Testing NaiveBayes - NAC
+2026-04-28 11:20:09,327 - cross_val - INFO - Fold 3: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:09,497 - cross_val - INFO - Fold 3: Training GradientBoosting is done - NAC
+2026-04-28 11:20:09,497 - cross_val - INFO - Fold 3: Testing GradientBoosting - NAC
+2026-04-28 11:20:09,497 - cross_val - INFO - Fold 3: Training Bagging in progress - NAC
+2026-04-28 11:20:09,536 - cross_val - INFO - Fold 3: Training Bagging is done - NAC
+2026-04-28 11:20:09,536 - cross_val - INFO - Fold 3: Testing Bagging - NAC
+2026-04-28 11:20:09,537 - cross_val - INFO - Fold 3: Training XGBoost in progress - NAC
+2026-04-28 11:20:09,584 - cross_val - INFO - Fold 3: Training XGBoost is done - NAC
+2026-04-28 11:20:09,584 - cross_val - INFO - Fold 3: Testing XGBoost - NAC
+2026-04-28 11:20:09,584 - cross_val - INFO - Fold 4
+2026-04-28 11:20:09,587 - cross_val - INFO - Fold 4: Training DecisionTree in progress - NAC
+2026-04-28 11:20:09,592 - cross_val - INFO - Fold 4: Training DecisionTree is done - NAC
+2026-04-28 11:20:09,593 - cross_val - INFO - Fold 4: Testing DecisionTree - NAC
+2026-04-28 11:20:09,593 - cross_val - INFO - Fold 4: Training RandomForest in progress - NAC
+2026-04-28 11:20:09,810 - cross_val - INFO - Fold 4: Training RandomForest is done - NAC
+2026-04-28 11:20:09,810 - cross_val - INFO - Fold 4: Testing RandomForest - NAC
+2026-04-28 11:20:09,819 - cross_val - INFO - Fold 4: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:09,820 - cross_val - INFO - Fold 4: Training LogisticRegression is done - NAC
+2026-04-28 11:20:09,820 - cross_val - INFO - Fold 4: Testing LogisticRegression - NAC
+2026-04-28 11:20:09,820 - cross_val - INFO - Fold 4: Training SVM in progress - NAC
+2026-04-28 11:20:10,007 - cross_val - INFO - Fold 4: Training SVM is done - NAC
+2026-04-28 11:20:10,008 - cross_val - INFO - Fold 4: Testing SVM - NAC
+2026-04-28 11:20:10,048 - cross_val - INFO - Fold 4: Training AdaBoost in progress - NAC
+2026-04-28 11:20:10,101 - cross_val - INFO - Fold 4: Training AdaBoost is done - NAC
+2026-04-28 11:20:10,101 - cross_val - INFO - Fold 4: Testing AdaBoost - NAC
+2026-04-28 11:20:10,104 - cross_val - INFO - Fold 4: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:10,104 - cross_val - INFO - Fold 4: Training NaiveBayes is done - NAC
+2026-04-28 11:20:10,104 - cross_val - INFO - Fold 4: Testing NaiveBayes - NAC
+2026-04-28 11:20:10,105 - cross_val - INFO - Fold 4: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:10,274 - cross_val - INFO - Fold 4: Training GradientBoosting is done - NAC
+2026-04-28 11:20:10,274 - cross_val - INFO - Fold 4: Testing GradientBoosting - NAC
+2026-04-28 11:20:10,275 - cross_val - INFO - Fold 4: Training Bagging in progress - NAC
+2026-04-28 11:20:10,312 - cross_val - INFO - Fold 4: Training Bagging is done - NAC
+2026-04-28 11:20:10,312 - cross_val - INFO - Fold 4: Testing Bagging - NAC
+2026-04-28 11:20:10,313 - cross_val - INFO - Fold 4: Training XGBoost in progress - NAC
+2026-04-28 11:20:10,356 - cross_val - INFO - Fold 4: Training XGBoost is done - NAC
+2026-04-28 11:20:10,356 - cross_val - INFO - Fold 4: Testing XGBoost - NAC
+2026-04-28 11:20:10,357 - cross_val - INFO - Fold 5
+2026-04-28 11:20:10,359 - cross_val - INFO - Fold 5: Training DecisionTree in progress - NAC
+2026-04-28 11:20:10,365 - cross_val - INFO - Fold 5: Training DecisionTree is done - NAC
+2026-04-28 11:20:10,365 - cross_val - INFO - Fold 5: Testing DecisionTree - NAC
+2026-04-28 11:20:10,366 - cross_val - INFO - Fold 5: Training RandomForest in progress - NAC
+2026-04-28 11:20:10,593 - cross_val - INFO - Fold 5: Training RandomForest is done - NAC
+2026-04-28 11:20:10,593 - cross_val - INFO - Fold 5: Testing RandomForest - NAC
+2026-04-28 11:20:10,601 - cross_val - INFO - Fold 5: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:10,602 - cross_val - INFO - Fold 5: Training LogisticRegression is done - NAC
+2026-04-28 11:20:10,602 - cross_val - INFO - Fold 5: Testing LogisticRegression - NAC
+2026-04-28 11:20:10,602 - cross_val - INFO - Fold 5: Training SVM in progress - NAC
+2026-04-28 11:20:10,836 - cross_val - INFO - Fold 5: Training SVM is done - NAC
+2026-04-28 11:20:10,837 - cross_val - INFO - Fold 5: Testing SVM - NAC
+2026-04-28 11:20:10,871 - cross_val - INFO - Fold 5: Training AdaBoost in progress - NAC
+2026-04-28 11:20:10,927 - cross_val - INFO - Fold 5: Training AdaBoost is done - NAC
+2026-04-28 11:20:10,927 - cross_val - INFO - Fold 5: Testing AdaBoost - NAC
+2026-04-28 11:20:10,930 - cross_val - INFO - Fold 5: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:10,931 - cross_val - INFO - Fold 5: Training NaiveBayes is done - NAC
+2026-04-28 11:20:10,931 - cross_val - INFO - Fold 5: Testing NaiveBayes - NAC
+2026-04-28 11:20:10,931 - cross_val - INFO - Fold 5: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:11,118 - cross_val - INFO - Fold 5: Training GradientBoosting is done - NAC
+2026-04-28 11:20:11,118 - cross_val - INFO - Fold 5: Testing GradientBoosting - NAC
+2026-04-28 11:20:11,118 - cross_val - INFO - Fold 5: Training Bagging in progress - NAC
+2026-04-28 11:20:11,157 - cross_val - INFO - Fold 5: Training Bagging is done - NAC
+2026-04-28 11:20:11,157 - cross_val - INFO - Fold 5: Testing Bagging - NAC
+2026-04-28 11:20:11,158 - cross_val - INFO - Fold 5: Training XGBoost in progress - NAC
+2026-04-28 11:20:11,203 - cross_val - INFO - Fold 5: Training XGBoost is done - NAC
+2026-04-28 11:20:11,203 - cross_val - INFO - Fold 5: Testing XGBoost - NAC
+2026-04-28 11:20:11,204 - cross_val - INFO - Fold 6
+2026-04-28 11:20:11,206 - cross_val - INFO - Fold 6: Training DecisionTree in progress - NAC
+2026-04-28 11:20:11,211 - cross_val - INFO - Fold 6: Training DecisionTree is done - NAC
+2026-04-28 11:20:11,211 - cross_val - INFO - Fold 6: Testing DecisionTree - NAC
+2026-04-28 11:20:11,212 - cross_val - INFO - Fold 6: Training RandomForest in progress - NAC
+2026-04-28 11:20:11,380 - cross_val - INFO - Fold 6: Training RandomForest is done - NAC
+2026-04-28 11:20:11,380 - cross_val - INFO - Fold 6: Testing RandomForest - NAC
+2026-04-28 11:20:11,389 - cross_val - INFO - Fold 6: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:11,390 - cross_val - INFO - Fold 6: Training LogisticRegression is done - NAC
+2026-04-28 11:20:11,390 - cross_val - INFO - Fold 6: Testing LogisticRegression - NAC
+2026-04-28 11:20:11,390 - cross_val - INFO - Fold 6: Training SVM in progress - NAC
+2026-04-28 11:20:11,512 - cross_val - INFO - Fold 6: Training SVM is done - NAC
+2026-04-28 11:20:11,512 - cross_val - INFO - Fold 6: Testing SVM - NAC
+2026-04-28 11:20:11,552 - cross_val - INFO - Fold 6: Training AdaBoost in progress - NAC
+2026-04-28 11:20:11,599 - cross_val - INFO - Fold 6: Training AdaBoost is done - NAC
+2026-04-28 11:20:11,599 - cross_val - INFO - Fold 6: Testing AdaBoost - NAC
+2026-04-28 11:20:11,602 - cross_val - INFO - Fold 6: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:11,603 - cross_val - INFO - Fold 6: Training NaiveBayes is done - NAC
+2026-04-28 11:20:11,603 - cross_val - INFO - Fold 6: Testing NaiveBayes - NAC
+2026-04-28 11:20:11,603 - cross_val - INFO - Fold 6: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:11,757 - cross_val - INFO - Fold 6: Training GradientBoosting is done - NAC
+2026-04-28 11:20:11,757 - cross_val - INFO - Fold 6: Testing GradientBoosting - NAC
+2026-04-28 11:20:11,758 - cross_val - INFO - Fold 6: Training Bagging in progress - NAC
+2026-04-28 11:20:11,788 - cross_val - INFO - Fold 6: Training Bagging is done - NAC
+2026-04-28 11:20:11,788 - cross_val - INFO - Fold 6: Testing Bagging - NAC
+2026-04-28 11:20:11,790 - cross_val - INFO - Fold 6: Training XGBoost in progress - NAC
+2026-04-28 11:20:11,844 - cross_val - INFO - Fold 6: Training XGBoost is done - NAC
+2026-04-28 11:20:11,844 - cross_val - INFO - Fold 6: Testing XGBoost - NAC
+2026-04-28 11:20:11,845 - cross_val - INFO - Fold 7
+2026-04-28 11:20:11,847 - cross_val - INFO - Fold 7: Training DecisionTree in progress - NAC
+2026-04-28 11:20:11,852 - cross_val - INFO - Fold 7: Training DecisionTree is done - NAC
+2026-04-28 11:20:11,852 - cross_val - INFO - Fold 7: Testing DecisionTree - NAC
+2026-04-28 11:20:11,852 - cross_val - INFO - Fold 7: Training RandomForest in progress - NAC
+2026-04-28 11:20:12,052 - cross_val - INFO - Fold 7: Training RandomForest is done - NAC
+2026-04-28 11:20:12,052 - cross_val - INFO - Fold 7: Testing RandomForest - NAC
+2026-04-28 11:20:12,060 - cross_val - INFO - Fold 7: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:12,062 - cross_val - INFO - Fold 7: Training LogisticRegression is done - NAC
+2026-04-28 11:20:12,062 - cross_val - INFO - Fold 7: Testing LogisticRegression - NAC
+2026-04-28 11:20:12,062 - cross_val - INFO - Fold 7: Training SVM in progress - NAC
+2026-04-28 11:20:12,224 - cross_val - INFO - Fold 7: Training SVM is done - NAC
+2026-04-28 11:20:12,224 - cross_val - INFO - Fold 7: Testing SVM - NAC
+2026-04-28 11:20:12,267 - cross_val - INFO - Fold 7: Training AdaBoost in progress - NAC
+2026-04-28 11:20:12,319 - cross_val - INFO - Fold 7: Training AdaBoost is done - NAC
+2026-04-28 11:20:12,319 - cross_val - INFO - Fold 7: Testing AdaBoost - NAC
+2026-04-28 11:20:12,322 - cross_val - INFO - Fold 7: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:12,323 - cross_val - INFO - Fold 7: Training NaiveBayes is done - NAC
+2026-04-28 11:20:12,323 - cross_val - INFO - Fold 7: Testing NaiveBayes - NAC
+2026-04-28 11:20:12,323 - cross_val - INFO - Fold 7: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:12,481 - cross_val - INFO - Fold 7: Training GradientBoosting is done - NAC
+2026-04-28 11:20:12,481 - cross_val - INFO - Fold 7: Testing GradientBoosting - NAC
+2026-04-28 11:20:12,482 - cross_val - INFO - Fold 7: Training Bagging in progress - NAC
+2026-04-28 11:20:12,516 - cross_val - INFO - Fold 7: Training Bagging is done - NAC
+2026-04-28 11:20:12,516 - cross_val - INFO - Fold 7: Testing Bagging - NAC
+2026-04-28 11:20:12,517 - cross_val - INFO - Fold 7: Training XGBoost in progress - NAC
+2026-04-28 11:20:12,612 - cross_val - INFO - Fold 7: Training XGBoost is done - NAC
+2026-04-28 11:20:12,612 - cross_val - INFO - Fold 7: Testing XGBoost - NAC
+2026-04-28 11:20:12,613 - cross_val - INFO - Fold 8
+2026-04-28 11:20:12,616 - cross_val - INFO - Fold 8: Training DecisionTree in progress - NAC
+2026-04-28 11:20:12,623 - cross_val - INFO - Fold 8: Training DecisionTree is done - NAC
+2026-04-28 11:20:12,623 - cross_val - INFO - Fold 8: Testing DecisionTree - NAC
+2026-04-28 11:20:12,623 - cross_val - INFO - Fold 8: Training RandomForest in progress - NAC
+2026-04-28 11:20:12,876 - cross_val - INFO - Fold 8: Training RandomForest is done - NAC
+2026-04-28 11:20:12,876 - cross_val - INFO - Fold 8: Testing RandomForest - NAC
+2026-04-28 11:20:12,883 - cross_val - INFO - Fold 8: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:12,884 - cross_val - INFO - Fold 8: Training LogisticRegression is done - NAC
+2026-04-28 11:20:12,885 - cross_val - INFO - Fold 8: Testing LogisticRegression - NAC
+2026-04-28 11:20:12,885 - cross_val - INFO - Fold 8: Training SVM in progress - NAC
+2026-04-28 11:20:13,153 - cross_val - INFO - Fold 8: Training SVM is done - NAC
+2026-04-28 11:20:13,153 - cross_val - INFO - Fold 8: Testing SVM - NAC
+2026-04-28 11:20:13,185 - cross_val - INFO - Fold 8: Training AdaBoost in progress - NAC
+2026-04-28 11:20:13,243 - cross_val - INFO - Fold 8: Training AdaBoost is done - NAC
+2026-04-28 11:20:13,244 - cross_val - INFO - Fold 8: Testing AdaBoost - NAC
+2026-04-28 11:20:13,246 - cross_val - INFO - Fold 8: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:13,247 - cross_val - INFO - Fold 8: Training NaiveBayes is done - NAC
+2026-04-28 11:20:13,247 - cross_val - INFO - Fold 8: Testing NaiveBayes - NAC
+2026-04-28 11:20:13,247 - cross_val - INFO - Fold 8: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:13,447 - cross_val - INFO - Fold 8: Training GradientBoosting is done - NAC
+2026-04-28 11:20:13,447 - cross_val - INFO - Fold 8: Testing GradientBoosting - NAC
+2026-04-28 11:20:13,447 - cross_val - INFO - Fold 8: Training Bagging in progress - NAC
+2026-04-28 11:20:13,492 - cross_val - INFO - Fold 8: Training Bagging is done - NAC
+2026-04-28 11:20:13,493 - cross_val - INFO - Fold 8: Testing Bagging - NAC
+2026-04-28 11:20:13,493 - cross_val - INFO - Fold 8: Training XGBoost in progress - NAC
+2026-04-28 11:20:13,538 - cross_val - INFO - Fold 8: Training XGBoost is done - NAC
+2026-04-28 11:20:13,538 - cross_val - INFO - Fold 8: Testing XGBoost - NAC
+2026-04-28 11:20:13,539 - cross_val - INFO - Fold 9
+2026-04-28 11:20:13,541 - cross_val - INFO - Fold 9: Training DecisionTree in progress - NAC
+2026-04-28 11:20:13,546 - cross_val - INFO - Fold 9: Training DecisionTree is done - NAC
+2026-04-28 11:20:13,546 - cross_val - INFO - Fold 9: Testing DecisionTree - NAC
+2026-04-28 11:20:13,546 - cross_val - INFO - Fold 9: Training RandomForest in progress - NAC
+2026-04-28 11:20:13,737 - cross_val - INFO - Fold 9: Training RandomForest is done - NAC
+2026-04-28 11:20:13,737 - cross_val - INFO - Fold 9: Testing RandomForest - NAC
+2026-04-28 11:20:13,746 - cross_val - INFO - Fold 9: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:13,748 - cross_val - INFO - Fold 9: Training LogisticRegression is done - NAC
+2026-04-28 11:20:13,748 - cross_val - INFO - Fold 9: Testing LogisticRegression - NAC
+2026-04-28 11:20:13,748 - cross_val - INFO - Fold 9: Training SVM in progress - NAC
+2026-04-28 11:20:13,896 - cross_val - INFO - Fold 9: Training SVM is done - NAC
+2026-04-28 11:20:13,896 - cross_val - INFO - Fold 9: Testing SVM - NAC
+2026-04-28 11:20:13,936 - cross_val - INFO - Fold 9: Training AdaBoost in progress - NAC
+2026-04-28 11:20:13,986 - cross_val - INFO - Fold 9: Training AdaBoost is done - NAC
+2026-04-28 11:20:13,986 - cross_val - INFO - Fold 9: Testing AdaBoost - NAC
+2026-04-28 11:20:13,989 - cross_val - INFO - Fold 9: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:13,990 - cross_val - INFO - Fold 9: Training NaiveBayes is done - NAC
+2026-04-28 11:20:13,990 - cross_val - INFO - Fold 9: Testing NaiveBayes - NAC
+2026-04-28 11:20:13,990 - cross_val - INFO - Fold 9: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:14,147 - cross_val - INFO - Fold 9: Training GradientBoosting is done - NAC
+2026-04-28 11:20:14,147 - cross_val - INFO - Fold 9: Testing GradientBoosting - NAC
+2026-04-28 11:20:14,148 - cross_val - INFO - Fold 9: Training Bagging in progress - NAC
+2026-04-28 11:20:14,180 - cross_val - INFO - Fold 9: Training Bagging is done - NAC
+2026-04-28 11:20:14,180 - cross_val - INFO - Fold 9: Testing Bagging - NAC
+2026-04-28 11:20:14,181 - cross_val - INFO - Fold 9: Training XGBoost in progress - NAC
+2026-04-28 11:20:14,227 - cross_val - INFO - Fold 9: Training XGBoost is done - NAC
+2026-04-28 11:20:14,227 - cross_val - INFO - Fold 9: Testing XGBoost - NAC
+2026-04-28 11:20:14,227 - cross_val - INFO - Fold 10
+2026-04-28 11:20:14,230 - cross_val - INFO - Fold 10: Training DecisionTree in progress - NAC
+2026-04-28 11:20:14,234 - cross_val - INFO - Fold 10: Training DecisionTree is done - NAC
+2026-04-28 11:20:14,234 - cross_val - INFO - Fold 10: Testing DecisionTree - NAC
+2026-04-28 11:20:14,234 - cross_val - INFO - Fold 10: Training RandomForest in progress - NAC
+2026-04-28 11:20:14,420 - cross_val - INFO - Fold 10: Training RandomForest is done - NAC
+2026-04-28 11:20:14,420 - cross_val - INFO - Fold 10: Testing RandomForest - NAC
+2026-04-28 11:20:14,430 - cross_val - INFO - Fold 10: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:14,431 - cross_val - INFO - Fold 10: Training LogisticRegression is done - NAC
+2026-04-28 11:20:14,431 - cross_val - INFO - Fold 10: Testing LogisticRegression - NAC
+2026-04-28 11:20:14,431 - cross_val - INFO - Fold 10: Training SVM in progress - NAC
+2026-04-28 11:20:14,554 - cross_val - INFO - Fold 10: Training SVM is done - NAC
+2026-04-28 11:20:14,554 - cross_val - INFO - Fold 10: Testing SVM - NAC
+2026-04-28 11:20:14,598 - cross_val - INFO - Fold 10: Training AdaBoost in progress - NAC
+2026-04-28 11:20:14,647 - cross_val - INFO - Fold 10: Training AdaBoost is done - NAC
+2026-04-28 11:20:14,647 - cross_val - INFO - Fold 10: Testing AdaBoost - NAC
+2026-04-28 11:20:14,650 - cross_val - INFO - Fold 10: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:14,650 - cross_val - INFO - Fold 10: Training NaiveBayes is done - NAC
+2026-04-28 11:20:14,650 - cross_val - INFO - Fold 10: Testing NaiveBayes - NAC
+2026-04-28 11:20:14,651 - cross_val - INFO - Fold 10: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:14,798 - cross_val - INFO - Fold 10: Training GradientBoosting is done - NAC
+2026-04-28 11:20:14,798 - cross_val - INFO - Fold 10: Testing GradientBoosting - NAC
+2026-04-28 11:20:14,799 - cross_val - INFO - Fold 10: Training Bagging in progress - NAC
+2026-04-28 11:20:14,829 - cross_val - INFO - Fold 10: Training Bagging is done - NAC
+2026-04-28 11:20:14,829 - cross_val - INFO - Fold 10: Testing Bagging - NAC
+2026-04-28 11:20:14,830 - cross_val - INFO - Fold 10: Training XGBoost in progress - NAC
+2026-04-28 11:20:14,871 - cross_val - INFO - Fold 10: Training XGBoost is done - NAC
+2026-04-28 11:20:14,871 - cross_val - INFO - Fold 10: Testing XGBoost - NAC
+2026-04-28 11:20:14,872 - cross_val - INFO - Fold 11
+2026-04-28 11:20:14,874 - cross_val - INFO - Fold 11: Training DecisionTree in progress - NAC
+2026-04-28 11:20:14,880 - cross_val - INFO - Fold 11: Training DecisionTree is done - NAC
+2026-04-28 11:20:14,880 - cross_val - INFO - Fold 11: Testing DecisionTree - NAC
+2026-04-28 11:20:14,880 - cross_val - INFO - Fold 11: Training RandomForest in progress - NAC
+2026-04-28 11:20:15,079 - cross_val - INFO - Fold 11: Training RandomForest is done - NAC
+2026-04-28 11:20:15,079 - cross_val - INFO - Fold 11: Testing RandomForest - NAC
+2026-04-28 11:20:15,087 - cross_val - INFO - Fold 11: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:15,089 - cross_val - INFO - Fold 11: Training LogisticRegression is done - NAC
+2026-04-28 11:20:15,089 - cross_val - INFO - Fold 11: Testing LogisticRegression - NAC
+2026-04-28 11:20:15,089 - cross_val - INFO - Fold 11: Training SVM in progress - NAC
+2026-04-28 11:20:15,253 - cross_val - INFO - Fold 11: Training SVM is done - NAC
+2026-04-28 11:20:15,254 - cross_val - INFO - Fold 11: Testing SVM - NAC
+2026-04-28 11:20:15,295 - cross_val - INFO - Fold 11: Training AdaBoost in progress - NAC
+2026-04-28 11:20:15,346 - cross_val - INFO - Fold 11: Training AdaBoost is done - NAC
+2026-04-28 11:20:15,346 - cross_val - INFO - Fold 11: Testing AdaBoost - NAC
+2026-04-28 11:20:15,349 - cross_val - INFO - Fold 11: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:15,349 - cross_val - INFO - Fold 11: Training NaiveBayes is done - NAC
+2026-04-28 11:20:15,349 - cross_val - INFO - Fold 11: Testing NaiveBayes - NAC
+2026-04-28 11:20:15,350 - cross_val - INFO - Fold 11: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:15,510 - cross_val - INFO - Fold 11: Training GradientBoosting is done - NAC
+2026-04-28 11:20:15,510 - cross_val - INFO - Fold 11: Testing GradientBoosting - NAC
+2026-04-28 11:20:15,511 - cross_val - INFO - Fold 11: Training Bagging in progress - NAC
+2026-04-28 11:20:15,545 - cross_val - INFO - Fold 11: Training Bagging is done - NAC
+2026-04-28 11:20:15,545 - cross_val - INFO - Fold 11: Testing Bagging - NAC
+2026-04-28 11:20:15,547 - cross_val - INFO - Fold 11: Training XGBoost in progress - NAC
+2026-04-28 11:20:15,593 - cross_val - INFO - Fold 11: Training XGBoost is done - NAC
+2026-04-28 11:20:15,593 - cross_val - INFO - Fold 11: Testing XGBoost - NAC
+2026-04-28 11:20:15,593 - cross_val - INFO - Fold 12
+2026-04-28 11:20:15,596 - cross_val - INFO - Fold 12: Training DecisionTree in progress - NAC
+2026-04-28 11:20:15,602 - cross_val - INFO - Fold 12: Training DecisionTree is done - NAC
+2026-04-28 11:20:15,602 - cross_val - INFO - Fold 12: Testing DecisionTree - NAC
+2026-04-28 11:20:15,602 - cross_val - INFO - Fold 12: Training RandomForest in progress - NAC
+2026-04-28 11:20:15,832 - cross_val - INFO - Fold 12: Training RandomForest is done - NAC
+2026-04-28 11:20:15,832 - cross_val - INFO - Fold 12: Testing RandomForest - NAC
+2026-04-28 11:20:15,839 - cross_val - INFO - Fold 12: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:15,841 - cross_val - INFO - Fold 12: Training LogisticRegression is done - NAC
+2026-04-28 11:20:15,841 - cross_val - INFO - Fold 12: Testing LogisticRegression - NAC
+2026-04-28 11:20:15,841 - cross_val - INFO - Fold 12: Training SVM in progress - NAC
+2026-04-28 11:20:16,055 - cross_val - INFO - Fold 12: Training SVM is done - NAC
+2026-04-28 11:20:16,056 - cross_val - INFO - Fold 12: Testing SVM - NAC
+2026-04-28 11:20:16,093 - cross_val - INFO - Fold 12: Training AdaBoost in progress - NAC
+2026-04-28 11:20:16,147 - cross_val - INFO - Fold 12: Training AdaBoost is done - NAC
+2026-04-28 11:20:16,148 - cross_val - INFO - Fold 12: Testing AdaBoost - NAC
+2026-04-28 11:20:16,150 - cross_val - INFO - Fold 12: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:16,151 - cross_val - INFO - Fold 12: Training NaiveBayes is done - NAC
+2026-04-28 11:20:16,151 - cross_val - INFO - Fold 12: Testing NaiveBayes - NAC
+2026-04-28 11:20:16,151 - cross_val - INFO - Fold 12: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:16,332 - cross_val - INFO - Fold 12: Training GradientBoosting is done - NAC
+2026-04-28 11:20:16,332 - cross_val - INFO - Fold 12: Testing GradientBoosting - NAC
+2026-04-28 11:20:16,333 - cross_val - INFO - Fold 12: Training Bagging in progress - NAC
+2026-04-28 11:20:16,371 - cross_val - INFO - Fold 12: Training Bagging is done - NAC
+2026-04-28 11:20:16,371 - cross_val - INFO - Fold 12: Testing Bagging - NAC
+2026-04-28 11:20:16,372 - cross_val - INFO - Fold 12: Training XGBoost in progress - NAC
+2026-04-28 11:20:16,420 - cross_val - INFO - Fold 12: Training XGBoost is done - NAC
+2026-04-28 11:20:16,420 - cross_val - INFO - Fold 12: Testing XGBoost - NAC
+2026-04-28 11:20:16,420 - cross_val - INFO - Fold 13
+2026-04-28 11:20:16,423 - cross_val - INFO - Fold 13: Training DecisionTree in progress - NAC
+2026-04-28 11:20:16,431 - cross_val - INFO - Fold 13: Training DecisionTree is done - NAC
+2026-04-28 11:20:16,432 - cross_val - INFO - Fold 13: Testing DecisionTree - NAC
+2026-04-28 11:20:16,432 - cross_val - INFO - Fold 13: Training RandomForest in progress - NAC
+2026-04-28 11:20:16,709 - cross_val - INFO - Fold 13: Training RandomForest is done - NAC
+2026-04-28 11:20:16,709 - cross_val - INFO - Fold 13: Testing RandomForest - NAC
+2026-04-28 11:20:16,715 - cross_val - INFO - Fold 13: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:16,716 - cross_val - INFO - Fold 13: Training LogisticRegression is done - NAC
+2026-04-28 11:20:16,716 - cross_val - INFO - Fold 13: Testing LogisticRegression - NAC
+2026-04-28 11:20:16,716 - cross_val - INFO - Fold 13: Training SVM in progress - NAC
+2026-04-28 11:20:17,019 - cross_val - INFO - Fold 13: Training SVM is done - NAC
+2026-04-28 11:20:17,019 - cross_val - INFO - Fold 13: Testing SVM - NAC
+2026-04-28 11:20:17,045 - cross_val - INFO - Fold 13: Training AdaBoost in progress - NAC
+2026-04-28 11:20:17,106 - cross_val - INFO - Fold 13: Training AdaBoost is done - NAC
+2026-04-28 11:20:17,106 - cross_val - INFO - Fold 13: Testing AdaBoost - NAC
+2026-04-28 11:20:17,108 - cross_val - INFO - Fold 13: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:17,109 - cross_val - INFO - Fold 13: Training NaiveBayes is done - NAC
+2026-04-28 11:20:17,109 - cross_val - INFO - Fold 13: Testing NaiveBayes - NAC
+2026-04-28 11:20:17,109 - cross_val - INFO - Fold 13: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:17,350 - cross_val - INFO - Fold 13: Training GradientBoosting is done - NAC
+2026-04-28 11:20:17,350 - cross_val - INFO - Fold 13: Testing GradientBoosting - NAC
+2026-04-28 11:20:17,350 - cross_val - INFO - Fold 13: Training Bagging in progress - NAC
+2026-04-28 11:20:17,401 - cross_val - INFO - Fold 13: Training Bagging is done - NAC
+2026-04-28 11:20:17,401 - cross_val - INFO - Fold 13: Testing Bagging - NAC
+2026-04-28 11:20:17,402 - cross_val - INFO - Fold 13: Training XGBoost in progress - NAC
+2026-04-28 11:20:17,444 - cross_val - INFO - Fold 13: Training XGBoost is done - NAC
+2026-04-28 11:20:17,444 - cross_val - INFO - Fold 13: Testing XGBoost - NAC
+2026-04-28 11:20:17,445 - cross_val - INFO - Fold 14
+2026-04-28 11:20:17,447 - cross_val - INFO - Fold 14: Training DecisionTree in progress - NAC
+2026-04-28 11:20:17,451 - cross_val - INFO - Fold 14: Training DecisionTree is done - NAC
+2026-04-28 11:20:17,451 - cross_val - INFO - Fold 14: Testing DecisionTree - NAC
+2026-04-28 11:20:17,452 - cross_val - INFO - Fold 14: Training RandomForest in progress - NAC
+2026-04-28 11:20:17,616 - cross_val - INFO - Fold 14: Training RandomForest is done - NAC
+2026-04-28 11:20:17,616 - cross_val - INFO - Fold 14: Testing RandomForest - NAC
+2026-04-28 11:20:17,625 - cross_val - INFO - Fold 14: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:17,627 - cross_val - INFO - Fold 14: Training LogisticRegression is done - NAC
+2026-04-28 11:20:17,627 - cross_val - INFO - Fold 14: Testing LogisticRegression - NAC
+2026-04-28 11:20:17,627 - cross_val - INFO - Fold 14: Training SVM in progress - NAC
+2026-04-28 11:20:17,732 - cross_val - INFO - Fold 14: Training SVM is done - NAC
+2026-04-28 11:20:17,732 - cross_val - INFO - Fold 14: Testing SVM - NAC
+2026-04-28 11:20:17,772 - cross_val - INFO - Fold 14: Training AdaBoost in progress - NAC
+2026-04-28 11:20:17,818 - cross_val - INFO - Fold 14: Training AdaBoost is done - NAC
+2026-04-28 11:20:17,819 - cross_val - INFO - Fold 14: Testing AdaBoost - NAC
+2026-04-28 11:20:17,822 - cross_val - INFO - Fold 14: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:17,822 - cross_val - INFO - Fold 14: Training NaiveBayes is done - NAC
+2026-04-28 11:20:17,822 - cross_val - INFO - Fold 14: Testing NaiveBayes - NAC
+2026-04-28 11:20:17,822 - cross_val - INFO - Fold 14: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:17,959 - cross_val - INFO - Fold 14: Training GradientBoosting is done - NAC
+2026-04-28 11:20:17,959 - cross_val - INFO - Fold 14: Testing GradientBoosting - NAC
+2026-04-28 11:20:17,960 - cross_val - INFO - Fold 14: Training Bagging in progress - NAC
+2026-04-28 11:20:17,989 - cross_val - INFO - Fold 14: Training Bagging is done - NAC
+2026-04-28 11:20:17,989 - cross_val - INFO - Fold 14: Testing Bagging - NAC
+2026-04-28 11:20:17,990 - cross_val - INFO - Fold 14: Training XGBoost in progress - NAC
+2026-04-28 11:20:18,029 - cross_val - INFO - Fold 14: Training XGBoost is done - NAC
+2026-04-28 11:20:18,029 - cross_val - INFO - Fold 14: Testing XGBoost - NAC
+2026-04-28 11:20:18,030 - cross_val - INFO - Fold 15
+2026-04-28 11:20:18,032 - cross_val - INFO - Fold 15: Training DecisionTree in progress - NAC
+2026-04-28 11:20:18,037 - cross_val - INFO - Fold 15: Training DecisionTree is done - NAC
+2026-04-28 11:20:18,037 - cross_val - INFO - Fold 15: Testing DecisionTree - NAC
+2026-04-28 11:20:18,037 - cross_val - INFO - Fold 15: Training RandomForest in progress - NAC
+2026-04-28 11:20:18,244 - cross_val - INFO - Fold 15: Training RandomForest is done - NAC
+2026-04-28 11:20:18,244 - cross_val - INFO - Fold 15: Testing RandomForest - NAC
+2026-04-28 11:20:18,251 - cross_val - INFO - Fold 15: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:18,253 - cross_val - INFO - Fold 15: Training LogisticRegression is done - NAC
+2026-04-28 11:20:18,253 - cross_val - INFO - Fold 15: Testing LogisticRegression - NAC
+2026-04-28 11:20:18,253 - cross_val - INFO - Fold 15: Training SVM in progress - NAC
+2026-04-28 11:20:18,440 - cross_val - INFO - Fold 15: Training SVM is done - NAC
+2026-04-28 11:20:18,440 - cross_val - INFO - Fold 15: Testing SVM - NAC
+2026-04-28 11:20:18,476 - cross_val - INFO - Fold 15: Training AdaBoost in progress - NAC
+2026-04-28 11:20:18,530 - cross_val - INFO - Fold 15: Training AdaBoost is done - NAC
+2026-04-28 11:20:18,530 - cross_val - INFO - Fold 15: Testing AdaBoost - NAC
+2026-04-28 11:20:18,533 - cross_val - INFO - Fold 15: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:18,533 - cross_val - INFO - Fold 15: Training NaiveBayes is done - NAC
+2026-04-28 11:20:18,533 - cross_val - INFO - Fold 15: Testing NaiveBayes - NAC
+2026-04-28 11:20:18,534 - cross_val - INFO - Fold 15: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:18,707 - cross_val - INFO - Fold 15: Training GradientBoosting is done - NAC
+2026-04-28 11:20:18,707 - cross_val - INFO - Fold 15: Testing GradientBoosting - NAC
+2026-04-28 11:20:18,707 - cross_val - INFO - Fold 15: Training Bagging in progress - NAC
+2026-04-28 11:20:18,742 - cross_val - INFO - Fold 15: Training Bagging is done - NAC
+2026-04-28 11:20:18,742 - cross_val - INFO - Fold 15: Testing Bagging - NAC
+2026-04-28 11:20:18,743 - cross_val - INFO - Fold 15: Training XGBoost in progress - NAC
+2026-04-28 11:20:18,903 - cross_val - INFO - Fold 15: Training XGBoost is done - NAC
+2026-04-28 11:20:18,903 - cross_val - INFO - Fold 15: Testing XGBoost - NAC
+2026-04-28 11:20:18,904 - cross_val - INFO - Fold 16
+2026-04-28 11:20:18,907 - cross_val - INFO - Fold 16: Training DecisionTree in progress - NAC
+2026-04-28 11:20:18,912 - cross_val - INFO - Fold 16: Training DecisionTree is done - NAC
+2026-04-28 11:20:18,912 - cross_val - INFO - Fold 16: Testing DecisionTree - NAC
+2026-04-28 11:20:18,912 - cross_val - INFO - Fold 16: Training RandomForest in progress - NAC
+2026-04-28 11:20:19,120 - cross_val - INFO - Fold 16: Training RandomForest is done - NAC
+2026-04-28 11:20:19,121 - cross_val - INFO - Fold 16: Testing RandomForest - NAC
+2026-04-28 11:20:19,129 - cross_val - INFO - Fold 16: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:19,130 - cross_val - INFO - Fold 16: Training LogisticRegression is done - NAC
+2026-04-28 11:20:19,130 - cross_val - INFO - Fold 16: Testing LogisticRegression - NAC
+2026-04-28 11:20:19,131 - cross_val - INFO - Fold 16: Training SVM in progress - NAC
+2026-04-28 11:20:19,312 - cross_val - INFO - Fold 16: Training SVM is done - NAC
+2026-04-28 11:20:19,313 - cross_val - INFO - Fold 16: Testing SVM - NAC
+2026-04-28 11:20:19,351 - cross_val - INFO - Fold 16: Training AdaBoost in progress - NAC
+2026-04-28 11:20:19,405 - cross_val - INFO - Fold 16: Training AdaBoost is done - NAC
+2026-04-28 11:20:19,405 - cross_val - INFO - Fold 16: Testing AdaBoost - NAC
+2026-04-28 11:20:19,408 - cross_val - INFO - Fold 16: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:19,409 - cross_val - INFO - Fold 16: Training NaiveBayes is done - NAC
+2026-04-28 11:20:19,409 - cross_val - INFO - Fold 16: Testing NaiveBayes - NAC
+2026-04-28 11:20:19,409 - cross_val - INFO - Fold 16: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:19,577 - cross_val - INFO - Fold 16: Training GradientBoosting is done - NAC
+2026-04-28 11:20:19,577 - cross_val - INFO - Fold 16: Testing GradientBoosting - NAC
+2026-04-28 11:20:19,578 - cross_val - INFO - Fold 16: Training Bagging in progress - NAC
+2026-04-28 11:20:19,615 - cross_val - INFO - Fold 16: Training Bagging is done - NAC
+2026-04-28 11:20:19,615 - cross_val - INFO - Fold 16: Testing Bagging - NAC
+2026-04-28 11:20:19,616 - cross_val - INFO - Fold 16: Training XGBoost in progress - NAC
+2026-04-28 11:20:19,656 - cross_val - INFO - Fold 16: Training XGBoost is done - NAC
+2026-04-28 11:20:19,656 - cross_val - INFO - Fold 16: Testing XGBoost - NAC
+2026-04-28 11:20:19,657 - cross_val - INFO - Fold 17
+2026-04-28 11:20:19,659 - cross_val - INFO - Fold 17: Training DecisionTree in progress - NAC
+2026-04-28 11:20:19,665 - cross_val - INFO - Fold 17: Training DecisionTree is done - NAC
+2026-04-28 11:20:19,665 - cross_val - INFO - Fold 17: Testing DecisionTree - NAC
+2026-04-28 11:20:19,666 - cross_val - INFO - Fold 17: Training RandomForest in progress - NAC
+2026-04-28 11:20:19,893 - cross_val - INFO - Fold 17: Training RandomForest is done - NAC
+2026-04-28 11:20:19,893 - cross_val - INFO - Fold 17: Testing RandomForest - NAC
+2026-04-28 11:20:19,900 - cross_val - INFO - Fold 17: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:19,901 - cross_val - INFO - Fold 17: Training LogisticRegression is done - NAC
+2026-04-28 11:20:19,901 - cross_val - INFO - Fold 17: Testing LogisticRegression - NAC
+2026-04-28 11:20:19,902 - cross_val - INFO - Fold 17: Training SVM in progress - NAC
+2026-04-28 11:20:20,119 - cross_val - INFO - Fold 17: Training SVM is done - NAC
+2026-04-28 11:20:20,119 - cross_val - INFO - Fold 17: Testing SVM - NAC
+2026-04-28 11:20:20,158 - cross_val - INFO - Fold 17: Training AdaBoost in progress - NAC
+2026-04-28 11:20:20,214 - cross_val - INFO - Fold 17: Training AdaBoost is done - NAC
+2026-04-28 11:20:20,214 - cross_val - INFO - Fold 17: Testing AdaBoost - NAC
+2026-04-28 11:20:20,216 - cross_val - INFO - Fold 17: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:20,217 - cross_val - INFO - Fold 17: Training NaiveBayes is done - NAC
+2026-04-28 11:20:20,217 - cross_val - INFO - Fold 17: Testing NaiveBayes - NAC
+2026-04-28 11:20:20,217 - cross_val - INFO - Fold 17: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:20,399 - cross_val - INFO - Fold 17: Training GradientBoosting is done - NAC
+2026-04-28 11:20:20,399 - cross_val - INFO - Fold 17: Testing GradientBoosting - NAC
+2026-04-28 11:20:20,399 - cross_val - INFO - Fold 17: Training Bagging in progress - NAC
+2026-04-28 11:20:20,438 - cross_val - INFO - Fold 17: Training Bagging is done - NAC
+2026-04-28 11:20:20,438 - cross_val - INFO - Fold 17: Testing Bagging - NAC
+2026-04-28 11:20:20,439 - cross_val - INFO - Fold 17: Training XGBoost in progress - NAC
+2026-04-28 11:20:20,507 - cross_val - INFO - Fold 17: Training XGBoost is done - NAC
+2026-04-28 11:20:20,507 - cross_val - INFO - Fold 17: Testing XGBoost - NAC
+2026-04-28 11:20:20,508 - cross_val - INFO - Fold 18
+2026-04-28 11:20:20,510 - cross_val - INFO - Fold 18: Training DecisionTree in progress - NAC
+2026-04-28 11:20:20,516 - cross_val - INFO - Fold 18: Training DecisionTree is done - NAC
+2026-04-28 11:20:20,516 - cross_val - INFO - Fold 18: Testing DecisionTree - NAC
+2026-04-28 11:20:20,516 - cross_val - INFO - Fold 18: Training RandomForest in progress - NAC
+2026-04-28 11:20:20,726 - cross_val - INFO - Fold 18: Training RandomForest is done - NAC
+2026-04-28 11:20:20,726 - cross_val - INFO - Fold 18: Testing RandomForest - NAC
+2026-04-28 11:20:20,733 - cross_val - INFO - Fold 18: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:20,735 - cross_val - INFO - Fold 18: Training LogisticRegression is done - NAC
+2026-04-28 11:20:20,735 - cross_val - INFO - Fold 18: Testing LogisticRegression - NAC
+2026-04-28 11:20:20,735 - cross_val - INFO - Fold 18: Training SVM in progress - NAC
+2026-04-28 11:20:20,935 - cross_val - INFO - Fold 18: Training SVM is done - NAC
+2026-04-28 11:20:20,935 - cross_val - INFO - Fold 18: Testing SVM - NAC
+2026-04-28 11:20:20,972 - cross_val - INFO - Fold 18: Training AdaBoost in progress - NAC
+2026-04-28 11:20:21,026 - cross_val - INFO - Fold 18: Training AdaBoost is done - NAC
+2026-04-28 11:20:21,026 - cross_val - INFO - Fold 18: Testing AdaBoost - NAC
+2026-04-28 11:20:21,029 - cross_val - INFO - Fold 18: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:21,029 - cross_val - INFO - Fold 18: Training NaiveBayes is done - NAC
+2026-04-28 11:20:21,029 - cross_val - INFO - Fold 18: Testing NaiveBayes - NAC
+2026-04-28 11:20:21,030 - cross_val - INFO - Fold 18: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:21,204 - cross_val - INFO - Fold 18: Training GradientBoosting is done - NAC
+2026-04-28 11:20:21,204 - cross_val - INFO - Fold 18: Testing GradientBoosting - NAC
+2026-04-28 11:20:21,205 - cross_val - INFO - Fold 18: Training Bagging in progress - NAC
+2026-04-28 11:20:21,241 - cross_val - INFO - Fold 18: Training Bagging is done - NAC
+2026-04-28 11:20:21,241 - cross_val - INFO - Fold 18: Testing Bagging - NAC
+2026-04-28 11:20:21,242 - cross_val - INFO - Fold 18: Training XGBoost in progress - NAC
+2026-04-28 11:20:21,284 - cross_val - INFO - Fold 18: Training XGBoost is done - NAC
+2026-04-28 11:20:21,284 - cross_val - INFO - Fold 18: Testing XGBoost - NAC
+2026-04-28 11:20:21,284 - cross_val - INFO - Fold 19
+2026-04-28 11:20:21,287 - cross_val - INFO - Fold 19: Training DecisionTree in progress - NAC
+2026-04-28 11:20:21,291 - cross_val - INFO - Fold 19: Training DecisionTree is done - NAC
+2026-04-28 11:20:21,291 - cross_val - INFO - Fold 19: Testing DecisionTree - NAC
+2026-04-28 11:20:21,291 - cross_val - INFO - Fold 19: Training RandomForest in progress - NAC
+2026-04-28 11:20:21,469 - cross_val - INFO - Fold 19: Training RandomForest is done - NAC
+2026-04-28 11:20:21,469 - cross_val - INFO - Fold 19: Testing RandomForest - NAC
+2026-04-28 11:20:21,478 - cross_val - INFO - Fold 19: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:21,480 - cross_val - INFO - Fold 19: Training LogisticRegression is done - NAC
+2026-04-28 11:20:21,480 - cross_val - INFO - Fold 19: Testing LogisticRegression - NAC
+2026-04-28 11:20:21,480 - cross_val - INFO - Fold 19: Training SVM in progress - NAC
+2026-04-28 11:20:21,607 - cross_val - INFO - Fold 19: Training SVM is done - NAC
+2026-04-28 11:20:21,607 - cross_val - INFO - Fold 19: Testing SVM - NAC
+2026-04-28 11:20:21,647 - cross_val - INFO - Fold 19: Training AdaBoost in progress - NAC
+2026-04-28 11:20:21,695 - cross_val - INFO - Fold 19: Training AdaBoost is done - NAC
+2026-04-28 11:20:21,695 - cross_val - INFO - Fold 19: Testing AdaBoost - NAC
+2026-04-28 11:20:21,698 - cross_val - INFO - Fold 19: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:21,699 - cross_val - INFO - Fold 19: Training NaiveBayes is done - NAC
+2026-04-28 11:20:21,699 - cross_val - INFO - Fold 19: Testing NaiveBayes - NAC
+2026-04-28 11:20:21,699 - cross_val - INFO - Fold 19: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:21,846 - cross_val - INFO - Fold 19: Training GradientBoosting is done - NAC
+2026-04-28 11:20:21,846 - cross_val - INFO - Fold 19: Testing GradientBoosting - NAC
+2026-04-28 11:20:21,847 - cross_val - INFO - Fold 19: Training Bagging in progress - NAC
+2026-04-28 11:20:21,876 - cross_val - INFO - Fold 19: Training Bagging is done - NAC
+2026-04-28 11:20:21,877 - cross_val - INFO - Fold 19: Testing Bagging - NAC
+2026-04-28 11:20:21,878 - cross_val - INFO - Fold 19: Training XGBoost in progress - NAC
+2026-04-28 11:20:21,922 - cross_val - INFO - Fold 19: Training XGBoost is done - NAC
+2026-04-28 11:20:21,923 - cross_val - INFO - Fold 19: Testing XGBoost - NAC
+2026-04-28 11:20:21,923 - cross_val - INFO - Fold 20
+2026-04-28 11:20:21,926 - cross_val - INFO - Fold 20: Training DecisionTree in progress - NAC
+2026-04-28 11:20:21,930 - cross_val - INFO - Fold 20: Training DecisionTree is done - NAC
+2026-04-28 11:20:21,931 - cross_val - INFO - Fold 20: Testing DecisionTree - NAC
+2026-04-28 11:20:21,931 - cross_val - INFO - Fold 20: Training RandomForest in progress - NAC
+2026-04-28 11:20:22,103 - cross_val - INFO - Fold 20: Training RandomForest is done - NAC
+2026-04-28 11:20:22,103 - cross_val - INFO - Fold 20: Testing RandomForest - NAC
+2026-04-28 11:20:22,113 - cross_val - INFO - Fold 20: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:22,114 - cross_val - INFO - Fold 20: Training LogisticRegression is done - NAC
+2026-04-28 11:20:22,114 - cross_val - INFO - Fold 20: Testing LogisticRegression - NAC
+2026-04-28 11:20:22,114 - cross_val - INFO - Fold 20: Training SVM in progress - NAC
+2026-04-28 11:20:22,242 - cross_val - INFO - Fold 20: Training SVM is done - NAC
+2026-04-28 11:20:22,242 - cross_val - INFO - Fold 20: Testing SVM - NAC
+2026-04-28 11:20:22,284 - cross_val - INFO - Fold 20: Training AdaBoost in progress - NAC
+2026-04-28 11:20:22,332 - cross_val - INFO - Fold 20: Training AdaBoost is done - NAC
+2026-04-28 11:20:22,332 - cross_val - INFO - Fold 20: Testing AdaBoost - NAC
+2026-04-28 11:20:22,335 - cross_val - INFO - Fold 20: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:22,335 - cross_val - INFO - Fold 20: Training NaiveBayes is done - NAC
+2026-04-28 11:20:22,336 - cross_val - INFO - Fold 20: Testing NaiveBayes - NAC
+2026-04-28 11:20:22,336 - cross_val - INFO - Fold 20: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:22,485 - cross_val - INFO - Fold 20: Training GradientBoosting is done - NAC
+2026-04-28 11:20:22,485 - cross_val - INFO - Fold 20: Testing GradientBoosting - NAC
+2026-04-28 11:20:22,486 - cross_val - INFO - Fold 20: Training Bagging in progress - NAC
+2026-04-28 11:20:22,516 - cross_val - INFO - Fold 20: Training Bagging is done - NAC
+2026-04-28 11:20:22,516 - cross_val - INFO - Fold 20: Testing Bagging - NAC
+2026-04-28 11:20:22,517 - cross_val - INFO - Fold 20: Training XGBoost in progress - NAC
+2026-04-28 11:20:22,562 - cross_val - INFO - Fold 20: Training XGBoost is done - NAC
+2026-04-28 11:20:22,562 - cross_val - INFO - Fold 20: Testing XGBoost - NAC
+2026-04-28 11:20:22,563 - cross_val - INFO - Fold 21
+2026-04-28 11:20:22,565 - cross_val - INFO - Fold 21: Training DecisionTree in progress - NAC
+2026-04-28 11:20:22,570 - cross_val - INFO - Fold 21: Training DecisionTree is done - NAC
+2026-04-28 11:20:22,570 - cross_val - INFO - Fold 21: Testing DecisionTree - NAC
+2026-04-28 11:20:22,571 - cross_val - INFO - Fold 21: Training RandomForest in progress - NAC
+2026-04-28 11:20:22,768 - cross_val - INFO - Fold 21: Training RandomForest is done - NAC
+2026-04-28 11:20:22,768 - cross_val - INFO - Fold 21: Testing RandomForest - NAC
+2026-04-28 11:20:22,777 - cross_val - INFO - Fold 21: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:22,778 - cross_val - INFO - Fold 21: Training LogisticRegression is done - NAC
+2026-04-28 11:20:22,778 - cross_val - INFO - Fold 21: Testing LogisticRegression - NAC
+2026-04-28 11:20:22,778 - cross_val - INFO - Fold 21: Training SVM in progress - NAC
+2026-04-28 11:20:22,929 - cross_val - INFO - Fold 21: Training SVM is done - NAC
+2026-04-28 11:20:22,929 - cross_val - INFO - Fold 21: Testing SVM - NAC
+2026-04-28 11:20:22,968 - cross_val - INFO - Fold 21: Training AdaBoost in progress - NAC
+2026-04-28 11:20:23,020 - cross_val - INFO - Fold 21: Training AdaBoost is done - NAC
+2026-04-28 11:20:23,020 - cross_val - INFO - Fold 21: Testing AdaBoost - NAC
+2026-04-28 11:20:23,023 - cross_val - INFO - Fold 21: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:23,023 - cross_val - INFO - Fold 21: Training NaiveBayes is done - NAC
+2026-04-28 11:20:23,023 - cross_val - INFO - Fold 21: Testing NaiveBayes - NAC
+2026-04-28 11:20:23,023 - cross_val - INFO - Fold 21: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:23,180 - cross_val - INFO - Fold 21: Training GradientBoosting is done - NAC
+2026-04-28 11:20:23,180 - cross_val - INFO - Fold 21: Testing GradientBoosting - NAC
+2026-04-28 11:20:23,181 - cross_val - INFO - Fold 21: Training Bagging in progress - NAC
+2026-04-28 11:20:23,215 - cross_val - INFO - Fold 21: Training Bagging is done - NAC
+2026-04-28 11:20:23,215 - cross_val - INFO - Fold 21: Testing Bagging - NAC
+2026-04-28 11:20:23,216 - cross_val - INFO - Fold 21: Training XGBoost in progress - NAC
+2026-04-28 11:20:23,262 - cross_val - INFO - Fold 21: Training XGBoost is done - NAC
+2026-04-28 11:20:23,262 - cross_val - INFO - Fold 21: Testing XGBoost - NAC
+2026-04-28 11:20:23,263 - cross_val - INFO - Fold 22
+2026-04-28 11:20:23,265 - cross_val - INFO - Fold 22: Training DecisionTree in progress - NAC
+2026-04-28 11:20:23,270 - cross_val - INFO - Fold 22: Training DecisionTree is done - NAC
+2026-04-28 11:20:23,270 - cross_val - INFO - Fold 22: Testing DecisionTree - NAC
+2026-04-28 11:20:23,270 - cross_val - INFO - Fold 22: Training RandomForest in progress - NAC
+2026-04-28 11:20:23,478 - cross_val - INFO - Fold 22: Training RandomForest is done - NAC
+2026-04-28 11:20:23,478 - cross_val - INFO - Fold 22: Testing RandomForest - NAC
+2026-04-28 11:20:23,487 - cross_val - INFO - Fold 22: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:23,488 - cross_val - INFO - Fold 22: Training LogisticRegression is done - NAC
+2026-04-28 11:20:23,488 - cross_val - INFO - Fold 22: Testing LogisticRegression - NAC
+2026-04-28 11:20:23,488 - cross_val - INFO - Fold 22: Training SVM in progress - NAC
+2026-04-28 11:20:23,643 - cross_val - INFO - Fold 22: Training SVM is done - NAC
+2026-04-28 11:20:23,643 - cross_val - INFO - Fold 22: Testing SVM - NAC
+2026-04-28 11:20:23,687 - cross_val - INFO - Fold 22: Training AdaBoost in progress - NAC
+2026-04-28 11:20:23,737 - cross_val - INFO - Fold 22: Training AdaBoost is done - NAC
+2026-04-28 11:20:23,737 - cross_val - INFO - Fold 22: Testing AdaBoost - NAC
+2026-04-28 11:20:23,740 - cross_val - INFO - Fold 22: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:23,741 - cross_val - INFO - Fold 22: Training NaiveBayes is done - NAC
+2026-04-28 11:20:23,741 - cross_val - INFO - Fold 22: Testing NaiveBayes - NAC
+2026-04-28 11:20:23,741 - cross_val - INFO - Fold 22: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:23,896 - cross_val - INFO - Fold 22: Training GradientBoosting is done - NAC
+2026-04-28 11:20:23,896 - cross_val - INFO - Fold 22: Testing GradientBoosting - NAC
+2026-04-28 11:20:23,896 - cross_val - INFO - Fold 22: Training Bagging in progress - NAC
+2026-04-28 11:20:23,931 - cross_val - INFO - Fold 22: Training Bagging is done - NAC
+2026-04-28 11:20:23,931 - cross_val - INFO - Fold 22: Testing Bagging - NAC
+2026-04-28 11:20:23,932 - cross_val - INFO - Fold 22: Training XGBoost in progress - NAC
+2026-04-28 11:20:23,975 - cross_val - INFO - Fold 22: Training XGBoost is done - NAC
+2026-04-28 11:20:23,975 - cross_val - INFO - Fold 22: Testing XGBoost - NAC
+2026-04-28 11:20:23,975 - cross_val - INFO - Fold 23
+2026-04-28 11:20:23,978 - cross_val - INFO - Fold 23: Training DecisionTree in progress - NAC
+2026-04-28 11:20:23,984 - cross_val - INFO - Fold 23: Training DecisionTree is done - NAC
+2026-04-28 11:20:23,984 - cross_val - INFO - Fold 23: Testing DecisionTree - NAC
+2026-04-28 11:20:23,984 - cross_val - INFO - Fold 23: Training RandomForest in progress - NAC
+2026-04-28 11:20:24,215 - cross_val - INFO - Fold 23: Training RandomForest is done - NAC
+2026-04-28 11:20:24,216 - cross_val - INFO - Fold 23: Testing RandomForest - NAC
+2026-04-28 11:20:24,222 - cross_val - INFO - Fold 23: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:24,224 - cross_val - INFO - Fold 23: Training LogisticRegression is done - NAC
+2026-04-28 11:20:24,224 - cross_val - INFO - Fold 23: Testing LogisticRegression - NAC
+2026-04-28 11:20:24,224 - cross_val - INFO - Fold 23: Training SVM in progress - NAC
+2026-04-28 11:20:24,456 - cross_val - INFO - Fold 23: Training SVM is done - NAC
+2026-04-28 11:20:24,457 - cross_val - INFO - Fold 23: Testing SVM - NAC
+2026-04-28 11:20:24,491 - cross_val - INFO - Fold 23: Training AdaBoost in progress - NAC
+2026-04-28 11:20:24,547 - cross_val - INFO - Fold 23: Training AdaBoost is done - NAC
+2026-04-28 11:20:24,547 - cross_val - INFO - Fold 23: Testing AdaBoost - NAC
+2026-04-28 11:20:24,550 - cross_val - INFO - Fold 23: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:24,550 - cross_val - INFO - Fold 23: Training NaiveBayes is done - NAC
+2026-04-28 11:20:24,550 - cross_val - INFO - Fold 23: Testing NaiveBayes - NAC
+2026-04-28 11:20:24,551 - cross_val - INFO - Fold 23: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:24,740 - cross_val - INFO - Fold 23: Training GradientBoosting is done - NAC
+2026-04-28 11:20:24,740 - cross_val - INFO - Fold 23: Testing GradientBoosting - NAC
+2026-04-28 11:20:24,741 - cross_val - INFO - Fold 23: Training Bagging in progress - NAC
+2026-04-28 11:20:24,781 - cross_val - INFO - Fold 23: Training Bagging is done - NAC
+2026-04-28 11:20:24,781 - cross_val - INFO - Fold 23: Testing Bagging - NAC
+2026-04-28 11:20:24,782 - cross_val - INFO - Fold 23: Training XGBoost in progress - NAC
+2026-04-28 11:20:24,826 - cross_val - INFO - Fold 23: Training XGBoost is done - NAC
+2026-04-28 11:20:24,826 - cross_val - INFO - Fold 23: Testing XGBoost - NAC
+2026-04-28 11:20:24,827 - cross_val - INFO - Fold 24
+2026-04-28 11:20:24,830 - cross_val - INFO - Fold 24: Training DecisionTree in progress - NAC
+2026-04-28 11:20:24,836 - cross_val - INFO - Fold 24: Training DecisionTree is done - NAC
+2026-04-28 11:20:24,836 - cross_val - INFO - Fold 24: Testing DecisionTree - NAC
+2026-04-28 11:20:24,836 - cross_val - INFO - Fold 24: Training RandomForest in progress - NAC
+2026-04-28 11:20:25,067 - cross_val - INFO - Fold 24: Training RandomForest is done - NAC
+2026-04-28 11:20:25,067 - cross_val - INFO - Fold 24: Testing RandomForest - NAC
+2026-04-28 11:20:25,074 - cross_val - INFO - Fold 24: Training LogisticRegression in progress - NAC
+2026-04-28 11:20:25,075 - cross_val - INFO - Fold 24: Training LogisticRegression is done - NAC
+2026-04-28 11:20:25,075 - cross_val - INFO - Fold 24: Testing LogisticRegression - NAC
+2026-04-28 11:20:25,075 - cross_val - INFO - Fold 24: Training SVM in progress - NAC
+2026-04-28 11:20:25,287 - cross_val - INFO - Fold 24: Training SVM is done - NAC
+2026-04-28 11:20:25,287 - cross_val - INFO - Fold 24: Testing SVM - NAC
+2026-04-28 11:20:25,323 - cross_val - INFO - Fold 24: Training AdaBoost in progress - NAC
+2026-04-28 11:20:25,378 - cross_val - INFO - Fold 24: Training AdaBoost is done - NAC
+2026-04-28 11:20:25,378 - cross_val - INFO - Fold 24: Testing AdaBoost - NAC
+2026-04-28 11:20:25,381 - cross_val - INFO - Fold 24: Training NaiveBayes in progress - NAC
+2026-04-28 11:20:25,382 - cross_val - INFO - Fold 24: Training NaiveBayes is done - NAC
+2026-04-28 11:20:25,382 - cross_val - INFO - Fold 24: Testing NaiveBayes - NAC
+2026-04-28 11:20:25,382 - cross_val - INFO - Fold 24: Training GradientBoosting in progress - NAC
+2026-04-28 11:20:25,576 - cross_val - INFO - Fold 24: Training GradientBoosting is done - NAC
+2026-04-28 11:20:25,576 - cross_val - INFO - Fold 24: Testing GradientBoosting - NAC
+2026-04-28 11:20:25,576 - cross_val - INFO - Fold 24: Training Bagging in progress - NAC
+2026-04-28 11:20:25,617 - cross_val - INFO - Fold 24: Training Bagging is done - NAC
+2026-04-28 11:20:25,617 - cross_val - INFO - Fold 24: Testing Bagging - NAC
+2026-04-28 11:20:25,618 - cross_val - INFO - Fold 24: Training XGBoost in progress - NAC
+2026-04-28 11:20:25,661 - cross_val - INFO - Fold 24: Training XGBoost is done - NAC
+2026-04-28 11:20:25,661 - cross_val - INFO - Fold 24: Testing XGBoost - NAC
+2026-04-28 11:20:25,662 - __main__ - INFO - Done Predicting
+2026-04-28 11:20:25,692 - __main__ - INFO - Creating Folder for Cross-validation Predictions
+2026-04-28 11:20:25,692 - __main__ - INFO - Saving Output
+2026-04-28 11:20:27,190 - __main__ - INFO - Predictions Path: outputs/cross_val_predictions/benbow_predictions_0.xlsx
+2026-04-28 11:20:27,191 - __main__ - INFO - Done
+2026-04-28 11:20:27,191 - __main__ - INFO - --- Finish ---
+2026-04-28 11:20:27,191 - __main__ - INFO -  --- Process took 22.149 seconds ---
+2026-04-28 11:43:38,174 - __main__ - INFO - Working Path: /Users/WijayaA-Dev/Documents/ensemble_representation/ensemble-data-representations-for-hgt-detection
+2026-04-28 11:43:38,174 - __main__ - INFO - Representations: ['NAC', 'GC']
+2026-04-28 11:43:38,174 - cross_val - INFO - representation Train Data with NAC
+2026-04-28 11:43:39,403 - cross_val - INFO - Fold 0
+2026-04-28 11:43:39,406 - cross_val - INFO - Fold 0: Training DecisionTree in progress - NAC
+2026-04-28 11:43:39,411 - cross_val - INFO - Fold 0: Training DecisionTree is done - NAC
+2026-04-28 11:43:39,411 - cross_val - INFO - Fold 0: Testing DecisionTree - NAC
+2026-04-28 11:43:39,411 - cross_val - INFO - Fold 0: Training RandomForest in progress - NAC
+2026-04-28 11:43:39,592 - cross_val - INFO - Fold 0: Training RandomForest is done - NAC
+2026-04-28 11:43:39,592 - cross_val - INFO - Fold 0: Testing RandomForest - NAC
+2026-04-28 11:43:39,600 - cross_val - INFO - Fold 0: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:39,603 - cross_val - INFO - Fold 0: Training LogisticRegression is done - NAC
+2026-04-28 11:43:39,603 - cross_val - INFO - Fold 0: Testing LogisticRegression - NAC
+2026-04-28 11:43:39,603 - cross_val - INFO - Fold 0: Training SVM in progress - NAC
+2026-04-28 11:43:39,764 - cross_val - INFO - Fold 0: Training SVM is done - NAC
+2026-04-28 11:43:39,764 - cross_val - INFO - Fold 0: Testing SVM - NAC
+2026-04-28 11:43:39,805 - cross_val - INFO - Fold 0: Training AdaBoost in progress - NAC
+2026-04-28 11:43:39,856 - cross_val - INFO - Fold 0: Training AdaBoost is done - NAC
+2026-04-28 11:43:39,856 - cross_val - INFO - Fold 0: Testing AdaBoost - NAC
+2026-04-28 11:43:39,859 - cross_val - INFO - Fold 0: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:39,860 - cross_val - INFO - Fold 0: Training NaiveBayes is done - NAC
+2026-04-28 11:43:39,860 - cross_val - INFO - Fold 0: Testing NaiveBayes - NAC
+2026-04-28 11:43:39,860 - cross_val - INFO - Fold 0: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:40,021 - cross_val - INFO - Fold 0: Training GradientBoosting is done - NAC
+2026-04-28 11:43:40,021 - cross_val - INFO - Fold 0: Testing GradientBoosting - NAC
+2026-04-28 11:43:40,022 - cross_val - INFO - Fold 0: Training Bagging in progress - NAC
+2026-04-28 11:43:40,055 - cross_val - INFO - Fold 0: Training Bagging is done - NAC
+2026-04-28 11:43:40,055 - cross_val - INFO - Fold 0: Testing Bagging - NAC
+2026-04-28 11:43:40,056 - cross_val - INFO - Fold 0: Training XGBoost in progress - NAC
+2026-04-28 11:43:40,101 - cross_val - INFO - Fold 0: Training XGBoost is done - NAC
+2026-04-28 11:43:40,101 - cross_val - INFO - Fold 0: Testing XGBoost - NAC
+2026-04-28 11:43:40,102 - cross_val - INFO - Fold 1
+2026-04-28 11:43:40,105 - cross_val - INFO - Fold 1: Training DecisionTree in progress - NAC
+2026-04-28 11:43:40,111 - cross_val - INFO - Fold 1: Training DecisionTree is done - NAC
+2026-04-28 11:43:40,111 - cross_val - INFO - Fold 1: Testing DecisionTree - NAC
+2026-04-28 11:43:40,111 - cross_val - INFO - Fold 1: Training RandomForest in progress - NAC
+2026-04-28 11:43:40,355 - cross_val - INFO - Fold 1: Training RandomForest is done - NAC
+2026-04-28 11:43:40,355 - cross_val - INFO - Fold 1: Testing RandomForest - NAC
+2026-04-28 11:43:40,362 - cross_val - INFO - Fold 1: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:40,363 - cross_val - INFO - Fold 1: Training LogisticRegression is done - NAC
+2026-04-28 11:43:40,363 - cross_val - INFO - Fold 1: Testing LogisticRegression - NAC
+2026-04-28 11:43:40,363 - cross_val - INFO - Fold 1: Training SVM in progress - NAC
+2026-04-28 11:43:40,606 - cross_val - INFO - Fold 1: Training SVM is done - NAC
+2026-04-28 11:43:40,606 - cross_val - INFO - Fold 1: Testing SVM - NAC
+2026-04-28 11:43:40,640 - cross_val - INFO - Fold 1: Training AdaBoost in progress - NAC
+2026-04-28 11:43:40,695 - cross_val - INFO - Fold 1: Training AdaBoost is done - NAC
+2026-04-28 11:43:40,695 - cross_val - INFO - Fold 1: Testing AdaBoost - NAC
+2026-04-28 11:43:40,698 - cross_val - INFO - Fold 1: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:40,699 - cross_val - INFO - Fold 1: Training NaiveBayes is done - NAC
+2026-04-28 11:43:40,699 - cross_val - INFO - Fold 1: Testing NaiveBayes - NAC
+2026-04-28 11:43:40,699 - cross_val - INFO - Fold 1: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:40,887 - cross_val - INFO - Fold 1: Training GradientBoosting is done - NAC
+2026-04-28 11:43:40,887 - cross_val - INFO - Fold 1: Testing GradientBoosting - NAC
+2026-04-28 11:43:40,888 - cross_val - INFO - Fold 1: Training Bagging in progress - NAC
+2026-04-28 11:43:40,933 - cross_val - INFO - Fold 1: Training Bagging is done - NAC
+2026-04-28 11:43:40,933 - cross_val - INFO - Fold 1: Testing Bagging - NAC
+2026-04-28 11:43:40,935 - cross_val - INFO - Fold 1: Training XGBoost in progress - NAC
+2026-04-28 11:43:40,981 - cross_val - INFO - Fold 1: Training XGBoost is done - NAC
+2026-04-28 11:43:40,981 - cross_val - INFO - Fold 1: Testing XGBoost - NAC
+2026-04-28 11:43:40,982 - cross_val - INFO - Fold 2
+2026-04-28 11:43:40,985 - cross_val - INFO - Fold 2: Training DecisionTree in progress - NAC
+2026-04-28 11:43:40,990 - cross_val - INFO - Fold 2: Training DecisionTree is done - NAC
+2026-04-28 11:43:40,990 - cross_val - INFO - Fold 2: Testing DecisionTree - NAC
+2026-04-28 11:43:40,990 - cross_val - INFO - Fold 2: Training RandomForest in progress - NAC
+2026-04-28 11:43:41,191 - cross_val - INFO - Fold 2: Training RandomForest is done - NAC
+2026-04-28 11:43:41,191 - cross_val - INFO - Fold 2: Testing RandomForest - NAC
+2026-04-28 11:43:41,198 - cross_val - INFO - Fold 2: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:41,200 - cross_val - INFO - Fold 2: Training LogisticRegression is done - NAC
+2026-04-28 11:43:41,200 - cross_val - INFO - Fold 2: Testing LogisticRegression - NAC
+2026-04-28 11:43:41,200 - cross_val - INFO - Fold 2: Training SVM in progress - NAC
+2026-04-28 11:43:41,375 - cross_val - INFO - Fold 2: Training SVM is done - NAC
+2026-04-28 11:43:41,375 - cross_val - INFO - Fold 2: Testing SVM - NAC
+2026-04-28 11:43:41,413 - cross_val - INFO - Fold 2: Training AdaBoost in progress - NAC
+2026-04-28 11:43:41,465 - cross_val - INFO - Fold 2: Training AdaBoost is done - NAC
+2026-04-28 11:43:41,465 - cross_val - INFO - Fold 2: Testing AdaBoost - NAC
+2026-04-28 11:43:41,467 - cross_val - INFO - Fold 2: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:41,468 - cross_val - INFO - Fold 2: Training NaiveBayes is done - NAC
+2026-04-28 11:43:41,468 - cross_val - INFO - Fold 2: Testing NaiveBayes - NAC
+2026-04-28 11:43:41,468 - cross_val - INFO - Fold 2: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:41,633 - cross_val - INFO - Fold 2: Training GradientBoosting is done - NAC
+2026-04-28 11:43:41,633 - cross_val - INFO - Fold 2: Testing GradientBoosting - NAC
+2026-04-28 11:43:41,634 - cross_val - INFO - Fold 2: Training Bagging in progress - NAC
+2026-04-28 11:43:41,667 - cross_val - INFO - Fold 2: Training Bagging is done - NAC
+2026-04-28 11:43:41,667 - cross_val - INFO - Fold 2: Testing Bagging - NAC
+2026-04-28 11:43:41,669 - cross_val - INFO - Fold 2: Training XGBoost in progress - NAC
+2026-04-28 11:43:41,715 - cross_val - INFO - Fold 2: Training XGBoost is done - NAC
+2026-04-28 11:43:41,715 - cross_val - INFO - Fold 2: Testing XGBoost - NAC
+2026-04-28 11:43:41,715 - cross_val - INFO - Fold 3
+2026-04-28 11:43:41,718 - cross_val - INFO - Fold 3: Training DecisionTree in progress - NAC
+2026-04-28 11:43:41,724 - cross_val - INFO - Fold 3: Training DecisionTree is done - NAC
+2026-04-28 11:43:41,724 - cross_val - INFO - Fold 3: Testing DecisionTree - NAC
+2026-04-28 11:43:41,724 - cross_val - INFO - Fold 3: Training RandomForest in progress - NAC
+2026-04-28 11:43:41,949 - cross_val - INFO - Fold 3: Training RandomForest is done - NAC
+2026-04-28 11:43:41,949 - cross_val - INFO - Fold 3: Testing RandomForest - NAC
+2026-04-28 11:43:41,957 - cross_val - INFO - Fold 3: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:41,958 - cross_val - INFO - Fold 3: Training LogisticRegression is done - NAC
+2026-04-28 11:43:41,958 - cross_val - INFO - Fold 3: Testing LogisticRegression - NAC
+2026-04-28 11:43:41,958 - cross_val - INFO - Fold 3: Training SVM in progress - NAC
+2026-04-28 11:43:42,144 - cross_val - INFO - Fold 3: Training SVM is done - NAC
+2026-04-28 11:43:42,144 - cross_val - INFO - Fold 3: Testing SVM - NAC
+2026-04-28 11:43:42,183 - cross_val - INFO - Fold 3: Training AdaBoost in progress - NAC
+2026-04-28 11:43:42,237 - cross_val - INFO - Fold 3: Training AdaBoost is done - NAC
+2026-04-28 11:43:42,237 - cross_val - INFO - Fold 3: Testing AdaBoost - NAC
+2026-04-28 11:43:42,240 - cross_val - INFO - Fold 3: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:42,240 - cross_val - INFO - Fold 3: Training NaiveBayes is done - NAC
+2026-04-28 11:43:42,240 - cross_val - INFO - Fold 3: Testing NaiveBayes - NAC
+2026-04-28 11:43:42,240 - cross_val - INFO - Fold 3: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:42,410 - cross_val - INFO - Fold 3: Training GradientBoosting is done - NAC
+2026-04-28 11:43:42,410 - cross_val - INFO - Fold 3: Testing GradientBoosting - NAC
+2026-04-28 11:43:42,410 - cross_val - INFO - Fold 3: Training Bagging in progress - NAC
+2026-04-28 11:43:42,449 - cross_val - INFO - Fold 3: Training Bagging is done - NAC
+2026-04-28 11:43:42,449 - cross_val - INFO - Fold 3: Testing Bagging - NAC
+2026-04-28 11:43:42,451 - cross_val - INFO - Fold 3: Training XGBoost in progress - NAC
+2026-04-28 11:43:42,561 - cross_val - INFO - Fold 3: Training XGBoost is done - NAC
+2026-04-28 11:43:42,561 - cross_val - INFO - Fold 3: Testing XGBoost - NAC
+2026-04-28 11:43:42,562 - cross_val - INFO - Fold 4
+2026-04-28 11:43:42,564 - cross_val - INFO - Fold 4: Training DecisionTree in progress - NAC
+2026-04-28 11:43:42,570 - cross_val - INFO - Fold 4: Training DecisionTree is done - NAC
+2026-04-28 11:43:42,570 - cross_val - INFO - Fold 4: Testing DecisionTree - NAC
+2026-04-28 11:43:42,570 - cross_val - INFO - Fold 4: Training RandomForest in progress - NAC
+2026-04-28 11:43:42,788 - cross_val - INFO - Fold 4: Training RandomForest is done - NAC
+2026-04-28 11:43:42,788 - cross_val - INFO - Fold 4: Testing RandomForest - NAC
+2026-04-28 11:43:42,796 - cross_val - INFO - Fold 4: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:42,797 - cross_val - INFO - Fold 4: Training LogisticRegression is done - NAC
+2026-04-28 11:43:42,797 - cross_val - INFO - Fold 4: Testing LogisticRegression - NAC
+2026-04-28 11:43:42,797 - cross_val - INFO - Fold 4: Training SVM in progress - NAC
+2026-04-28 11:43:42,984 - cross_val - INFO - Fold 4: Training SVM is done - NAC
+2026-04-28 11:43:42,984 - cross_val - INFO - Fold 4: Testing SVM - NAC
+2026-04-28 11:43:43,024 - cross_val - INFO - Fold 4: Training AdaBoost in progress - NAC
+2026-04-28 11:43:43,076 - cross_val - INFO - Fold 4: Training AdaBoost is done - NAC
+2026-04-28 11:43:43,076 - cross_val - INFO - Fold 4: Testing AdaBoost - NAC
+2026-04-28 11:43:43,079 - cross_val - INFO - Fold 4: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:43,080 - cross_val - INFO - Fold 4: Training NaiveBayes is done - NAC
+2026-04-28 11:43:43,080 - cross_val - INFO - Fold 4: Testing NaiveBayes - NAC
+2026-04-28 11:43:43,080 - cross_val - INFO - Fold 4: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:43,249 - cross_val - INFO - Fold 4: Training GradientBoosting is done - NAC
+2026-04-28 11:43:43,249 - cross_val - INFO - Fold 4: Testing GradientBoosting - NAC
+2026-04-28 11:43:43,250 - cross_val - INFO - Fold 4: Training Bagging in progress - NAC
+2026-04-28 11:43:43,290 - cross_val - INFO - Fold 4: Training Bagging is done - NAC
+2026-04-28 11:43:43,290 - cross_val - INFO - Fold 4: Testing Bagging - NAC
+2026-04-28 11:43:43,291 - cross_val - INFO - Fold 4: Training XGBoost in progress - NAC
+2026-04-28 11:43:43,408 - cross_val - INFO - Fold 4: Training XGBoost is done - NAC
+2026-04-28 11:43:43,408 - cross_val - INFO - Fold 4: Testing XGBoost - NAC
+2026-04-28 11:43:43,409 - cross_val - INFO - Fold 5
+2026-04-28 11:43:43,412 - cross_val - INFO - Fold 5: Training DecisionTree in progress - NAC
+2026-04-28 11:43:43,418 - cross_val - INFO - Fold 5: Training DecisionTree is done - NAC
+2026-04-28 11:43:43,418 - cross_val - INFO - Fold 5: Testing DecisionTree - NAC
+2026-04-28 11:43:43,418 - cross_val - INFO - Fold 5: Training RandomForest in progress - NAC
+2026-04-28 11:43:43,646 - cross_val - INFO - Fold 5: Training RandomForest is done - NAC
+2026-04-28 11:43:43,646 - cross_val - INFO - Fold 5: Testing RandomForest - NAC
+2026-04-28 11:43:43,653 - cross_val - INFO - Fold 5: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:43,654 - cross_val - INFO - Fold 5: Training LogisticRegression is done - NAC
+2026-04-28 11:43:43,654 - cross_val - INFO - Fold 5: Testing LogisticRegression - NAC
+2026-04-28 11:43:43,654 - cross_val - INFO - Fold 5: Training SVM in progress - NAC
+2026-04-28 11:43:43,887 - cross_val - INFO - Fold 5: Training SVM is done - NAC
+2026-04-28 11:43:43,887 - cross_val - INFO - Fold 5: Testing SVM - NAC
+2026-04-28 11:43:43,921 - cross_val - INFO - Fold 5: Training AdaBoost in progress - NAC
+2026-04-28 11:43:43,976 - cross_val - INFO - Fold 5: Training AdaBoost is done - NAC
+2026-04-28 11:43:43,976 - cross_val - INFO - Fold 5: Testing AdaBoost - NAC
+2026-04-28 11:43:43,979 - cross_val - INFO - Fold 5: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:43,979 - cross_val - INFO - Fold 5: Training NaiveBayes is done - NAC
+2026-04-28 11:43:43,979 - cross_val - INFO - Fold 5: Testing NaiveBayes - NAC
+2026-04-28 11:43:43,980 - cross_val - INFO - Fold 5: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:44,169 - cross_val - INFO - Fold 5: Training GradientBoosting is done - NAC
+2026-04-28 11:43:44,169 - cross_val - INFO - Fold 5: Testing GradientBoosting - NAC
+2026-04-28 11:43:44,169 - cross_val - INFO - Fold 5: Training Bagging in progress - NAC
+2026-04-28 11:43:44,208 - cross_val - INFO - Fold 5: Training Bagging is done - NAC
+2026-04-28 11:43:44,208 - cross_val - INFO - Fold 5: Testing Bagging - NAC
+2026-04-28 11:43:44,209 - cross_val - INFO - Fold 5: Training XGBoost in progress - NAC
+2026-04-28 11:43:44,253 - cross_val - INFO - Fold 5: Training XGBoost is done - NAC
+2026-04-28 11:43:44,253 - cross_val - INFO - Fold 5: Testing XGBoost - NAC
+2026-04-28 11:43:44,254 - cross_val - INFO - Fold 6
+2026-04-28 11:43:44,256 - cross_val - INFO - Fold 6: Training DecisionTree in progress - NAC
+2026-04-28 11:43:44,260 - cross_val - INFO - Fold 6: Training DecisionTree is done - NAC
+2026-04-28 11:43:44,261 - cross_val - INFO - Fold 6: Testing DecisionTree - NAC
+2026-04-28 11:43:44,261 - cross_val - INFO - Fold 6: Training RandomForest in progress - NAC
+2026-04-28 11:43:44,429 - cross_val - INFO - Fold 6: Training RandomForest is done - NAC
+2026-04-28 11:43:44,429 - cross_val - INFO - Fold 6: Testing RandomForest - NAC
+2026-04-28 11:43:44,438 - cross_val - INFO - Fold 6: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:44,439 - cross_val - INFO - Fold 6: Training LogisticRegression is done - NAC
+2026-04-28 11:43:44,439 - cross_val - INFO - Fold 6: Testing LogisticRegression - NAC
+2026-04-28 11:43:44,439 - cross_val - INFO - Fold 6: Training SVM in progress - NAC
+2026-04-28 11:43:44,560 - cross_val - INFO - Fold 6: Training SVM is done - NAC
+2026-04-28 11:43:44,560 - cross_val - INFO - Fold 6: Testing SVM - NAC
+2026-04-28 11:43:44,600 - cross_val - INFO - Fold 6: Training AdaBoost in progress - NAC
+2026-04-28 11:43:44,648 - cross_val - INFO - Fold 6: Training AdaBoost is done - NAC
+2026-04-28 11:43:44,648 - cross_val - INFO - Fold 6: Testing AdaBoost - NAC
+2026-04-28 11:43:44,651 - cross_val - INFO - Fold 6: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:44,651 - cross_val - INFO - Fold 6: Training NaiveBayes is done - NAC
+2026-04-28 11:43:44,651 - cross_val - INFO - Fold 6: Testing NaiveBayes - NAC
+2026-04-28 11:43:44,652 - cross_val - INFO - Fold 6: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:44,794 - cross_val - INFO - Fold 6: Training GradientBoosting is done - NAC
+2026-04-28 11:43:44,794 - cross_val - INFO - Fold 6: Testing GradientBoosting - NAC
+2026-04-28 11:43:44,795 - cross_val - INFO - Fold 6: Training Bagging in progress - NAC
+2026-04-28 11:43:44,823 - cross_val - INFO - Fold 6: Training Bagging is done - NAC
+2026-04-28 11:43:44,823 - cross_val - INFO - Fold 6: Testing Bagging - NAC
+2026-04-28 11:43:44,824 - cross_val - INFO - Fold 6: Training XGBoost in progress - NAC
+2026-04-28 11:43:44,868 - cross_val - INFO - Fold 6: Training XGBoost is done - NAC
+2026-04-28 11:43:44,868 - cross_val - INFO - Fold 6: Testing XGBoost - NAC
+2026-04-28 11:43:44,869 - cross_val - INFO - Fold 7
+2026-04-28 11:43:44,871 - cross_val - INFO - Fold 7: Training DecisionTree in progress - NAC
+2026-04-28 11:43:44,876 - cross_val - INFO - Fold 7: Training DecisionTree is done - NAC
+2026-04-28 11:43:44,876 - cross_val - INFO - Fold 7: Testing DecisionTree - NAC
+2026-04-28 11:43:44,877 - cross_val - INFO - Fold 7: Training RandomForest in progress - NAC
+2026-04-28 11:43:45,070 - cross_val - INFO - Fold 7: Training RandomForest is done - NAC
+2026-04-28 11:43:45,070 - cross_val - INFO - Fold 7: Testing RandomForest - NAC
+2026-04-28 11:43:45,078 - cross_val - INFO - Fold 7: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:45,080 - cross_val - INFO - Fold 7: Training LogisticRegression is done - NAC
+2026-04-28 11:43:45,080 - cross_val - INFO - Fold 7: Testing LogisticRegression - NAC
+2026-04-28 11:43:45,080 - cross_val - INFO - Fold 7: Training SVM in progress - NAC
+2026-04-28 11:43:45,241 - cross_val - INFO - Fold 7: Training SVM is done - NAC
+2026-04-28 11:43:45,241 - cross_val - INFO - Fold 7: Testing SVM - NAC
+2026-04-28 11:43:45,285 - cross_val - INFO - Fold 7: Training AdaBoost in progress - NAC
+2026-04-28 11:43:45,334 - cross_val - INFO - Fold 7: Training AdaBoost is done - NAC
+2026-04-28 11:43:45,335 - cross_val - INFO - Fold 7: Testing AdaBoost - NAC
+2026-04-28 11:43:45,337 - cross_val - INFO - Fold 7: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:45,338 - cross_val - INFO - Fold 7: Training NaiveBayes is done - NAC
+2026-04-28 11:43:45,338 - cross_val - INFO - Fold 7: Testing NaiveBayes - NAC
+2026-04-28 11:43:45,338 - cross_val - INFO - Fold 7: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:45,507 - cross_val - INFO - Fold 7: Training GradientBoosting is done - NAC
+2026-04-28 11:43:45,508 - cross_val - INFO - Fold 7: Testing GradientBoosting - NAC
+2026-04-28 11:43:45,508 - cross_val - INFO - Fold 7: Training Bagging in progress - NAC
+2026-04-28 11:43:45,541 - cross_val - INFO - Fold 7: Training Bagging is done - NAC
+2026-04-28 11:43:45,541 - cross_val - INFO - Fold 7: Testing Bagging - NAC
+2026-04-28 11:43:45,542 - cross_val - INFO - Fold 7: Training XGBoost in progress - NAC
+2026-04-28 11:43:45,623 - cross_val - INFO - Fold 7: Training XGBoost is done - NAC
+2026-04-28 11:43:45,623 - cross_val - INFO - Fold 7: Testing XGBoost - NAC
+2026-04-28 11:43:45,624 - cross_val - INFO - Fold 8
+2026-04-28 11:43:45,626 - cross_val - INFO - Fold 8: Training DecisionTree in progress - NAC
+2026-04-28 11:43:45,634 - cross_val - INFO - Fold 8: Training DecisionTree is done - NAC
+2026-04-28 11:43:45,634 - cross_val - INFO - Fold 8: Testing DecisionTree - NAC
+2026-04-28 11:43:45,634 - cross_val - INFO - Fold 8: Training RandomForest in progress - NAC
+2026-04-28 11:43:45,889 - cross_val - INFO - Fold 8: Training RandomForest is done - NAC
+2026-04-28 11:43:45,889 - cross_val - INFO - Fold 8: Testing RandomForest - NAC
+2026-04-28 11:43:45,896 - cross_val - INFO - Fold 8: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:45,898 - cross_val - INFO - Fold 8: Training LogisticRegression is done - NAC
+2026-04-28 11:43:45,898 - cross_val - INFO - Fold 8: Testing LogisticRegression - NAC
+2026-04-28 11:43:45,898 - cross_val - INFO - Fold 8: Training SVM in progress - NAC
+2026-04-28 11:43:46,165 - cross_val - INFO - Fold 8: Training SVM is done - NAC
+2026-04-28 11:43:46,165 - cross_val - INFO - Fold 8: Testing SVM - NAC
+2026-04-28 11:43:46,197 - cross_val - INFO - Fold 8: Training AdaBoost in progress - NAC
+2026-04-28 11:43:46,254 - cross_val - INFO - Fold 8: Training AdaBoost is done - NAC
+2026-04-28 11:43:46,255 - cross_val - INFO - Fold 8: Testing AdaBoost - NAC
+2026-04-28 11:43:46,257 - cross_val - INFO - Fold 8: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:46,258 - cross_val - INFO - Fold 8: Training NaiveBayes is done - NAC
+2026-04-28 11:43:46,258 - cross_val - INFO - Fold 8: Testing NaiveBayes - NAC
+2026-04-28 11:43:46,258 - cross_val - INFO - Fold 8: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:46,453 - cross_val - INFO - Fold 8: Training GradientBoosting is done - NAC
+2026-04-28 11:43:46,453 - cross_val - INFO - Fold 8: Testing GradientBoosting - NAC
+2026-04-28 11:43:46,454 - cross_val - INFO - Fold 8: Training Bagging in progress - NAC
+2026-04-28 11:43:46,496 - cross_val - INFO - Fold 8: Training Bagging is done - NAC
+2026-04-28 11:43:46,496 - cross_val - INFO - Fold 8: Testing Bagging - NAC
+2026-04-28 11:43:46,497 - cross_val - INFO - Fold 8: Training XGBoost in progress - NAC
+2026-04-28 11:43:46,540 - cross_val - INFO - Fold 8: Training XGBoost is done - NAC
+2026-04-28 11:43:46,541 - cross_val - INFO - Fold 8: Testing XGBoost - NAC
+2026-04-28 11:43:46,541 - cross_val - INFO - Fold 9
+2026-04-28 11:43:46,544 - cross_val - INFO - Fold 9: Training DecisionTree in progress - NAC
+2026-04-28 11:43:46,548 - cross_val - INFO - Fold 9: Training DecisionTree is done - NAC
+2026-04-28 11:43:46,548 - cross_val - INFO - Fold 9: Testing DecisionTree - NAC
+2026-04-28 11:43:46,549 - cross_val - INFO - Fold 9: Training RandomForest in progress - NAC
+2026-04-28 11:43:46,740 - cross_val - INFO - Fold 9: Training RandomForest is done - NAC
+2026-04-28 11:43:46,740 - cross_val - INFO - Fold 9: Testing RandomForest - NAC
+2026-04-28 11:43:46,749 - cross_val - INFO - Fold 9: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:46,750 - cross_val - INFO - Fold 9: Training LogisticRegression is done - NAC
+2026-04-28 11:43:46,750 - cross_val - INFO - Fold 9: Testing LogisticRegression - NAC
+2026-04-28 11:43:46,751 - cross_val - INFO - Fold 9: Training SVM in progress - NAC
+2026-04-28 11:43:46,900 - cross_val - INFO - Fold 9: Training SVM is done - NAC
+2026-04-28 11:43:46,900 - cross_val - INFO - Fold 9: Testing SVM - NAC
+2026-04-28 11:43:46,940 - cross_val - INFO - Fold 9: Training AdaBoost in progress - NAC
+2026-04-28 11:43:46,989 - cross_val - INFO - Fold 9: Training AdaBoost is done - NAC
+2026-04-28 11:43:46,989 - cross_val - INFO - Fold 9: Testing AdaBoost - NAC
+2026-04-28 11:43:46,992 - cross_val - INFO - Fold 9: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:46,992 - cross_val - INFO - Fold 9: Training NaiveBayes is done - NAC
+2026-04-28 11:43:46,992 - cross_val - INFO - Fold 9: Testing NaiveBayes - NAC
+2026-04-28 11:43:46,993 - cross_val - INFO - Fold 9: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:47,147 - cross_val - INFO - Fold 9: Training GradientBoosting is done - NAC
+2026-04-28 11:43:47,147 - cross_val - INFO - Fold 9: Testing GradientBoosting - NAC
+2026-04-28 11:43:47,147 - cross_val - INFO - Fold 9: Training Bagging in progress - NAC
+2026-04-28 11:43:47,179 - cross_val - INFO - Fold 9: Training Bagging is done - NAC
+2026-04-28 11:43:47,179 - cross_val - INFO - Fold 9: Testing Bagging - NAC
+2026-04-28 11:43:47,180 - cross_val - INFO - Fold 9: Training XGBoost in progress - NAC
+2026-04-28 11:43:47,223 - cross_val - INFO - Fold 9: Training XGBoost is done - NAC
+2026-04-28 11:43:47,223 - cross_val - INFO - Fold 9: Testing XGBoost - NAC
+2026-04-28 11:43:47,224 - cross_val - INFO - Fold 10
+2026-04-28 11:43:47,227 - cross_val - INFO - Fold 10: Training DecisionTree in progress - NAC
+2026-04-28 11:43:47,231 - cross_val - INFO - Fold 10: Training DecisionTree is done - NAC
+2026-04-28 11:43:47,231 - cross_val - INFO - Fold 10: Testing DecisionTree - NAC
+2026-04-28 11:43:47,231 - cross_val - INFO - Fold 10: Training RandomForest in progress - NAC
+2026-04-28 11:43:47,406 - cross_val - INFO - Fold 10: Training RandomForest is done - NAC
+2026-04-28 11:43:47,406 - cross_val - INFO - Fold 10: Testing RandomForest - NAC
+2026-04-28 11:43:47,416 - cross_val - INFO - Fold 10: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:47,417 - cross_val - INFO - Fold 10: Training LogisticRegression is done - NAC
+2026-04-28 11:43:47,417 - cross_val - INFO - Fold 10: Testing LogisticRegression - NAC
+2026-04-28 11:43:47,417 - cross_val - INFO - Fold 10: Training SVM in progress - NAC
+2026-04-28 11:43:47,539 - cross_val - INFO - Fold 10: Training SVM is done - NAC
+2026-04-28 11:43:47,539 - cross_val - INFO - Fold 10: Testing SVM - NAC
+2026-04-28 11:43:47,582 - cross_val - INFO - Fold 10: Training AdaBoost in progress - NAC
+2026-04-28 11:43:47,629 - cross_val - INFO - Fold 10: Training AdaBoost is done - NAC
+2026-04-28 11:43:47,629 - cross_val - INFO - Fold 10: Testing AdaBoost - NAC
+2026-04-28 11:43:47,632 - cross_val - INFO - Fold 10: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:47,632 - cross_val - INFO - Fold 10: Training NaiveBayes is done - NAC
+2026-04-28 11:43:47,632 - cross_val - INFO - Fold 10: Testing NaiveBayes - NAC
+2026-04-28 11:43:47,633 - cross_val - INFO - Fold 10: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:47,773 - cross_val - INFO - Fold 10: Training GradientBoosting is done - NAC
+2026-04-28 11:43:47,773 - cross_val - INFO - Fold 10: Testing GradientBoosting - NAC
+2026-04-28 11:43:47,774 - cross_val - INFO - Fold 10: Training Bagging in progress - NAC
+2026-04-28 11:43:47,803 - cross_val - INFO - Fold 10: Training Bagging is done - NAC
+2026-04-28 11:43:47,803 - cross_val - INFO - Fold 10: Testing Bagging - NAC
+2026-04-28 11:43:47,804 - cross_val - INFO - Fold 10: Training XGBoost in progress - NAC
+2026-04-28 11:43:47,845 - cross_val - INFO - Fold 10: Training XGBoost is done - NAC
+2026-04-28 11:43:47,845 - cross_val - INFO - Fold 10: Testing XGBoost - NAC
+2026-04-28 11:43:47,846 - cross_val - INFO - Fold 11
+2026-04-28 11:43:47,848 - cross_val - INFO - Fold 11: Training DecisionTree in progress - NAC
+2026-04-28 11:43:47,854 - cross_val - INFO - Fold 11: Training DecisionTree is done - NAC
+2026-04-28 11:43:47,854 - cross_val - INFO - Fold 11: Testing DecisionTree - NAC
+2026-04-28 11:43:47,854 - cross_val - INFO - Fold 11: Training RandomForest in progress - NAC
+2026-04-28 11:43:48,051 - cross_val - INFO - Fold 11: Training RandomForest is done - NAC
+2026-04-28 11:43:48,051 - cross_val - INFO - Fold 11: Testing RandomForest - NAC
+2026-04-28 11:43:48,060 - cross_val - INFO - Fold 11: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:48,061 - cross_val - INFO - Fold 11: Training LogisticRegression is done - NAC
+2026-04-28 11:43:48,061 - cross_val - INFO - Fold 11: Testing LogisticRegression - NAC
+2026-04-28 11:43:48,061 - cross_val - INFO - Fold 11: Training SVM in progress - NAC
+2026-04-28 11:43:48,226 - cross_val - INFO - Fold 11: Training SVM is done - NAC
+2026-04-28 11:43:48,226 - cross_val - INFO - Fold 11: Testing SVM - NAC
+2026-04-28 11:43:48,266 - cross_val - INFO - Fold 11: Training AdaBoost in progress - NAC
+2026-04-28 11:43:48,316 - cross_val - INFO - Fold 11: Training AdaBoost is done - NAC
+2026-04-28 11:43:48,316 - cross_val - INFO - Fold 11: Testing AdaBoost - NAC
+2026-04-28 11:43:48,319 - cross_val - INFO - Fold 11: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:48,319 - cross_val - INFO - Fold 11: Training NaiveBayes is done - NAC
+2026-04-28 11:43:48,319 - cross_val - INFO - Fold 11: Testing NaiveBayes - NAC
+2026-04-28 11:43:48,320 - cross_val - INFO - Fold 11: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:48,479 - cross_val - INFO - Fold 11: Training GradientBoosting is done - NAC
+2026-04-28 11:43:48,479 - cross_val - INFO - Fold 11: Testing GradientBoosting - NAC
+2026-04-28 11:43:48,480 - cross_val - INFO - Fold 11: Training Bagging in progress - NAC
+2026-04-28 11:43:48,515 - cross_val - INFO - Fold 11: Training Bagging is done - NAC
+2026-04-28 11:43:48,515 - cross_val - INFO - Fold 11: Testing Bagging - NAC
+2026-04-28 11:43:48,516 - cross_val - INFO - Fold 11: Training XGBoost in progress - NAC
+2026-04-28 11:43:48,561 - cross_val - INFO - Fold 11: Training XGBoost is done - NAC
+2026-04-28 11:43:48,561 - cross_val - INFO - Fold 11: Testing XGBoost - NAC
+2026-04-28 11:43:48,561 - cross_val - INFO - Fold 12
+2026-04-28 11:43:48,564 - cross_val - INFO - Fold 12: Training DecisionTree in progress - NAC
+2026-04-28 11:43:48,570 - cross_val - INFO - Fold 12: Training DecisionTree is done - NAC
+2026-04-28 11:43:48,570 - cross_val - INFO - Fold 12: Testing DecisionTree - NAC
+2026-04-28 11:43:48,570 - cross_val - INFO - Fold 12: Training RandomForest in progress - NAC
+2026-04-28 11:43:48,791 - cross_val - INFO - Fold 12: Training RandomForest is done - NAC
+2026-04-28 11:43:48,791 - cross_val - INFO - Fold 12: Testing RandomForest - NAC
+2026-04-28 11:43:48,799 - cross_val - INFO - Fold 12: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:48,800 - cross_val - INFO - Fold 12: Training LogisticRegression is done - NAC
+2026-04-28 11:43:48,800 - cross_val - INFO - Fold 12: Testing LogisticRegression - NAC
+2026-04-28 11:43:48,801 - cross_val - INFO - Fold 12: Training SVM in progress - NAC
+2026-04-28 11:43:49,015 - cross_val - INFO - Fold 12: Training SVM is done - NAC
+2026-04-28 11:43:49,015 - cross_val - INFO - Fold 12: Testing SVM - NAC
+2026-04-28 11:43:49,052 - cross_val - INFO - Fold 12: Training AdaBoost in progress - NAC
+2026-04-28 11:43:49,106 - cross_val - INFO - Fold 12: Training AdaBoost is done - NAC
+2026-04-28 11:43:49,106 - cross_val - INFO - Fold 12: Testing AdaBoost - NAC
+2026-04-28 11:43:49,108 - cross_val - INFO - Fold 12: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:49,109 - cross_val - INFO - Fold 12: Training NaiveBayes is done - NAC
+2026-04-28 11:43:49,109 - cross_val - INFO - Fold 12: Testing NaiveBayes - NAC
+2026-04-28 11:43:49,109 - cross_val - INFO - Fold 12: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:49,287 - cross_val - INFO - Fold 12: Training GradientBoosting is done - NAC
+2026-04-28 11:43:49,288 - cross_val - INFO - Fold 12: Testing GradientBoosting - NAC
+2026-04-28 11:43:49,288 - cross_val - INFO - Fold 12: Training Bagging in progress - NAC
+2026-04-28 11:43:49,327 - cross_val - INFO - Fold 12: Training Bagging is done - NAC
+2026-04-28 11:43:49,327 - cross_val - INFO - Fold 12: Testing Bagging - NAC
+2026-04-28 11:43:49,328 - cross_val - INFO - Fold 12: Training XGBoost in progress - NAC
+2026-04-28 11:43:49,372 - cross_val - INFO - Fold 12: Training XGBoost is done - NAC
+2026-04-28 11:43:49,372 - cross_val - INFO - Fold 12: Testing XGBoost - NAC
+2026-04-28 11:43:49,372 - cross_val - INFO - Fold 13
+2026-04-28 11:43:49,375 - cross_val - INFO - Fold 13: Training DecisionTree in progress - NAC
+2026-04-28 11:43:49,384 - cross_val - INFO - Fold 13: Training DecisionTree is done - NAC
+2026-04-28 11:43:49,384 - cross_val - INFO - Fold 13: Testing DecisionTree - NAC
+2026-04-28 11:43:49,384 - cross_val - INFO - Fold 13: Training RandomForest in progress - NAC
+2026-04-28 11:43:49,658 - cross_val - INFO - Fold 13: Training RandomForest is done - NAC
+2026-04-28 11:43:49,658 - cross_val - INFO - Fold 13: Testing RandomForest - NAC
+2026-04-28 11:43:49,664 - cross_val - INFO - Fold 13: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:49,665 - cross_val - INFO - Fold 13: Training LogisticRegression is done - NAC
+2026-04-28 11:43:49,665 - cross_val - INFO - Fold 13: Testing LogisticRegression - NAC
+2026-04-28 11:43:49,665 - cross_val - INFO - Fold 13: Training SVM in progress - NAC
+2026-04-28 11:43:49,965 - cross_val - INFO - Fold 13: Training SVM is done - NAC
+2026-04-28 11:43:49,966 - cross_val - INFO - Fold 13: Testing SVM - NAC
+2026-04-28 11:43:49,992 - cross_val - INFO - Fold 13: Training AdaBoost in progress - NAC
+2026-04-28 11:43:50,055 - cross_val - INFO - Fold 13: Training AdaBoost is done - NAC
+2026-04-28 11:43:50,055 - cross_val - INFO - Fold 13: Testing AdaBoost - NAC
+2026-04-28 11:43:50,057 - cross_val - INFO - Fold 13: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:50,058 - cross_val - INFO - Fold 13: Training NaiveBayes is done - NAC
+2026-04-28 11:43:50,058 - cross_val - INFO - Fold 13: Testing NaiveBayes - NAC
+2026-04-28 11:43:50,058 - cross_val - INFO - Fold 13: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:50,272 - cross_val - INFO - Fold 13: Training GradientBoosting is done - NAC
+2026-04-28 11:43:50,272 - cross_val - INFO - Fold 13: Testing GradientBoosting - NAC
+2026-04-28 11:43:50,273 - cross_val - INFO - Fold 13: Training Bagging in progress - NAC
+2026-04-28 11:43:50,324 - cross_val - INFO - Fold 13: Training Bagging is done - NAC
+2026-04-28 11:43:50,324 - cross_val - INFO - Fold 13: Testing Bagging - NAC
+2026-04-28 11:43:50,325 - cross_val - INFO - Fold 13: Training XGBoost in progress - NAC
+2026-04-28 11:43:50,368 - cross_val - INFO - Fold 13: Training XGBoost is done - NAC
+2026-04-28 11:43:50,368 - cross_val - INFO - Fold 13: Testing XGBoost - NAC
+2026-04-28 11:43:50,369 - cross_val - INFO - Fold 14
+2026-04-28 11:43:50,371 - cross_val - INFO - Fold 14: Training DecisionTree in progress - NAC
+2026-04-28 11:43:50,376 - cross_val - INFO - Fold 14: Training DecisionTree is done - NAC
+2026-04-28 11:43:50,376 - cross_val - INFO - Fold 14: Testing DecisionTree - NAC
+2026-04-28 11:43:50,376 - cross_val - INFO - Fold 14: Training RandomForest in progress - NAC
+2026-04-28 11:43:50,539 - cross_val - INFO - Fold 14: Training RandomForest is done - NAC
+2026-04-28 11:43:50,539 - cross_val - INFO - Fold 14: Testing RandomForest - NAC
+2026-04-28 11:43:50,548 - cross_val - INFO - Fold 14: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:50,549 - cross_val - INFO - Fold 14: Training LogisticRegression is done - NAC
+2026-04-28 11:43:50,549 - cross_val - INFO - Fold 14: Testing LogisticRegression - NAC
+2026-04-28 11:43:50,550 - cross_val - INFO - Fold 14: Training SVM in progress - NAC
+2026-04-28 11:43:50,655 - cross_val - INFO - Fold 14: Training SVM is done - NAC
+2026-04-28 11:43:50,655 - cross_val - INFO - Fold 14: Testing SVM - NAC
+2026-04-28 11:43:50,695 - cross_val - INFO - Fold 14: Training AdaBoost in progress - NAC
+2026-04-28 11:43:50,741 - cross_val - INFO - Fold 14: Training AdaBoost is done - NAC
+2026-04-28 11:43:50,741 - cross_val - INFO - Fold 14: Testing AdaBoost - NAC
+2026-04-28 11:43:50,744 - cross_val - INFO - Fold 14: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:50,744 - cross_val - INFO - Fold 14: Training NaiveBayes is done - NAC
+2026-04-28 11:43:50,744 - cross_val - INFO - Fold 14: Testing NaiveBayes - NAC
+2026-04-28 11:43:50,744 - cross_val - INFO - Fold 14: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:50,885 - cross_val - INFO - Fold 14: Training GradientBoosting is done - NAC
+2026-04-28 11:43:50,885 - cross_val - INFO - Fold 14: Testing GradientBoosting - NAC
+2026-04-28 11:43:50,886 - cross_val - INFO - Fold 14: Training Bagging in progress - NAC
+2026-04-28 11:43:50,915 - cross_val - INFO - Fold 14: Training Bagging is done - NAC
+2026-04-28 11:43:50,915 - cross_val - INFO - Fold 14: Testing Bagging - NAC
+2026-04-28 11:43:50,916 - cross_val - INFO - Fold 14: Training XGBoost in progress - NAC
+2026-04-28 11:43:51,015 - cross_val - INFO - Fold 14: Training XGBoost is done - NAC
+2026-04-28 11:43:51,015 - cross_val - INFO - Fold 14: Testing XGBoost - NAC
+2026-04-28 11:43:51,016 - cross_val - INFO - Fold 15
+2026-04-28 11:43:51,019 - cross_val - INFO - Fold 15: Training DecisionTree in progress - NAC
+2026-04-28 11:43:51,024 - cross_val - INFO - Fold 15: Training DecisionTree is done - NAC
+2026-04-28 11:43:51,024 - cross_val - INFO - Fold 15: Testing DecisionTree - NAC
+2026-04-28 11:43:51,024 - cross_val - INFO - Fold 15: Training RandomForest in progress - NAC
+2026-04-28 11:43:51,231 - cross_val - INFO - Fold 15: Training RandomForest is done - NAC
+2026-04-28 11:43:51,231 - cross_val - INFO - Fold 15: Testing RandomForest - NAC
+2026-04-28 11:43:51,238 - cross_val - INFO - Fold 15: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:51,239 - cross_val - INFO - Fold 15: Training LogisticRegression is done - NAC
+2026-04-28 11:43:51,239 - cross_val - INFO - Fold 15: Testing LogisticRegression - NAC
+2026-04-28 11:43:51,239 - cross_val - INFO - Fold 15: Training SVM in progress - NAC
+2026-04-28 11:43:51,425 - cross_val - INFO - Fold 15: Training SVM is done - NAC
+2026-04-28 11:43:51,425 - cross_val - INFO - Fold 15: Testing SVM - NAC
+2026-04-28 11:43:51,461 - cross_val - INFO - Fold 15: Training AdaBoost in progress - NAC
+2026-04-28 11:43:51,514 - cross_val - INFO - Fold 15: Training AdaBoost is done - NAC
+2026-04-28 11:43:51,514 - cross_val - INFO - Fold 15: Testing AdaBoost - NAC
+2026-04-28 11:43:51,517 - cross_val - INFO - Fold 15: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:51,517 - cross_val - INFO - Fold 15: Training NaiveBayes is done - NAC
+2026-04-28 11:43:51,517 - cross_val - INFO - Fold 15: Testing NaiveBayes - NAC
+2026-04-28 11:43:51,517 - cross_val - INFO - Fold 15: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:51,689 - cross_val - INFO - Fold 15: Training GradientBoosting is done - NAC
+2026-04-28 11:43:51,689 - cross_val - INFO - Fold 15: Testing GradientBoosting - NAC
+2026-04-28 11:43:51,690 - cross_val - INFO - Fold 15: Training Bagging in progress - NAC
+2026-04-28 11:43:51,724 - cross_val - INFO - Fold 15: Training Bagging is done - NAC
+2026-04-28 11:43:51,725 - cross_val - INFO - Fold 15: Testing Bagging - NAC
+2026-04-28 11:43:51,726 - cross_val - INFO - Fold 15: Training XGBoost in progress - NAC
+2026-04-28 11:43:51,796 - cross_val - INFO - Fold 15: Training XGBoost is done - NAC
+2026-04-28 11:43:51,796 - cross_val - INFO - Fold 15: Testing XGBoost - NAC
+2026-04-28 11:43:51,797 - cross_val - INFO - Fold 16
+2026-04-28 11:43:51,800 - cross_val - INFO - Fold 16: Training DecisionTree in progress - NAC
+2026-04-28 11:43:51,805 - cross_val - INFO - Fold 16: Training DecisionTree is done - NAC
+2026-04-28 11:43:51,805 - cross_val - INFO - Fold 16: Testing DecisionTree - NAC
+2026-04-28 11:43:51,806 - cross_val - INFO - Fold 16: Training RandomForest in progress - NAC
+2026-04-28 11:43:52,019 - cross_val - INFO - Fold 16: Training RandomForest is done - NAC
+2026-04-28 11:43:52,019 - cross_val - INFO - Fold 16: Testing RandomForest - NAC
+2026-04-28 11:43:52,027 - cross_val - INFO - Fold 16: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:52,028 - cross_val - INFO - Fold 16: Training LogisticRegression is done - NAC
+2026-04-28 11:43:52,028 - cross_val - INFO - Fold 16: Testing LogisticRegression - NAC
+2026-04-28 11:43:52,028 - cross_val - INFO - Fold 16: Training SVM in progress - NAC
+2026-04-28 11:43:52,209 - cross_val - INFO - Fold 16: Training SVM is done - NAC
+2026-04-28 11:43:52,209 - cross_val - INFO - Fold 16: Testing SVM - NAC
+2026-04-28 11:43:52,247 - cross_val - INFO - Fold 16: Training AdaBoost in progress - NAC
+2026-04-28 11:43:52,299 - cross_val - INFO - Fold 16: Training AdaBoost is done - NAC
+2026-04-28 11:43:52,299 - cross_val - INFO - Fold 16: Testing AdaBoost - NAC
+2026-04-28 11:43:52,302 - cross_val - INFO - Fold 16: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:52,302 - cross_val - INFO - Fold 16: Training NaiveBayes is done - NAC
+2026-04-28 11:43:52,302 - cross_val - INFO - Fold 16: Testing NaiveBayes - NAC
+2026-04-28 11:43:52,303 - cross_val - INFO - Fold 16: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:52,469 - cross_val - INFO - Fold 16: Training GradientBoosting is done - NAC
+2026-04-28 11:43:52,469 - cross_val - INFO - Fold 16: Testing GradientBoosting - NAC
+2026-04-28 11:43:52,470 - cross_val - INFO - Fold 16: Training Bagging in progress - NAC
+2026-04-28 11:43:52,504 - cross_val - INFO - Fold 16: Training Bagging is done - NAC
+2026-04-28 11:43:52,504 - cross_val - INFO - Fold 16: Testing Bagging - NAC
+2026-04-28 11:43:52,505 - cross_val - INFO - Fold 16: Training XGBoost in progress - NAC
+2026-04-28 11:43:52,547 - cross_val - INFO - Fold 16: Training XGBoost is done - NAC
+2026-04-28 11:43:52,547 - cross_val - INFO - Fold 16: Testing XGBoost - NAC
+2026-04-28 11:43:52,548 - cross_val - INFO - Fold 17
+2026-04-28 11:43:52,551 - cross_val - INFO - Fold 17: Training DecisionTree in progress - NAC
+2026-04-28 11:43:52,557 - cross_val - INFO - Fold 17: Training DecisionTree is done - NAC
+2026-04-28 11:43:52,557 - cross_val - INFO - Fold 17: Testing DecisionTree - NAC
+2026-04-28 11:43:52,557 - cross_val - INFO - Fold 17: Training RandomForest in progress - NAC
+2026-04-28 11:43:52,778 - cross_val - INFO - Fold 17: Training RandomForest is done - NAC
+2026-04-28 11:43:52,778 - cross_val - INFO - Fold 17: Testing RandomForest - NAC
+2026-04-28 11:43:52,785 - cross_val - INFO - Fold 17: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:52,786 - cross_val - INFO - Fold 17: Training LogisticRegression is done - NAC
+2026-04-28 11:43:52,787 - cross_val - INFO - Fold 17: Testing LogisticRegression - NAC
+2026-04-28 11:43:52,787 - cross_val - INFO - Fold 17: Training SVM in progress - NAC
+2026-04-28 11:43:53,006 - cross_val - INFO - Fold 17: Training SVM is done - NAC
+2026-04-28 11:43:53,006 - cross_val - INFO - Fold 17: Testing SVM - NAC
+2026-04-28 11:43:53,045 - cross_val - INFO - Fold 17: Training AdaBoost in progress - NAC
+2026-04-28 11:43:53,101 - cross_val - INFO - Fold 17: Training AdaBoost is done - NAC
+2026-04-28 11:43:53,101 - cross_val - INFO - Fold 17: Testing AdaBoost - NAC
+2026-04-28 11:43:53,103 - cross_val - INFO - Fold 17: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:53,104 - cross_val - INFO - Fold 17: Training NaiveBayes is done - NAC
+2026-04-28 11:43:53,104 - cross_val - INFO - Fold 17: Testing NaiveBayes - NAC
+2026-04-28 11:43:53,104 - cross_val - INFO - Fold 17: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:53,288 - cross_val - INFO - Fold 17: Training GradientBoosting is done - NAC
+2026-04-28 11:43:53,288 - cross_val - INFO - Fold 17: Testing GradientBoosting - NAC
+2026-04-28 11:43:53,289 - cross_val - INFO - Fold 17: Training Bagging in progress - NAC
+2026-04-28 11:43:53,327 - cross_val - INFO - Fold 17: Training Bagging is done - NAC
+2026-04-28 11:43:53,327 - cross_val - INFO - Fold 17: Testing Bagging - NAC
+2026-04-28 11:43:53,328 - cross_val - INFO - Fold 17: Training XGBoost in progress - NAC
+2026-04-28 11:43:53,376 - cross_val - INFO - Fold 17: Training XGBoost is done - NAC
+2026-04-28 11:43:53,376 - cross_val - INFO - Fold 17: Testing XGBoost - NAC
+2026-04-28 11:43:53,377 - cross_val - INFO - Fold 18
+2026-04-28 11:43:53,380 - cross_val - INFO - Fold 18: Training DecisionTree in progress - NAC
+2026-04-28 11:43:53,385 - cross_val - INFO - Fold 18: Training DecisionTree is done - NAC
+2026-04-28 11:43:53,385 - cross_val - INFO - Fold 18: Testing DecisionTree - NAC
+2026-04-28 11:43:53,385 - cross_val - INFO - Fold 18: Training RandomForest in progress - NAC
+2026-04-28 11:43:53,593 - cross_val - INFO - Fold 18: Training RandomForest is done - NAC
+2026-04-28 11:43:53,593 - cross_val - INFO - Fold 18: Testing RandomForest - NAC
+2026-04-28 11:43:53,601 - cross_val - INFO - Fold 18: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:53,602 - cross_val - INFO - Fold 18: Training LogisticRegression is done - NAC
+2026-04-28 11:43:53,603 - cross_val - INFO - Fold 18: Testing LogisticRegression - NAC
+2026-04-28 11:43:53,603 - cross_val - INFO - Fold 18: Training SVM in progress - NAC
+2026-04-28 11:43:53,801 - cross_val - INFO - Fold 18: Training SVM is done - NAC
+2026-04-28 11:43:53,801 - cross_val - INFO - Fold 18: Testing SVM - NAC
+2026-04-28 11:43:53,839 - cross_val - INFO - Fold 18: Training AdaBoost in progress - NAC
+2026-04-28 11:43:53,891 - cross_val - INFO - Fold 18: Training AdaBoost is done - NAC
+2026-04-28 11:43:53,891 - cross_val - INFO - Fold 18: Testing AdaBoost - NAC
+2026-04-28 11:43:53,894 - cross_val - INFO - Fold 18: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:53,895 - cross_val - INFO - Fold 18: Training NaiveBayes is done - NAC
+2026-04-28 11:43:53,895 - cross_val - INFO - Fold 18: Testing NaiveBayes - NAC
+2026-04-28 11:43:53,895 - cross_val - INFO - Fold 18: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:54,068 - cross_val - INFO - Fold 18: Training GradientBoosting is done - NAC
+2026-04-28 11:43:54,069 - cross_val - INFO - Fold 18: Testing GradientBoosting - NAC
+2026-04-28 11:43:54,069 - cross_val - INFO - Fold 18: Training Bagging in progress - NAC
+2026-04-28 11:43:54,105 - cross_val - INFO - Fold 18: Training Bagging is done - NAC
+2026-04-28 11:43:54,105 - cross_val - INFO - Fold 18: Testing Bagging - NAC
+2026-04-28 11:43:54,106 - cross_val - INFO - Fold 18: Training XGBoost in progress - NAC
+2026-04-28 11:43:54,153 - cross_val - INFO - Fold 18: Training XGBoost is done - NAC
+2026-04-28 11:43:54,153 - cross_val - INFO - Fold 18: Testing XGBoost - NAC
+2026-04-28 11:43:54,154 - cross_val - INFO - Fold 19
+2026-04-28 11:43:54,157 - cross_val - INFO - Fold 19: Training DecisionTree in progress - NAC
+2026-04-28 11:43:54,161 - cross_val - INFO - Fold 19: Training DecisionTree is done - NAC
+2026-04-28 11:43:54,161 - cross_val - INFO - Fold 19: Testing DecisionTree - NAC
+2026-04-28 11:43:54,162 - cross_val - INFO - Fold 19: Training RandomForest in progress - NAC
+2026-04-28 11:43:54,337 - cross_val - INFO - Fold 19: Training RandomForest is done - NAC
+2026-04-28 11:43:54,337 - cross_val - INFO - Fold 19: Testing RandomForest - NAC
+2026-04-28 11:43:54,346 - cross_val - INFO - Fold 19: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:54,347 - cross_val - INFO - Fold 19: Training LogisticRegression is done - NAC
+2026-04-28 11:43:54,348 - cross_val - INFO - Fold 19: Testing LogisticRegression - NAC
+2026-04-28 11:43:54,348 - cross_val - INFO - Fold 19: Training SVM in progress - NAC
+2026-04-28 11:43:54,503 - cross_val - INFO - Fold 19: Training SVM is done - NAC
+2026-04-28 11:43:54,503 - cross_val - INFO - Fold 19: Testing SVM - NAC
+2026-04-28 11:43:54,542 - cross_val - INFO - Fold 19: Training AdaBoost in progress - NAC
+2026-04-28 11:43:54,591 - cross_val - INFO - Fold 19: Training AdaBoost is done - NAC
+2026-04-28 11:43:54,591 - cross_val - INFO - Fold 19: Testing AdaBoost - NAC
+2026-04-28 11:43:54,594 - cross_val - INFO - Fold 19: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:54,594 - cross_val - INFO - Fold 19: Training NaiveBayes is done - NAC
+2026-04-28 11:43:54,594 - cross_val - INFO - Fold 19: Testing NaiveBayes - NAC
+2026-04-28 11:43:54,594 - cross_val - INFO - Fold 19: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:54,741 - cross_val - INFO - Fold 19: Training GradientBoosting is done - NAC
+2026-04-28 11:43:54,741 - cross_val - INFO - Fold 19: Testing GradientBoosting - NAC
+2026-04-28 11:43:54,742 - cross_val - INFO - Fold 19: Training Bagging in progress - NAC
+2026-04-28 11:43:54,772 - cross_val - INFO - Fold 19: Training Bagging is done - NAC
+2026-04-28 11:43:54,772 - cross_val - INFO - Fold 19: Testing Bagging - NAC
+2026-04-28 11:43:54,774 - cross_val - INFO - Fold 19: Training XGBoost in progress - NAC
+2026-04-28 11:43:54,816 - cross_val - INFO - Fold 19: Training XGBoost is done - NAC
+2026-04-28 11:43:54,816 - cross_val - INFO - Fold 19: Testing XGBoost - NAC
+2026-04-28 11:43:54,817 - cross_val - INFO - Fold 20
+2026-04-28 11:43:54,819 - cross_val - INFO - Fold 20: Training DecisionTree in progress - NAC
+2026-04-28 11:43:54,824 - cross_val - INFO - Fold 20: Training DecisionTree is done - NAC
+2026-04-28 11:43:54,824 - cross_val - INFO - Fold 20: Testing DecisionTree - NAC
+2026-04-28 11:43:54,824 - cross_val - INFO - Fold 20: Training RandomForest in progress - NAC
+2026-04-28 11:43:54,996 - cross_val - INFO - Fold 20: Training RandomForest is done - NAC
+2026-04-28 11:43:54,996 - cross_val - INFO - Fold 20: Testing RandomForest - NAC
+2026-04-28 11:43:55,006 - cross_val - INFO - Fold 20: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:55,007 - cross_val - INFO - Fold 20: Training LogisticRegression is done - NAC
+2026-04-28 11:43:55,007 - cross_val - INFO - Fold 20: Testing LogisticRegression - NAC
+2026-04-28 11:43:55,007 - cross_val - INFO - Fold 20: Training SVM in progress - NAC
+2026-04-28 11:43:55,133 - cross_val - INFO - Fold 20: Training SVM is done - NAC
+2026-04-28 11:43:55,133 - cross_val - INFO - Fold 20: Testing SVM - NAC
+2026-04-28 11:43:55,174 - cross_val - INFO - Fold 20: Training AdaBoost in progress - NAC
+2026-04-28 11:43:55,223 - cross_val - INFO - Fold 20: Training AdaBoost is done - NAC
+2026-04-28 11:43:55,223 - cross_val - INFO - Fold 20: Testing AdaBoost - NAC
+2026-04-28 11:43:55,226 - cross_val - INFO - Fold 20: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:55,227 - cross_val - INFO - Fold 20: Training NaiveBayes is done - NAC
+2026-04-28 11:43:55,227 - cross_val - INFO - Fold 20: Testing NaiveBayes - NAC
+2026-04-28 11:43:55,227 - cross_val - INFO - Fold 20: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:55,372 - cross_val - INFO - Fold 20: Training GradientBoosting is done - NAC
+2026-04-28 11:43:55,372 - cross_val - INFO - Fold 20: Testing GradientBoosting - NAC
+2026-04-28 11:43:55,373 - cross_val - INFO - Fold 20: Training Bagging in progress - NAC
+2026-04-28 11:43:55,403 - cross_val - INFO - Fold 20: Training Bagging is done - NAC
+2026-04-28 11:43:55,403 - cross_val - INFO - Fold 20: Testing Bagging - NAC
+2026-04-28 11:43:55,404 - cross_val - INFO - Fold 20: Training XGBoost in progress - NAC
+2026-04-28 11:43:55,445 - cross_val - INFO - Fold 20: Training XGBoost is done - NAC
+2026-04-28 11:43:55,445 - cross_val - INFO - Fold 20: Testing XGBoost - NAC
+2026-04-28 11:43:55,446 - cross_val - INFO - Fold 21
+2026-04-28 11:43:55,448 - cross_val - INFO - Fold 21: Training DecisionTree in progress - NAC
+2026-04-28 11:43:55,453 - cross_val - INFO - Fold 21: Training DecisionTree is done - NAC
+2026-04-28 11:43:55,453 - cross_val - INFO - Fold 21: Testing DecisionTree - NAC
+2026-04-28 11:43:55,453 - cross_val - INFO - Fold 21: Training RandomForest in progress - NAC
+2026-04-28 11:43:55,646 - cross_val - INFO - Fold 21: Training RandomForest is done - NAC
+2026-04-28 11:43:55,646 - cross_val - INFO - Fold 21: Testing RandomForest - NAC
+2026-04-28 11:43:55,655 - cross_val - INFO - Fold 21: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:55,656 - cross_val - INFO - Fold 21: Training LogisticRegression is done - NAC
+2026-04-28 11:43:55,656 - cross_val - INFO - Fold 21: Testing LogisticRegression - NAC
+2026-04-28 11:43:55,656 - cross_val - INFO - Fold 21: Training SVM in progress - NAC
+2026-04-28 11:43:55,808 - cross_val - INFO - Fold 21: Training SVM is done - NAC
+2026-04-28 11:43:55,808 - cross_val - INFO - Fold 21: Testing SVM - NAC
+2026-04-28 11:43:55,847 - cross_val - INFO - Fold 21: Training AdaBoost in progress - NAC
+2026-04-28 11:43:55,898 - cross_val - INFO - Fold 21: Training AdaBoost is done - NAC
+2026-04-28 11:43:55,898 - cross_val - INFO - Fold 21: Testing AdaBoost - NAC
+2026-04-28 11:43:55,901 - cross_val - INFO - Fold 21: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:55,901 - cross_val - INFO - Fold 21: Training NaiveBayes is done - NAC
+2026-04-28 11:43:55,901 - cross_val - INFO - Fold 21: Testing NaiveBayes - NAC
+2026-04-28 11:43:55,902 - cross_val - INFO - Fold 21: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:56,058 - cross_val - INFO - Fold 21: Training GradientBoosting is done - NAC
+2026-04-28 11:43:56,058 - cross_val - INFO - Fold 21: Testing GradientBoosting - NAC
+2026-04-28 11:43:56,058 - cross_val - INFO - Fold 21: Training Bagging in progress - NAC
+2026-04-28 11:43:56,091 - cross_val - INFO - Fold 21: Training Bagging is done - NAC
+2026-04-28 11:43:56,091 - cross_val - INFO - Fold 21: Testing Bagging - NAC
+2026-04-28 11:43:56,093 - cross_val - INFO - Fold 21: Training XGBoost in progress - NAC
+2026-04-28 11:43:56,139 - cross_val - INFO - Fold 21: Training XGBoost is done - NAC
+2026-04-28 11:43:56,140 - cross_val - INFO - Fold 21: Testing XGBoost - NAC
+2026-04-28 11:43:56,140 - cross_val - INFO - Fold 22
+2026-04-28 11:43:56,143 - cross_val - INFO - Fold 22: Training DecisionTree in progress - NAC
+2026-04-28 11:43:56,148 - cross_val - INFO - Fold 22: Training DecisionTree is done - NAC
+2026-04-28 11:43:56,148 - cross_val - INFO - Fold 22: Testing DecisionTree - NAC
+2026-04-28 11:43:56,149 - cross_val - INFO - Fold 22: Training RandomForest in progress - NAC
+2026-04-28 11:43:56,352 - cross_val - INFO - Fold 22: Training RandomForest is done - NAC
+2026-04-28 11:43:56,352 - cross_val - INFO - Fold 22: Testing RandomForest - NAC
+2026-04-28 11:43:56,360 - cross_val - INFO - Fold 22: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:56,362 - cross_val - INFO - Fold 22: Training LogisticRegression is done - NAC
+2026-04-28 11:43:56,362 - cross_val - INFO - Fold 22: Testing LogisticRegression - NAC
+2026-04-28 11:43:56,362 - cross_val - INFO - Fold 22: Training SVM in progress - NAC
+2026-04-28 11:43:56,515 - cross_val - INFO - Fold 22: Training SVM is done - NAC
+2026-04-28 11:43:56,515 - cross_val - INFO - Fold 22: Testing SVM - NAC
+2026-04-28 11:43:56,559 - cross_val - INFO - Fold 22: Training AdaBoost in progress - NAC
+2026-04-28 11:43:56,609 - cross_val - INFO - Fold 22: Training AdaBoost is done - NAC
+2026-04-28 11:43:56,609 - cross_val - INFO - Fold 22: Testing AdaBoost - NAC
+2026-04-28 11:43:56,612 - cross_val - INFO - Fold 22: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:56,612 - cross_val - INFO - Fold 22: Training NaiveBayes is done - NAC
+2026-04-28 11:43:56,612 - cross_val - INFO - Fold 22: Testing NaiveBayes - NAC
+2026-04-28 11:43:56,612 - cross_val - INFO - Fold 22: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:56,767 - cross_val - INFO - Fold 22: Training GradientBoosting is done - NAC
+2026-04-28 11:43:56,767 - cross_val - INFO - Fold 22: Testing GradientBoosting - NAC
+2026-04-28 11:43:56,768 - cross_val - INFO - Fold 22: Training Bagging in progress - NAC
+2026-04-28 11:43:56,801 - cross_val - INFO - Fold 22: Training Bagging is done - NAC
+2026-04-28 11:43:56,801 - cross_val - INFO - Fold 22: Testing Bagging - NAC
+2026-04-28 11:43:56,803 - cross_val - INFO - Fold 22: Training XGBoost in progress - NAC
+2026-04-28 11:43:56,845 - cross_val - INFO - Fold 22: Training XGBoost is done - NAC
+2026-04-28 11:43:56,845 - cross_val - INFO - Fold 22: Testing XGBoost - NAC
+2026-04-28 11:43:56,846 - cross_val - INFO - Fold 23
+2026-04-28 11:43:56,849 - cross_val - INFO - Fold 23: Training DecisionTree in progress - NAC
+2026-04-28 11:43:56,854 - cross_val - INFO - Fold 23: Training DecisionTree is done - NAC
+2026-04-28 11:43:56,854 - cross_val - INFO - Fold 23: Testing DecisionTree - NAC
+2026-04-28 11:43:56,855 - cross_val - INFO - Fold 23: Training RandomForest in progress - NAC
+2026-04-28 11:43:57,086 - cross_val - INFO - Fold 23: Training RandomForest is done - NAC
+2026-04-28 11:43:57,086 - cross_val - INFO - Fold 23: Testing RandomForest - NAC
+2026-04-28 11:43:57,093 - cross_val - INFO - Fold 23: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:57,094 - cross_val - INFO - Fold 23: Training LogisticRegression is done - NAC
+2026-04-28 11:43:57,095 - cross_val - INFO - Fold 23: Testing LogisticRegression - NAC
+2026-04-28 11:43:57,095 - cross_val - INFO - Fold 23: Training SVM in progress - NAC
+2026-04-28 11:43:57,328 - cross_val - INFO - Fold 23: Training SVM is done - NAC
+2026-04-28 11:43:57,328 - cross_val - INFO - Fold 23: Testing SVM - NAC
+2026-04-28 11:43:57,363 - cross_val - INFO - Fold 23: Training AdaBoost in progress - NAC
+2026-04-28 11:43:57,420 - cross_val - INFO - Fold 23: Training AdaBoost is done - NAC
+2026-04-28 11:43:57,420 - cross_val - INFO - Fold 23: Testing AdaBoost - NAC
+2026-04-28 11:43:57,422 - cross_val - INFO - Fold 23: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:57,423 - cross_val - INFO - Fold 23: Training NaiveBayes is done - NAC
+2026-04-28 11:43:57,423 - cross_val - INFO - Fold 23: Testing NaiveBayes - NAC
+2026-04-28 11:43:57,423 - cross_val - INFO - Fold 23: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:57,612 - cross_val - INFO - Fold 23: Training GradientBoosting is done - NAC
+2026-04-28 11:43:57,612 - cross_val - INFO - Fold 23: Testing GradientBoosting - NAC
+2026-04-28 11:43:57,612 - cross_val - INFO - Fold 23: Training Bagging in progress - NAC
+2026-04-28 11:43:57,653 - cross_val - INFO - Fold 23: Training Bagging is done - NAC
+2026-04-28 11:43:57,653 - cross_val - INFO - Fold 23: Testing Bagging - NAC
+2026-04-28 11:43:57,654 - cross_val - INFO - Fold 23: Training XGBoost in progress - NAC
+2026-04-28 11:43:57,699 - cross_val - INFO - Fold 23: Training XGBoost is done - NAC
+2026-04-28 11:43:57,699 - cross_val - INFO - Fold 23: Testing XGBoost - NAC
+2026-04-28 11:43:57,699 - cross_val - INFO - Fold 24
+2026-04-28 11:43:57,702 - cross_val - INFO - Fold 24: Training DecisionTree in progress - NAC
+2026-04-28 11:43:57,708 - cross_val - INFO - Fold 24: Training DecisionTree is done - NAC
+2026-04-28 11:43:57,708 - cross_val - INFO - Fold 24: Testing DecisionTree - NAC
+2026-04-28 11:43:57,708 - cross_val - INFO - Fold 24: Training RandomForest in progress - NAC
+2026-04-28 11:43:57,940 - cross_val - INFO - Fold 24: Training RandomForest is done - NAC
+2026-04-28 11:43:57,940 - cross_val - INFO - Fold 24: Testing RandomForest - NAC
+2026-04-28 11:43:57,947 - cross_val - INFO - Fold 24: Training LogisticRegression in progress - NAC
+2026-04-28 11:43:57,948 - cross_val - INFO - Fold 24: Training LogisticRegression is done - NAC
+2026-04-28 11:43:57,948 - cross_val - INFO - Fold 24: Testing LogisticRegression - NAC
+2026-04-28 11:43:57,948 - cross_val - INFO - Fold 24: Training SVM in progress - NAC
+2026-04-28 11:43:58,162 - cross_val - INFO - Fold 24: Training SVM is done - NAC
+2026-04-28 11:43:58,162 - cross_val - INFO - Fold 24: Testing SVM - NAC
+2026-04-28 11:43:58,199 - cross_val - INFO - Fold 24: Training AdaBoost in progress - NAC
+2026-04-28 11:43:58,255 - cross_val - INFO - Fold 24: Training AdaBoost is done - NAC
+2026-04-28 11:43:58,255 - cross_val - INFO - Fold 24: Testing AdaBoost - NAC
+2026-04-28 11:43:58,257 - cross_val - INFO - Fold 24: Training NaiveBayes in progress - NAC
+2026-04-28 11:43:58,258 - cross_val - INFO - Fold 24: Training NaiveBayes is done - NAC
+2026-04-28 11:43:58,258 - cross_val - INFO - Fold 24: Testing NaiveBayes - NAC
+2026-04-28 11:43:58,258 - cross_val - INFO - Fold 24: Training GradientBoosting in progress - NAC
+2026-04-28 11:43:58,449 - cross_val - INFO - Fold 24: Training GradientBoosting is done - NAC
+2026-04-28 11:43:58,449 - cross_val - INFO - Fold 24: Testing GradientBoosting - NAC
+2026-04-28 11:43:58,450 - cross_val - INFO - Fold 24: Training Bagging in progress - NAC
+2026-04-28 11:43:58,494 - cross_val - INFO - Fold 24: Training Bagging is done - NAC
+2026-04-28 11:43:58,494 - cross_val - INFO - Fold 24: Testing Bagging - NAC
+2026-04-28 11:43:58,495 - cross_val - INFO - Fold 24: Training XGBoost in progress - NAC
+2026-04-28 11:43:58,537 - cross_val - INFO - Fold 24: Training XGBoost is done - NAC
+2026-04-28 11:43:58,537 - cross_val - INFO - Fold 24: Testing XGBoost - NAC
+2026-04-28 11:43:58,538 - __main__ - INFO - Done Predicting
+2026-04-28 11:43:58,568 - __main__ - INFO - Creating Folder for Cross-validation Predictions
+2026-04-28 11:43:58,568 - __main__ - INFO - Saving Output
+2026-04-28 11:44:00,066 - __main__ - INFO - Predictions Path: outputs/cross_val/predictions/benbow_predictions_0.xlsx
+2026-04-28 11:44:00,067 - __main__ - INFO - Done
+2026-04-28 11:44:00,067 - __main__ - INFO - --- Finish ---
+2026-04-28 11:44:00,067 - __main__ - INFO -  --- Process took 21.897 seconds ---

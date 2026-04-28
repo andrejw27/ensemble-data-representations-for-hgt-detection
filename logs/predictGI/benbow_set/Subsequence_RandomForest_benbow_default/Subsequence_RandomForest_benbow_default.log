@@ -1,0 +1,30 @@
+2026-04-28 14:05:09,070 - predict_GI - INFO - outputs/boundaries_predictions/benbow_set/Subsequence_RandomForest_benbow_default/10000/0.8
+2026-04-28 14:05:09,070 - predict_GI - INFO - outputs/boundaries_predictions/benbow_set
+2026-04-28 14:05:47,005 - predict_GI - INFO - saving results to outputs/boundaries_predictions/benbow_set
+2026-04-28 14:05:47,011 - predict_GI - INFO - --- Finish ---
+2026-04-28 14:05:47,011 - predict_GI - INFO -  --- Process took 37.943 seconds ---
+2026-04-28 14:10:53,492 - predict_GI - INFO - outputs/boundaries_predictions/benbow_set/Subsequence_RandomForest_benbow_default/10000/0.8
+2026-04-28 14:10:53,492 - predict_GI - INFO - outputs/boundaries_predictions/benbow_set
+2026-04-28 14:10:53,503 - predict_GI - INFO - Predictions for NC_008253.1.fasta already exist
+2026-04-28 14:10:53,503 - predict_GI - INFO - Predictions for NC_010473.1.fasta already exist
+2026-04-28 14:10:53,503 - predict_GI - INFO - Predictions for NC_007958.1.fasta already exist
+2026-04-28 14:10:53,503 - predict_GI - INFO - Predictions for NC_009665.1.fasta already exist
+2026-04-28 14:10:53,503 - predict_GI - INFO - Predictions for NC_010334.1.fasta already exist
+2026-04-28 14:10:53,503 - predict_GI - INFO - Predictions for NC_007432.1.fasta already exist
+2026-04-28 14:10:53,504 - predict_GI - INFO - Predictions for NC_009512.1.fasta already exist
+2026-04-28 14:10:53,504 - predict_GI - INFO - Predictions for NC_009783.1.fasta already exist
+2026-04-28 14:10:53,504 - predict_GI - INFO - Predictions for NC_010501.1.fasta already exist
+2026-04-28 14:10:53,504 - predict_GI - INFO - Predictions for NC_008321.1.fasta already exist
+2026-04-28 14:10:53,504 - predict_GI - INFO - Predictions for NC_009504.1.fasta already exist
+2026-04-28 14:10:53,504 - predict_GI - INFO - Predictions for NC_010515.1.fasta already exist
+2026-04-28 14:10:53,504 - predict_GI - INFO - Predictions for NC_010322.1.fasta already exist
+2026-04-28 14:10:53,504 - predict_GI - INFO - Predictions for NC_009438.1.fasta already exist
+2026-04-28 14:10:53,504 - predict_GI - INFO - Predictions for NC_004603.1.fasta already exist
+2026-04-28 14:10:53,504 - predict_GI - INFO - Predictions for NC_007606.1.fasta already exist
+2026-04-28 14:10:53,504 - predict_GI - INFO - Predictions for NC_004070.1.fasta already exist
+2026-04-28 14:10:53,504 - predict_GI - INFO - Predictions for NC_008563.1.fasta already exist
+2026-04-28 14:10:53,504 - predict_GI - INFO - Predictions for NC_009708.1.fasta already exist
+2026-04-28 14:10:53,504 - predict_GI - INFO - Predictions for NC_010380.1.fasta already exist
+2026-04-28 14:10:53,634 - predict_GI - INFO - saving results to outputs/boundaries_predictions/benbow_set
+2026-04-28 14:10:53,655 - predict_GI - INFO - --- Finish ---
+2026-04-28 14:10:53,655 - predict_GI - INFO -  --- Process took 0.166 seconds ---

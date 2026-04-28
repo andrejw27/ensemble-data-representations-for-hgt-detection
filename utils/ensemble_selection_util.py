@@ -1,11 +1,16 @@
+#import libraries
+import argparse
 import numpy as np 
 import pandas as pd
-import os  
+import os 
+import json 
+import json 
 from itertools import combinations
 from collections import Counter
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import matthews_corrcoef, f1_score, accuracy_score, precision_score, recall_score
-from utils.util import kappa, compute_pfront_chull
+from utils.util import kappa, pareto_n
+from scipy.spatial import ConvexHull 
 from scipy.stats import mode
 
 import os, sys
@@ -16,7 +21,7 @@ import logging
 logger = logging.getLogger('ensemble_selection')
 
 
-def get_pairwise_kappa(labels, y, predictions_df, same_clf=False, error_metric='f1'):
+def get_pairwise_kappa(labels, y, predictions_df, same_clf=False, error_metric='f1', rv_correlation_file="outputs/dataset_correlation/adjusted_rv_benbow.xlsx"):
     # compute error
     error_data = []
     pairwise_kappa = []
@@ -59,8 +64,10 @@ def get_pairwise_kappa(labels, y, predictions_df, same_clf=False, error_metric='
         for (pair1, pair2) in unique_pairs:
             row1 = df_preds.loc[pair1].values[:len(test_indices)]
             row2 = df_preds.loc[pair2].values[:len(test_indices)]
+            
             threshold = 0.5
-            pred1 = ((1-row1) >= threshold).astype(int)
+            #the predictions are probabilities of class 0, so we take 1-pred to get probability of class 1
+            pred1 = ((1-row1) >= threshold).astype(int) 
             pred2 = ((1-row2) >= threshold).astype(int)
 
             kappa_score = kappa(pred1, pred2)
@@ -96,24 +103,24 @@ def get_pairwise_kappa(labels, y, predictions_df, same_clf=False, error_metric='
         pairwise_kappa_w_error_df_best = pairwise_kappa_w_error_df[pairwise_kappa_w_error_df['pair_1'].isin(best_models['pair_id']) & pairwise_kappa_w_error_df['pair_2'].isin(best_models['pair_id'])]
         pairwise_kappa_w_error_df_best = pairwise_kappa_w_error_df_best[['fold', 'pair_id', 'pair_1', 'pair_2', 'kappa', 'mcc_error_rate_1', 'mcc_error_rate_2', 'f1_error_rate_1', 'f1_error_rate_2', 'avg_mcc_error_rate', 'avg_f1_error_rate']]
 
-        # #pairwise_kappa_w_error_df_best = pairwise_kappa_w_error_df.copy()
-        # adjusted_rv = pd.read_excel('outputs/dataset_correlation/adjusted_rv_benbow.xlsx')
-        # reversed_pairs = adjusted_rv.copy()
-        # reversed_pairs['Representation_1'], reversed_pairs['Representation_2'] = reversed_pairs['Representation_2'], reversed_pairs['Representation_1']
-        # adjusted_rv = pd.concat([adjusted_rv, reversed_pairs], ignore_index=True)
+        #pairwise_kappa_w_error_df_best = pairwise_kappa_w_error_df.copy()
+        adjusted_rv = pd.read_excel(rv_correlation_file)
+        reversed_pairs = adjusted_rv.copy()
+        reversed_pairs['Representation_1'], reversed_pairs['Representation_2'] = reversed_pairs['Representation_2'], reversed_pairs['Representation_1']
+        adjusted_rv = pd.concat([adjusted_rv, reversed_pairs], ignore_index=True)
 
-        # # assign rv coefficient to kappa df
-        # pairwise_kappa_w_error_df_best['Representation_1'] = pairwise_kappa_w_error_df_best['pair_1'].apply(lambda x: x.split('/')[0])
-        # pairwise_kappa_w_error_df_best['Representation_2'] = pairwise_kappa_w_error_df_best['pair_2'].apply(lambda x: x.split('/')[0])
-        # pairwise_kappa_w_error_df_best = pd.merge(pairwise_kappa_w_error_df_best, adjusted_rv, 
-        #                                             left_on=['Representation_1', 'Representation_2'], 
-        #                                             right_on=['Representation_1', 'Representation_2'], 
-        #                                             how='left')
-        # pairwise_kappa_w_error_df_best.fillna(1, inplace=True)
+        # assign rv coefficient to kappa df
+        pairwise_kappa_w_error_df_best['Representation_1'] = pairwise_kappa_w_error_df_best['pair_1'].apply(lambda x: x.split('/')[0])
+        pairwise_kappa_w_error_df_best['Representation_2'] = pairwise_kappa_w_error_df_best['pair_2'].apply(lambda x: x.split('/')[0])
+        pairwise_kappa_w_error_df_best = pd.merge(pairwise_kappa_w_error_df_best, adjusted_rv, 
+                                                    left_on=['Representation_1', 'Representation_2'], 
+                                                    right_on=['Representation_1', 'Representation_2'], 
+                                                    how='left')
+        pairwise_kappa_w_error_df_best.fillna(1, inplace=True)
 
-        # pairwise_kappa_w_error_df_best = pairwise_kappa_w_error_df_best[['fold','pair_id','pair_1','pair_2','kappa','mcc_error_rate_1',
-        #                                                         'f1_error_rate_1','mcc_error_rate_2','f1_error_rate_2',
-        #                                                         'avg_mcc_error_rate','avg_f1_error_rate']]
+        pairwise_kappa_w_error_df_best = pairwise_kappa_w_error_df_best[['fold','pair_id','pair_1','pair_2','kappa','mcc_error_rate_1',
+                                                                'f1_error_rate_1','mcc_error_rate_2','f1_error_rate_2',
+                                                                'avg_mcc_error_rate','avg_f1_error_rate','Adjusted_RV']]
 
         solutions_df = pd.DataFrame()
 
@@ -125,20 +132,16 @@ def get_pairwise_kappa(labels, y, predictions_df, same_clf=False, error_metric='
             solutions_per_fold_df = compute_pfront_chull(data, obj_1, obj_2)
 
             solutions_df = pd.concat([solutions_df, solutions_per_fold_df])
-
-        return error_df, pairwise_kappa_w_error_df_best, solutions_df
     else:
         logger.info("Using same classifier for all representations")
         pairwise_kappa_w_error_df['model_1'] = pairwise_kappa_w_error_df['pair_1'].apply(lambda x:x.split('/')[1])
         pairwise_kappa_w_error_df['model_2'] = pairwise_kappa_w_error_df['pair_2'].apply(lambda x:x.split('/')[1])
-        pairwise_kappa_w_error_df = pairwise_kappa_w_error_df[pairwise_kappa_w_error_df['model_1']==pairwise_kappa_w_error_df['model_2']]
-        pairwise_kappa_w_error_df['clf'] = pairwise_kappa_w_error_df['model_1']
         all_clfs = pairwise_kappa_w_error_df['model_1'].unique()
 
         solutions_df = pd.DataFrame()
         for clf in all_clfs:
-            logger.info(f"Processing classifier: {clf}")
-            data = pairwise_kappa_w_error_df[pairwise_kappa_w_error_df['clf']==clf].reset_index(drop=True)
+            data = pairwise_kappa_w_error_df[(pairwise_kappa_w_error_df['model_1']==clf) 
+                                                  & (pairwise_kappa_w_error_df['model_2']==clf)].reset_index(drop=True)
             solutions_per_clf = pd.DataFrame()
             for fold in labels.keys():
                 data_per_fold = data[data['fold']==fold].reset_index(drop=True)
@@ -152,7 +155,37 @@ def get_pairwise_kappa(labels, y, predictions_df, same_clf=False, error_metric='
             
             solutions_df = pd.concat([solutions_df, solutions_per_clf])
 
-        return error_df, pairwise_kappa_w_error_df, solutions_df
+    return error_df, pairwise_kappa_df, solutions_df
+
+# define a function to compute pareto frontier and convex hull solutions, given kappa-error data
+def compute_pfront_chull(data, obj_1, obj_2):
+    # Create a DataFrame for the points
+    df_points = data.copy()
+    P = pareto_n(-df_points[[obj_1, obj_2]].values)
+
+    indices = list(df_points.iloc[P[0], :].sort_values("kappa").index)
+
+    df_points["pfront"] = -1
+    df_points.iloc[indices, df_points.columns.get_loc("pfront")] = range(len(indices))
+
+    hull = ConvexHull(df_points[[obj_1, obj_2]])
+
+    df_points["chull_complete"] = -1
+    df_points.iloc[hull.vertices, df_points.columns.get_loc("chull_complete")] = \
+        range(hull.vertices.shape[0])
+
+    #further reduce the convex hull to points towards lower, left corner
+    df_hull = df_points.loc[df_points.chull_complete != -1, [obj_1,obj_2]]
+
+    # mask convex hull (use only vals towards lower, left corner)
+    P = pareto_n(-df_hull.values)
+
+    indices = list(df_hull.iloc[P[0], :].sort_values(obj_1).index)
+
+    df_points["chull"] = -1
+    df_points.iloc[indices, df_points.columns.get_loc("chull")] = range(len(indices))
+
+    return df_points
 
 def greedy_pruning(preds, y_val,ensemble_method='voting'):
     selected = []

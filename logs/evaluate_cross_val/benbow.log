@@ -1,0 +1,14 @@
+2026-04-28 11:57:41,629 - evaluate_cross_val - INFO - --- Start ---
+2026-04-28 11:57:41,629 - evaluate_cross_val - INFO - 1. Read Data benbow
+2026-04-28 11:57:46,150 - evaluate_cross_val - INFO - 2. Read Pre-defined Folds
+2026-04-28 11:57:46,154 - evaluate_cross_val - INFO - 3. Read predictions of the cross-validation
+2026-04-28 11:57:46,159 - evaluate_cross_val - INFO - Reading predictions from benbow_predictions_5.xlsx
+2026-04-28 11:57:56,929 - evaluate_cross_val - INFO - Reading predictions from benbow_predictions_4.xlsx
+2026-04-28 11:58:07,802 - evaluate_cross_val - INFO - Reading predictions from benbow_predictions_3.xlsx
+2026-04-28 11:58:26,741 - evaluate_cross_val - INFO - Reading predictions from benbow_predictions_2.xlsx
+2026-04-28 11:58:34,369 - evaluate_cross_val - INFO - Reading predictions from benbow_predictions_1.xlsx
+2026-04-28 11:58:43,566 - evaluate_cross_val - INFO - Reading predictions from benbow_predictions_6.xlsx
+2026-04-28 11:58:54,414 - evaluate_cross_val - INFO - 4. Evaluate cross-validation results for benbow dataset
+2026-04-28 11:59:18,573 - evaluate_cross_val - INFO - 5. Saving cross-validation results to outputs/cross_val/evaluation/benbow_crossval.xlsx
+2026-04-28 11:59:19,393 - evaluate_cross_val - INFO - --- Finish ---
+2026-04-28 11:59:19,393 - evaluate_cross_val - INFO -  --- Process took 97.765 seconds ---

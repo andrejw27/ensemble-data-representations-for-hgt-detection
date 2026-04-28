@@ -16,11 +16,23 @@ from utils.Evaluations import Evaluations
 from utils.util import get_organism_info
 
 def get_args():
+    def str2bool(v):
+        if isinstance(v, bool):
+            return v
+        if v.lower() in ('yes', 'true', 't', 'y', '1'):
+            return True
+        elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+            return False
+        else:
+            raise argparse.ArgumentTypeError('Boolean value expected.')
+    
     parser = argparse.ArgumentParser()
     parser.add_argument("--n-process", type=int, default=4)
     parser.add_argument("--result-type", type=str, default='test')
     parser.add_argument("--genome-folder", type=str, default='dataset/genomes/benbow_set')
     parser.add_argument("--predictions-folder", type=str, default='outputs/boundaries_predictions') 
+    parser.add_argument("--test-run", type=str2bool, default="False", 
+                        help="If True, run a quick test with a Subsequence/RandomForest model, window size of 10000, and upper threshold of 0.8")
     args = parser.parse_args()
     return args
 
@@ -117,6 +129,8 @@ def main():
     params = ['--genomes-path', '--output-dest', '--model', '--window-size', '--upper-threshold']
     genomes_path = [genome_folder] 
     output_dest = [args.predictions_folder]
+
+    #uncomment the following lines (from models to upper_ths) to run the pipelines with different models and parameters (window size and upper threshold)
     models = ['ensemble_stacking_benbow_default.pkl',
               'ensemble_voting_soft_benbow_default.pkl',
               'single_benbow_default.pkl',
@@ -126,9 +140,13 @@ def main():
     window_sizes = list(range(5000, 16000,1000))
     upper_ths = [0.6, 0.7, 0.8]
 
+    test_run = args.test_run
     # for quick testing
-    #window_sizes = [10000]
-    #upper_ths = [0.8]
+    if test_run:
+        print("Running a quick test with a Subsequence/RandomForest model, window size of 10000, and upper threshold of 0.8")
+        models = ["Subsequence_RandomForest_benbow_default.pkl"]
+        window_sizes = [10000]
+        upper_ths = [0.8]
 
     combinations = list(itertools.product(genomes_path, output_dest, models, window_sizes, upper_ths))
 

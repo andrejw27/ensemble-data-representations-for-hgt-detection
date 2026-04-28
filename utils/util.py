@@ -595,6 +595,50 @@ def read_eval_result(json_file):
         eval_df = pd.concat([eval_df,eval_df_temp])
     return eval_df 
 
+def prepare_data(json_file, type='test'):
+    
+    eval_df = read_eval_result(json_file)
+    stats_eval_df = eval_df.groupby('Predictor').describe().reset_index()
+    #stats_eval_df = stats_eval_df[stats_eval_df['Predictor'].str.startswith('RCKmer') | stats_eval_df['Predictor'].str.startswith('ensemble')]
+    metrics = ['MCC', 'F-Score', 'F-2-Score', 'Precision', 'Recall', 'Accuracy'] 
+    predictors = stats_eval_df['Predictor'].unique()
+
+    data = []
+    for metric in metrics:
+        for predictor in predictors:
+            sub_data = stats_eval_df[stats_eval_df['Predictor'] == predictor][metric]
+            if predictor.startswith('RCKmer') or predictor.startswith('ensemble') or predictor.startswith('single'):
+                model = '_'.join(predictor.split('_')[0:-2])
+                window_size = int(predictor.split('_')[-2])
+                threshold = float(predictor.split('_')[-1])
+            else:
+                model = predictor
+                window_size = None 
+                threshold = None
+
+
+            mean = sub_data['mean'].values[0]
+            std = sub_data['std'].values[0]
+            min = sub_data['min'].values[0]
+            max = sub_data['max'].values[0]
+
+            data.append({
+                'model': model,
+                'window_size': window_size,
+                'threshold': threshold,
+                'metric': metric,
+                'mean': mean,
+                'std': std,
+                'min': min,
+                'max': max,
+                'lower': mean - std,
+                'upper': mean + std
+            })
+
+    df = pd.DataFrame(data)
+    df['dataset'] = type
+    return df
+
 ########################## Define custom scorer ##########################
  
 def specificity_score(y_true, y_pred):
@@ -1428,5 +1472,23 @@ def compute_pfront_chull(data, obj_1, obj_2):
 
     return df_points
 
+# Define a function to apply per group
+def compute_metrics_for_df(group_df):
+    y_test = group_df['y_test'].values.astype(int)
+    y_pred = group_df['y_pred'].values.astype(int)
+    n_positive = np.sum(y_test)
+    n_negative = len(y_test) - n_positive
+
+    return pd.Series({
+        'Accuracy': accuracy_score(y_test, y_pred),
+        'Precision': precision_score(y_test, y_pred),
+        'Recall': recall_score(y_test, y_pred),
+        'F_1': f1_score(y_test, y_pred), 
+        'F_beta_0.5': fbeta_score(y_test, y_pred, beta=0.5),
+        'F_beta_2': fbeta_score(y_test, y_pred, beta=2),
+        'MCC': matthews_corrcoef(y_test, y_pred),
+        'positive': n_positive,
+        'negative': n_negative,
+    })
 
 

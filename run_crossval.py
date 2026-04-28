@@ -19,9 +19,10 @@ import logging
 
 def get_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--representation-index", type=int, default=1)
+    parser.add_argument("--representation-index", type=int, default=0)
     parser.add_argument("--n-worker", type=int, default=1)
     parser.add_argument("--filename", type=str, default="benbow")
+    parser.add_argument("--output-dir", type=str, default="outputs")
     args = parser.parse_args()
     return args
 
@@ -31,7 +32,7 @@ args = get_args()
 filename = args.filename
 idx = args.representation_index
 
-log_dir = os.path.join(pPath,'logs/crossval/{}'.format(filename))
+log_dir = os.path.join(pPath,'logs/cross_val/{}'.format(filename))
 
 if not os.path.exists(log_dir):
     logger.info('Creating Logging Folder')
@@ -52,7 +53,7 @@ def main():
         folds = json.load(f)
 
     representations_dict = {
-        0: ['NAC','CKSNAP','GC'], #this index is only for testing
+        0: ['NAC','GC'], #this index is only for testing
         1: ['NAC','CKSNAP','Subsequence','ASDC','Mismatch', 'GC'],
         2: ['Z_curve_9bit', 'Z_curve_12bit','Z_curve_36bit','Z_curve_48bit','Z_curve_144bit'],
         3: ['PseEIIP','DAC','DCC','DACC','TAC','TCC','TACC','Moran','Geary','NMBroto','DPCP','TPCP'],
@@ -122,11 +123,11 @@ def main():
 
     predictions_df = multiindex_dict_to_df(predictions)
     
-    predictions_dir = os.path.join(pPath,'predictions')
+    output_dir = args.output_dir
+    predictions_dir = os.path.join(output_dir,'cross_val/predictions')
 
-    if not os.path.exists(predictions_dir):
-        logger.info('Creating Predictions Folder')
-        os.makedirs(predictions_dir, exist_ok=True)
+    logger.info('Creating Folder for Cross-validation Predictions')
+    os.makedirs(predictions_dir, exist_ok=True)
 
     logger.info('Saving Output')
     prediction_path = os.path.join(predictions_dir,f"{filename}_predictions_{idx}.xlsx")

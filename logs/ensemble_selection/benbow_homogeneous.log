@@ -1,0 +1,52 @@
+2026-04-28 11:05:27,512 - ensemble_selection - INFO - --- Start ---
+2026-04-28 11:05:27,513 - ensemble_selection - INFO - Using same_clf: True
+2026-04-28 11:05:27,513 - ensemble_selection - INFO - 1. Read Data benbow
+2026-04-28 11:05:31,752 - ensemble_selection - INFO - 2. Read Pre-defined Folds
+2026-04-28 11:05:31,757 - ensemble_selection - INFO - 3. Read predictions of the cross validation
+2026-04-28 11:06:39,114 - ensemble_selection - INFO - 4. Compute kappa error
+2026-04-28 11:07:51,791 - ensemble_selection - INFO - Using same classifier for all representations
+2026-04-28 11:08:01,751 - ensemble_selection - INFO - 5. Select top 20 representations for ensemble classifier with DecisionTree
+2026-04-28 11:08:01,796 - ensemble_selection - INFO - 6. Cross validate ensemble classifiers
+2026-04-28 11:10:18,697 - ensemble_selection - INFO - 5. Select top 20 representations for ensemble classifier with LogisticRegression
+2026-04-28 11:10:18,749 - ensemble_selection - INFO - 6. Cross validate ensemble classifiers
+2026-04-28 11:12:40,886 - ensemble_selection - INFO - 5. Select top 20 representations for ensemble classifier with NaiveBayes
+2026-04-28 11:12:40,958 - ensemble_selection - INFO - 6. Cross validate ensemble classifiers
+2026-04-28 11:14:48,055 - ensemble_selection - INFO - 5. Select top 20 representations for ensemble classifier with RandomForest
+2026-04-28 11:14:48,138 - ensemble_selection - INFO - 6. Cross validate ensemble classifiers
+2026-04-28 11:17:07,700 - ensemble_selection - INFO - 5. Select top 20 representations for ensemble classifier with SVM
+2026-04-28 11:17:07,755 - ensemble_selection - INFO - 6. Cross validate ensemble classifiers
+2026-04-28 11:19:49,691 - ensemble_selection - INFO - 7. Saving ensemble selection results to outputs/multi_objective_validation/ensemble_selection_benbow_homogeneous_mcc.xlsx
+2026-04-28 11:19:49,787 - ensemble_selection - INFO - --- Finish ---
+2026-04-28 11:19:49,787 - ensemble_selection - INFO -  --- Process took 862.274 seconds ---
+2026-04-28 11:28:35,497 - ensemble_selection - INFO - --- Start ---
+2026-04-28 11:28:35,497 - ensemble_selection - INFO - Using same_clf: True
+2026-04-28 11:28:35,497 - ensemble_selection - INFO - 1. Read Data benbow
+2026-04-28 11:28:39,700 - ensemble_selection - INFO - 2. Read Pre-defined Folds
+2026-04-28 11:28:39,706 - ensemble_selection - INFO - 3. Read predictions of the cross validation
+2026-04-28 11:30:16,629 - ensemble_selection - INFO - --- Start ---
+2026-04-28 11:30:16,630 - ensemble_selection - INFO - Using same_clf: True
+2026-04-28 11:30:16,630 - ensemble_selection - INFO - 1. Read Data benbow
+2026-04-28 11:30:20,851 - ensemble_selection - INFO - 2. Read Pre-defined Folds
+2026-04-28 11:30:20,857 - ensemble_selection - INFO - 3. Read predictions of the cross validation
+2026-04-28 11:30:20,862 - ensemble_selection - INFO - Reading predictions from outputs/cross_val_predictions/benbow_predictions_5.xlsx
+2026-04-28 11:30:31,468 - ensemble_selection - INFO - Reading predictions from outputs/cross_val_predictions/benbow_predictions_4.xlsx
+2026-04-28 11:30:42,150 - ensemble_selection - INFO - Reading predictions from outputs/cross_val_predictions/benbow_predictions_3.xlsx
+2026-04-28 11:31:00,876 - ensemble_selection - INFO - Reading predictions from outputs/cross_val_predictions/benbow_predictions_2.xlsx
+2026-04-28 11:31:08,521 - ensemble_selection - INFO - Reading predictions from outputs/cross_val_predictions/benbow_predictions_1.xlsx
+2026-04-28 11:31:17,641 - ensemble_selection - INFO - Reading predictions from outputs/cross_val_predictions/benbow_predictions_6.xlsx
+2026-04-28 11:31:28,431 - ensemble_selection - INFO - 4. Compute kappa error
+2026-04-28 11:32:27,737 - ensemble_selection - INFO - --- Start ---
+2026-04-28 11:32:27,737 - ensemble_selection - INFO - Using same_clf: True
+2026-04-28 11:32:27,738 - ensemble_selection - INFO - 1. Read Data benbow
+2026-04-28 11:32:31,954 - ensemble_selection - INFO - 2. Read Pre-defined Folds
+2026-04-28 11:32:31,959 - ensemble_selection - INFO - 3. Read predictions of the cross validation
+2026-04-28 11:32:31,963 - ensemble_selection - INFO - Reading predictions from outputs/cross_val_predictions/benbow_predictions_5.xlsx
+2026-04-28 11:32:41,885 - ensemble_selection - INFO - --- Start ---
+2026-04-28 11:32:41,886 - ensemble_selection - INFO - Using same_clf: True
+2026-04-28 11:32:41,886 - ensemble_selection - INFO - 1. Read Data benbow
+2026-04-28 11:32:52,058 - ensemble_selection - INFO - --- Start ---
+2026-04-28 11:32:52,059 - ensemble_selection - INFO - Using same_clf: True
+2026-04-28 11:32:52,059 - ensemble_selection - INFO - 1. Read Data benbow
+2026-04-28 11:32:55,190 - ensemble_selection - INFO - 2. Read Pre-defined Folds
+2026-04-28 11:32:55,197 - ensemble_selection - INFO - 3. Read predictions of the cross validation
+2026-04-28 11:32:55,200 - ensemble_selection - INFO - Reading predictions from outputs/cross_val_predictions/benbow_predictions_5.xlsx

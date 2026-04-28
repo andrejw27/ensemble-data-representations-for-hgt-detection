@@ -23,3 +23,17 @@
 2026-04-26 18:48:36,637 - train_model - INFO - Candidate: ['Subsequence/RandomForest'], F1: 0.915, Precision: 0.941, Recall: 0.891, MCC: 0.712
 2026-04-26 18:48:36,677 - train_model - INFO - --- Finish ---
 2026-04-26 18:48:36,677 - train_model - INFO -  --- Process took 24.720 seconds ---
+2026-04-28 14:02:00,252 - train_model - INFO - --- Start training---
+2026-04-28 14:02:00,252 - train_model - INFO - Read train data from dataset/train_data/benbow.fasta
+2026-04-28 14:02:01,215 - train_model - INFO - Read test data from dataset/test_data/benbow_test_data.fasta
+2026-04-28 14:02:04,361 - train_model - INFO - X_train: 2569
+2026-04-28 14:02:04,362 - train_model - INFO - X_test: 566
+2026-04-28 14:02:04,433 - train_model - INFO - Start training single model... ['Subsequence/RandomForest']
+2026-04-28 14:02:04,433 - cross_val - INFO - get single model with candidates: ['Subsequence/RandomForest']
+2026-04-28 14:02:22,789 - train_model - INFO - Training is done
+2026-04-28 14:02:22,791 - train_model - INFO - Evaluate the single model
+2026-04-28 14:02:25,251 - cross_val - INFO - compute evaluation scores
+2026-04-28 14:02:25,256 - train_model - INFO - Candidate: ['Subsequence/RandomForest'], F1: 0.915, Precision: 0.941, Recall: 0.891, MCC: 0.712
+2026-04-28 14:02:25,257 - train_model - INFO - Saving model to: utils/models
+2026-04-28 14:02:25,304 - train_model - INFO - --- Finish ---
+2026-04-28 14:02:25,304 - train_model - INFO -  --- Process took 25.052 seconds ---

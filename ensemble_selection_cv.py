@@ -17,14 +17,23 @@ sys.path.append(pPath)
 
 
 def get_args():
+    def str2bool(v):
+        if isinstance(v, bool):
+            return v
+        if v.lower() in ('yes', 'true', 't', 'y', '1'):
+            return True
+        elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+            return False
+        else:
+            raise argparse.ArgumentTypeError('Boolean value expected.')
+    
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataname", type=str, default="benbow")
-    parser.add_argument("--same-clf", type=bool, default=False, 
+    parser.add_argument("--same-clf", type=str2bool, default="False", 
                         help="If True, use the same classifier for all representations, otherwise use the best classifier for each representation")
-    parser.add_argument("--error-metric", type=str, default="f1", 
-                        help="error metric to evaluate the multi-objective optimization problem, options: f1, mcc, accuracy, precision, recall") 
-    parser.add_argument("--predictions-dir", type=str, default="predictions/predictions_train_val_test")  
-    parser.add_argument("--output-dir", type=str, default="outputs/multi_objective_validation")  
+    parser.add_argument("--error-metric", type=str, default="mcc", 
+                        help="error metric to evaluate the multi-objective optimization problem, options: f1, mcc, accuracy, precision, recall")  
+    parser.add_argument("--output-dir", type=str, default="outputs")  
 
     args = parser.parse_args()
     return args    
@@ -33,19 +42,21 @@ logger = logging.getLogger('ensemble_selection')
 logger.info('--- Start ---')
 args = get_args()
 dataname = args.dataname
-log_dir = os.path.join(pPath,'logs/ensemble_selection')
+same_clf = args.same_clf
+
+if same_clf:
+    flag = 'homogeneous'
+else:
+    flag = 'heterogeneous'
+
+log_dir = os.path.join(pPath,f'logs/ensemble_selection')
 
 if not os.path.exists(log_dir):
     logger.info('Creating Logging Folder')
     os.makedirs(log_dir, exist_ok=True)
 
-log_path = os.path.join(log_dir,f'{dataname}.log')
+log_path = os.path.join(log_dir,f'{dataname}_{flag}.log')
 setup_logging(log_filename=log_path)
-
-# required files: 
-# dataset/{dataname}_stratified_group_folds.json, 
-# predictions/predictions_train_val_test, 
-# multi_objective_solutions/{dataname}_multi_objective_solutions/{dataname}_multi_objective_solutions_{fold}.xlsx
 
 if __name__ == "__main__":
     start_time = time.time()
@@ -54,7 +65,6 @@ if __name__ == "__main__":
     # read data for each fold
     args = get_args()
     dataname = args.dataname
-    same_clf = args.same_clf
     logger.info(f"Using same_clf: {same_clf}")
 
     logger.info(f"1. Read Data {dataname}")
@@ -69,14 +79,19 @@ if __name__ == "__main__":
 
     # read predictions
     logger.info("3. Read predictions of the cross validation")
-    predictions_dir = args.predictions_dir
+    predictions_dir = os.path.join(args.output_dir, "cross_val/predictions")
+
+    #for f in os.listdir(predictions_dir):
+    #    if f.endswith('.xlsx') and f.startswith(f'{dataname}') and not ('0' in f):
+    #        selected_files.append(f)
     files = [f for f in os.listdir(predictions_dir) if os.path.isfile(os.path.join(predictions_dir, f))]
 
     predictions_df = pd.DataFrame()
 
     for file in files:
-        if file.endswith('.xlsx') and file.startswith(f'{dataname}_predictions'):
+        if file.endswith('.xlsx') and file.startswith(f'{dataname}_predictions') and not ('0' in file):
             filename = os.path.join(predictions_dir,file)
+            logger.info(f"Reading predictions from {filename}")
             df = read_results(filename, header=['fold','representation','model'])
             predictions_df = pd.concat([predictions_df,df])
 
@@ -132,16 +147,20 @@ if __name__ == "__main__":
             ensemble_final_results[clf] = ensemble_final_results_temp
     
     output_dir = args.output_dir 
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
+    kappa_solution_dir = f'{output_dir}/multi_objective_solutions'
+    os.makedirs(kappa_solution_dir, exist_ok=True)
 
-    if same_clf:
-        flag = 'homogeneous'
-    else:
-        flag = 'heterogeneous'
+    ensemble_validation_dir = f'{output_dir}/multi_objective_validation'
+    os.makedirs(ensemble_validation_dir, exist_ok=True)
 
-    output_path = os.path.join(output_dir,f'ensemble_selection_{dataname}_{flag}.xlsx')
-    output_path_json = os.path.join(output_dir,f'ensemble_selection_{dataname}_{flag}.json')
+
+    # assign dataname to solutions_df and store the multi-objective optimization solutions to excel file
+    solutions_df['dataname'] = dataname
+    solutions_df.to_excel(f'{kappa_solution_dir}/{dataname}_multi_objective_solutions_{flag}.xlsx',index=False)
+
+    # store the cross-validation results on the ensemble candidates
+    output_path = os.path.join(ensemble_validation_dir,f'ensemble_selection_{dataname}_{flag}_{error_metric}.xlsx')
+    output_path_json = os.path.join(ensemble_validation_dir,f'ensemble_selection_{dataname}_{flag}_{error_metric}.json')
     logger.info(f"7. Saving ensemble selection results to {output_path}")
     final_results_df.to_excel(output_path, index=False)
 

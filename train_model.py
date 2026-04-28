@@ -14,16 +14,26 @@ from logging_config import setup_logging
 import logging
 
 def get_args():
+    def str2bool(v):
+        if isinstance(v, bool):
+            return v
+        if v.lower() in ('yes', 'true', 't', 'y', '1'):
+            return True
+        elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+            return False
+        else:
+            raise argparse.ArgumentTypeError('Boolean value expected.')
+        
     parser = argparse.ArgumentParser()
     parser.add_argument("--candidates", type=str, default="RCKmer-7/SVM,Subsequence/RandomForest", 
                         help="a list of candidates for the ensemble classifier split by ',' e.g. RCKmer-7/SVM,Subsequence/RandomForest,...")  # one or more values
     parser.add_argument("--ensemble-type", type=str, default="voting_soft",
                         help="type of ensemble classifier: stacking, voting_soft, or voting_hard")
-    parser.add_argument("--save-model", type=bool, default=False)
+    parser.add_argument("--save-model", type=str2bool, default="True")
     parser.add_argument("--model-path", type=str, default="utils/models")
     parser.add_argument("--train-path", type=str, default="dataset/train_data/benbow.fasta")
     parser.add_argument("--test-path", type=str, default="dataset/test_data/benbow_test_data.fasta")
-    parser.add_argument("--default-params", type=bool, default=True,
+    parser.add_argument("--default-params", type=str2bool, default="True", 
                         help="whether to use default parameters for SVM or the best parameters")
     args = parser.parse_args()
     return args

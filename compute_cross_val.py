@@ -5,7 +5,6 @@ import numpy as np
 import pandas as pd
 from utils.util import read_results, read_dataset, read_fold
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, matthews_corrcoef
-from utils.train import true_positive,true_negative,false_positive,false_negative
 import time 
 
 import logging
@@ -18,10 +17,23 @@ sys.path.append(pPath)
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataname", type=str, default="benbow") 
-    parser.add_argument("--output-dir", type=str, default="outputs/crossval") 
-    parser.add_argument("--predictions-dir", type=str, default="predictions/predictions_train_val_test")
+    parser.add_argument("--output-dir", type=str, default="outputs/cross_val") 
+    #parser.add_argument("--predictions-dir", type=str, default="outputs/cross_val")
     args = parser.parse_args()
     return args
+
+logger = logging.getLogger('evaluate_cross_val')
+logger.info('--- Start ---')
+args = get_args()
+dataname = args.dataname
+
+log_dir = os.path.join(pPath,f'logs/evaluate_cross_val')
+
+logger.info('Creating Logging Folder')
+os.makedirs(log_dir, exist_ok=True)
+
+log_path = os.path.join(log_dir,f'{dataname}.log')
+setup_logging(log_filename=log_path)
 
 def entropy_binary(p0_list):
     entropies = []
@@ -32,61 +44,6 @@ def entropy_binary(p0_list):
         entropy = -np.sum(probs * np.log2(probs))
         entropies.append(entropy)
     return entropies
-
-# Function to compute metrics for each group
-def compute_group_metrics(df, train_df=None, group_col='genus'):
-    """
-    Compute accuracy, precision, and recall for each group and model.
-    Args:
-        df (pd.DataFrame): DataFrame containing predictions and labels.
-        group_col (str): Column name for grouping.
-    Returns:
-        pd.DataFrame: DataFrame with computed metrics for each group and model.
-    """
-    n_species_per_genus = df.groupby('genus')['groups'].nunique().to_dict()
-    n_samples_per_genus = df.groupby('genus')['groups'].size().to_dict()
-
-    n_species_per_genus_train = train_df.groupby('genus')['groups'].nunique().to_dict()
-    n_samples_per_genus_train = train_df.groupby('genus')['groups'].size().to_dict()
-    train_genus = set(n_species_per_genus_train.keys())
-
-    results = []
-    models = df.columns[:-3]  # Exclude 'label', 'groups', and 'genus'
-    for group, gdf in df.groupby(group_col):
-        for model in models:
-            pred_prob = gdf[model].values # probabilities for class 0
-            
-                
-            
-            # Convert probabilities to binary predictions
-            pred_label = (1-pred_prob > 0.5).astype(int)
-            #print(group, set(gdf['label']))
-            n_species = n_species_per_genus[group]
-            n_samples = n_samples_per_genus[group]
-            in_train = f'seen_{n_samples_per_genus_train[group]}' if group in train_genus else 'unseen_0'
-
-            #compute entropy per group
-            entropy = entropy_binary(pred_prob)
-
-            # Compute metrics
-            results.append({
-                'group': group + f'_{n_species}_{n_samples}_{in_train}',
-                'representation': model.split('/')[0],
-                'model': model.split('/')[1],
-                'accuracy': accuracy_score(gdf['label'], pred_label),
-                'precision': precision_score(gdf['label'], pred_label, zero_division=0),
-                'recall': recall_score(gdf['label'], pred_label, zero_division=0),
-                'f1_score': f1_score(gdf['label'], pred_label, zero_division=0),
-                'mcc': matthews_corrcoef(gdf['label'], pred_label),
-                'tn': true_negative(gdf['label'], pred_label),
-                'fp': false_positive(gdf['label'], pred_label),
-                'fn': false_negative(gdf['label'], pred_label),
-                'tp': true_positive(gdf['label'], pred_label),
-                'n_species': n_species,
-                'n_samples': n_samples,
-                'entropy': np.mean(entropy),
-            })
-    return pd.DataFrame(results)
 
 def compute_metrics(predictions_df, labels, y):
     """
@@ -120,8 +77,8 @@ def compute_metrics(predictions_df, labels, y):
             mcc = matthews_corrcoef(ground_truth, preds)
             f1 = f1_score(ground_truth, preds)
             accuracy = accuracy_score(ground_truth, preds),
-            precision = precision_score(ground_truth, preds),
-            recall = recall_score(ground_truth, preds),
+            precision = precision_score(ground_truth, preds, zero_division=0),
+            recall = recall_score(ground_truth, preds, zero_division=0),
             true_positive = np.sum((ground_truth == 1) & (preds == 1))
             true_negative = np.sum((ground_truth == 0) & (preds == 0))
             false_positive = np.sum((ground_truth == 0) & (preds == 1))
@@ -189,31 +146,32 @@ if __name__ == "__main__":
 # predictions in Excel format
 
     start_time = time.time()
-    print('--- Start ---')
+    logger.info('--- Start ---')
 
     # read data for each fold
     args = get_args()
     dataname = args.dataname
 
-    print(f"1. Read Data {dataname}")
+    logger.info(f"1. Read Data {dataname}")
     # Read training data
     train_filename = f"dataset/train_data/{dataname}.fasta"
     X_train, y_train, groups_train, genera_train, species_train = read_dataset(train_filename)
 
-    print("2. Read Pre-defined Folds")
+    logger.info("2. Read Pre-defined Folds")
     # Read fold
     fold_filename = f"dataset/folds/{dataname}_stratified_group_folds_new.json"
     labels = read_fold(fold_filename)
 
     # read predictions
-    print("3. Read predictions of the cross-validation")
-    predictions_path = args.predictions_dir
+    logger.info("3. Read predictions of the cross-validation")
+    predictions_path = os.path.join(args.output_dir,"predictions")
     files = [f for f in os.listdir(predictions_path) if os.path.isfile(os.path.join(predictions_path, f))]
 
     predictions_df = pd.DataFrame()
 
     for file in files:
-        if file.endswith('.xlsx') and file.startswith(f'{dataname}_predictions'):
+        if file.endswith('.xlsx') and file.startswith(f'{dataname}_predictions') and not ('0' in file):
+            logger.info(f"Reading predictions from {file}")
             filename = os.path.join(predictions_path,file)
             df = read_results(filename, header=['fold','representation','model'])
             predictions_df = pd.concat([predictions_df,df])
@@ -224,17 +182,20 @@ if __name__ == "__main__":
     # Create a label column to identify each (feature_a, feature_b) pair
     predictions_df['pair_id'] = predictions_df['representation'].astype(str) + '/' + predictions_df['model'].astype(str)
 
-    print(f"4. Evaluate cross-validation results for {dataname} dataset")
+    logger.info(f"4. Evaluate cross-validation results for {dataname} dataset")
     eval_metrics = compute_metrics(predictions_df, labels, y_train)
-    
-    output_dir = args.output_dir
-    output_path = os.path.join(output_dir,f'{dataname}_crossval.xlsx')
-    print(f"5. Saving cross-validation results to {output_path}")
+    eval_metrics['representation'] = eval_metrics['pair_id'].apply(lambda x: x.split('/')[0])
+    eval_metrics['model'] = eval_metrics['pair_id'].apply(lambda x: x.split('/')[1])
+
+    cv_eval_dir = os.path.join(args.output_dir,"evaluation")
+    os.makedirs(cv_eval_dir, exist_ok=True)
+    output_path = os.path.join(cv_eval_dir,f'{dataname}_crossval.xlsx')
+    logger.info(f"5. Saving cross-validation results to {output_path}")
     eval_metrics.to_excel(output_path, index=False)
 
     finish_time = time.time()
-    print('--- Finish ---')
-    print(' --- Process took {:.3f} seconds ---'.format(finish_time-start_time))
+    logger.info('--- Finish ---')
+    logger.info(' --- Process took {:.3f} seconds ---'.format(finish_time-start_time))
 
 
 
