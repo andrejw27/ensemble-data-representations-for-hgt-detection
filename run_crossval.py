@@ -22,7 +22,7 @@ def get_args():
     parser.add_argument("--representation-index", type=int, default=0)
     parser.add_argument("--n-worker", type=int, default=1)
     parser.add_argument("--filename", type=str, default="benbow")
-    parser.add_argument("--output-dir", type=str, default="outputs")
+    parser.add_argument("--output-dir", type=str, default="outputs/cross_val/predictions")
     args = parser.parse_args()
     return args
 
@@ -124,13 +124,13 @@ def main():
     predictions_df = multiindex_dict_to_df(predictions)
     
     output_dir = args.output_dir
-    predictions_dir = os.path.join(output_dir,'cross_val/predictions')
+    #predictions_dir = os.path.join(output_dir,'cross_val/predictions')
 
     logger.info('Creating Folder for Cross-validation Predictions')
-    os.makedirs(predictions_dir, exist_ok=True)
+    os.makedirs(output_dir, exist_ok=True)
 
     logger.info('Saving Output')
-    prediction_path = os.path.join(predictions_dir,f"{filename}_predictions_{idx}.xlsx")
+    prediction_path = os.path.join(output_dir,f"{filename}_predictions_{idx}.xlsx")
     predictions_df.to_excel(prediction_path)
   
     logger.info('Predictions Path: {}'.format(prediction_path))
