@@ -1,11 +1,16 @@
-# ensemble-data-representations-for-hgt-detection
+# Ensemble Data Representations for detecting Horizontal Gene Transfer
 
-Horizontal gene transfer (HGT) is widely recognized as a major driver of antimicrobial resistance (AMR) dissemination , with genomic islands (GIs) as one of the drivers facilitating the spread. Detecting GIs is essential for improving AMR surveillance.
-Numerous computational approaches have been developed for GIs detection, including recent advances in machine learning (ML). Several studies in other fields have shown that ML model performance depends on data representations. Combining multiple data representations in ensemble learning has been shown to improve performance in other genomics tasks. However, this approach has not yet been evaluated for GIs detection. To this end, we investigate the efficacy of integrating diverse data representations in ensemble learning for GIs detection, particularly for classification task. Then, we assess its applicability to localizing GIs, which are clusters of genes acquired through HGT, in a genomic sequence. We implemented a two-stage ensemble selection strategy to determine the optimal combination of data representations. Our ensemble selection strategy reveals that combining low-correlated data representations in an ensemble classifier yields better Recall than individual representation for the classification task. Nevertheless, the ensemble classifier could not localize GIs better, suggesting that the cross-task generalizability remains constrained. This finding presents an opportunity for future research to advance the field by redefining the problem formulation of GIs detection.
+This repository is created for the following paper:
+"Evaluating ensemble learning approaches for horizontal gene transfer detection" by Andre Jatmiko Wijaya, Aleksandar Anžel, and Georges Hattab
+
+**Abstract:**
+
+> Horizontal gene transfer (HGT) is widely recognized as a major driver of antimicrobial resistance (AMR) dissemination , with genomic islands (GIs) as one of the drivers facilitating the spread. Detecting GIs is essential for improving AMR surveillance.
+> Numerous computational approaches have been developed for GIs detection, including recent advances in machine learning (ML). Several studies in other fields have shown that ML model performance depends on data representations. Combining multiple data representations in ensemble learning has been shown to improve performance in other genomics tasks. However, this approach has not yet been evaluated for GIs detection. To this end, we investigate the efficacy of integrating diverse data representations in ensemble learning for GIs detection, particularly for classification task. Then, we assess its applicability to localizing GIs, which are clusters of genes acquired through HGT, in a genomic sequence. We implemented a two-stage ensemble selection strategy to determine the optimal combination of data representations. Our ensemble selection strategy reveals that combining low-correlated data representations in an ensemble classifier yields better Recall than individual representation for the classification task. Nevertheless, the ensemble classifier could not localize GIs better, suggesting that the cross-task generalizability remains constrained. This finding presents an opportunity for future research to advance the field by redefining the problem formulation of GIs detection.
 
 ---
 
-**Steps to reproduce the results:**
+## **Steps to reproduce the results:**
 
 1. Clone this repo:
    ```
@@ -64,3 +69,23 @@ Numerous computational approaches have been developed for GIs detection, includi
 > --result-type : a flag to decide which test dataset will be used for evaluation. "test" refers to species in Benbow test dataset, and "literature" refers to species in literature dataset
 
 ---
+
+
+
+## Citation
+
+```
+@article{Wijaya2026,
+  title = {Evaluating ensemble learning approaches for horizontal gene transfer detection},
+  volume = {16},
+  ISSN = {2045-2322},
+  url = {http://dx.doi.org/10.1038/s41598-026-53037-x},
+  DOI = {10.1038/s41598-026-53037-x},
+  number = {1},
+  journal = {Scientific Reports},
+  publisher = {Springer Science and Business Media LLC},
+  author = {Wijaya,  Andre Jatmiko and Anžel,  Aleksandar and Hattab,  Georges},
+  year = {2026},
+  month = May 
+}
+```
