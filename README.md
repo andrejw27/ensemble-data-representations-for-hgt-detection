@@ -1,7 +1,10 @@
 # Ensemble Data Representations for detecting Horizontal Gene Transfer
 
 This repository is created for the following paper:
-"Evaluating ensemble learning approaches for horizontal gene transfer detection" by Andre Jatmiko Wijaya, Aleksandar Anžel, and Georges Hattab
+
+"**Evaluating ensemble learning approaches for horizontal gene transfer detection**" by Andre Jatmiko Wijaya, Aleksandar Anžel, and Georges Hattab. 
+
+DOI: [10.1038/s41598-026-53037-x](https://doi.org/10.1038/s41598-026-53037-x) 
 
 **Abstract:**
 
